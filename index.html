@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Atlas</title>
+
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+    <header>
+        <h1>World Atlas</h1>
+
+        <input
+            type="text"
+            id="searchBox"
+            placeholder="Tìm quốc gia..." />
+
+    </header>
+
+    <main>
+        <div id="map-container">
+
+            <button id="togglePanel">
+                ⇆
+            </button>
+
+            <button id="resetMap">
+                [ ]
+            </button>
+
+            <svg id="world-map">
+                <g id="map-group"></g>
+            </svg>
+
+            <div id="tooltip"></div>
+
+        </div>
+
+        <div id="info-panel">
+
+            <div id="countryInfo">
+
+                <div class="country-card">
+
+                    <div class="country-item">
+                    </div>
+
+                    <div class="country-item">
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+    <script src="assets/js/csv-loader.js"></script>
+    <script src="assets/js/country-panel.js"></script>
+    <script src="assets/js/map.js"></script>
+    <script src="assets/js/app.js"></script>
+2
+
+</body>
+</html>
