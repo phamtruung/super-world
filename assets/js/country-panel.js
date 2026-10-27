@@ -47,6 +47,35 @@ function calculateGDPPerCapita(
     " USD";
 }
 
+function calculatePopulationDensity(
+    population,
+    area
+)
+{
+    const p =
+        Number(population);
+
+    const a =
+        Number(area);
+
+    if (
+        isNaN(p) ||
+        isNaN(a) ||
+        a === 0
+    )
+    {
+        return "-";
+    }
+
+    const density =
+        p / a;
+
+    return (
+        density.toFixed(1)
+        + " người/km²"
+    );
+}
+
 function showCountry(country)
 {
     const flag =
@@ -95,6 +124,14 @@ function showCountry(country)
                 </strong>
             </div>
 
+            <div class="info-row">
+                <span>Tiền tệ</span>
+                <strong>
+                    ${country.currency}
+                    (${country.currency_name})
+                </strong>
+            </div>
+
         </div>
 
         <!-- CỘT 2 -->
@@ -102,10 +139,21 @@ function showCountry(country)
         <div class="country-section">
 
             <div class="info-row">
-                <span>Tiền tệ</span>
+                <span>Dân số</span>
                 <strong>
-                    ${country.currency}
-                    (${country.currency_name})
+                    ${formatNumber(
+                        country.population
+                    )}
+                </strong>
+            </div>
+            
+            <div class="info-row">
+                <span>Mật độ dân số</span>
+                <strong>
+                    ${calculatePopulationDensity(
+                        country.population,
+                        country.area_sq_km
+                    )}
                 </strong>
             </div>
 
@@ -118,14 +166,6 @@ function showCountry(country)
                 </strong>
             </div>
 
-            <div class="info-row">
-                <span>Dân số</span>
-                <strong>
-                    ${formatNumber(
-                        country.population
-                    )}
-                </strong>
-            </div>
 
             <div class="info-row">
                 <span>GDP/người</span>

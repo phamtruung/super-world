@@ -1,3 +1,10 @@
+let heatmapEnabled = false;
+let selectedCountry = null;
+let heatmapMode =
+    "none";
+
+const countryLayers = {};
+
 const svg =
     document.getElementById(
         "world-map"
@@ -24,6 +31,87 @@ let startX = 0;
 let startY = 0;
 
 let initialPinchDistance = null;
+
+function getGDPPerCapita(country)
+{
+    const gdp =
+        Number(country.gdp);
+
+    const population =
+        Number(
+            country.population
+        );
+
+    if(
+        !gdp ||
+        !population
+    )
+    {
+        return 0;
+    }
+
+    return (
+        gdp * 1000000
+    ) / population;
+}
+
+function getPopulationDensity(
+    country
+)
+{
+    const population =
+        Number(
+            country.population
+        );
+
+    const area =
+        Number(
+            country.area_sq_km
+        );
+
+    if(
+        !population ||
+        !area
+    )
+    {
+        return 0;
+    }
+
+    return population / area;
+}
+
+function getHeatColor(
+    value,
+    min,
+    max
+)
+{
+    if(
+        !value ||
+        value <= 0
+    )
+    {
+        return "#fcfbfb";
+    }
+
+    const t =
+        (
+            Math.log(value)
+            -
+            Math.log(min)
+        )
+        /
+        (
+            Math.log(max)
+            -
+            Math.log(min)
+        );
+
+    const hue =
+        240 - (240 * t);
+
+    return `hsl(${hue},70%,50%)`;
+}
 
 /**
  * Chuyển lon/lat sang SVG
@@ -201,23 +289,39 @@ function drawFeature(feature)
                         "click",
                         () =>
                         {
+                            if(selectedCountry)
+                            {
+                                selectedCountry.classList.remove(
+                                    "selected"
+                                );
+                            }
+
+                            node.classList.add(
+                                "selected"
+                            );
+
+                            selectedCountry =
+                                node;
+
                             const country =
-                                countriesData[
-                                    id
-                                ];
+                                countriesData[id];
 
                             if(country)
                             {
-                                showCountry(
-                                    country
-                                );
+                                showCountry(country);
                             }
                         }
                     );
 
-                    mapGroup.appendChild(
-                        node
-                    );
+                    if(!countryLayers[id])
+                    {
+                        countryLayers[id] = [];
+                    }
+
+                    countryLayers[id].push(node);
+
+                    mapGroup.appendChild(node);
+
                 }
             );
         }
@@ -460,7 +564,7 @@ svg.addEventListener(
 
             updateTransform();
         }
-        
+
         if (e.touches.length === 2)
         {
             e.preventDefault();
@@ -560,6 +664,174 @@ svg.addEventListener(
     }
 );
 
+function applyGDPHeatmap()
+{
+    const values = [];
+
+    Object.values(
+        countriesData
+    ).forEach(country =>
+    {
+        const value =
+            getGDPPerCapita(
+                country
+            );
+
+        if(value > 0)
+        {
+            values.push(
+                value
+            );
+        }
+    });
+
+    const min =
+        Math.min(...values);
+
+    const max =
+        Math.max(...values);
+
+    Object.entries(
+        countriesData
+    ).forEach(
+        ([iso3,country]) =>
+        {
+            const value =
+                getGDPPerCapita(
+                    country
+                );
+
+            const color =
+                getHeatColor(
+                    value,
+                    min,
+                    max
+                );
+
+            const polygons =
+                countryLayers[
+                    iso3
+                ];
+
+            if(!polygons)
+                return;
+
+            polygons.forEach(
+                polygon =>
+                {
+                    polygon.style.fill =
+                        color;
+                }
+            );
+        }
+    );
+}
+function densityColor(density)
+{
+    if (density < 1)
+    {
+        return "rgb(230, 243, 225)";
+    }
+
+    if (density < 10)
+    {
+        return "rgb(173, 218, 143)";
+    }
+
+    if (density < 50)
+    {
+        return "rgb(165, 209, 45)";
+    }
+
+    if (density < 100)
+    {
+        return "rgb(224, 221, 47)";
+    }
+
+    if (density < 200)
+    {
+        return "rgb(219, 160, 49)";
+    }
+    if (density < 300)
+    {
+        return "rgb(228, 135, 29)";
+    }
+    if (density < 500)
+    {
+        return "rgb(238, 109, 22)";
+    }
+    if (density < 750)
+    {
+        return "rgb(223, 73, 35)";
+    }
+    if (density < 1000)
+    {
+        return "rgb(223, 57, 35)";
+    }
+
+    return "rgb(255, 0, 0)"; // đỏ
+}
+
+function applyPopulationDensityHeatmap()
+{
+    Object.entries(
+        countriesData
+    ).forEach(
+        ([iso3, country]) =>
+        {
+            const density =
+                getPopulationDensity(
+                    country
+                );
+
+            const polygons =
+                countryLayers[
+                    iso3
+                ];
+
+            if (!polygons)
+            {
+                return;
+            }
+
+            const color =
+                densityColor(
+                    density
+                );
+
+            polygons.forEach(
+                polygon =>
+                {
+                    polygon.style.fill =
+                        color;
+                }
+            );
+        }
+    );
+}
+
+
+function resetCountryColors()
+{
+    Object.values(
+        countryLayers
+    ).forEach(
+        polygons =>
+        {
+            polygons.forEach(
+                polygon =>
+                {
+                    polygon.style.fill =
+                        "#60a5fa";
+                    
+                    polygon.style.hover = 
+                        "#3a6396";
+                }
+            );
+        }
+    );
+}
+
 /* ==========================
    RESET
 ========================== */
@@ -575,6 +847,12 @@ if(resetButton)
         "click",
         () =>
         {
+            if(selectedCountry)
+            {
+                selectedCountry.classList.remove(
+                    "selected"
+                );
+            }
             scale = 1;
 
             translateX = 0;

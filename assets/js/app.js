@@ -34,6 +34,8 @@ async function init()
         console.log(
             "World Atlas ready"
         );
+
+        setupHeatmapButtons();
     }
     catch(error)
     {
@@ -89,3 +91,127 @@ document.addEventListener(
     "DOMContentLoaded",
     init
 );
+
+function setupHeatmapButtons()
+{
+    const gdpButton =
+        document.getElementById(
+            "toggleHeatmap"
+        );
+
+    const densityButton =
+        document.getElementById(
+            "toggleDensityHeatmap"
+        );
+
+    if(gdpButton)
+    {
+        gdpButton.addEventListener(
+            "click",
+            () =>
+            {
+                if(
+                    heatmapMode ===
+                    "gdp"
+                )
+                {
+                    heatmapMode =
+                        "none";
+
+                    resetCountryColors();
+                }
+                else
+                {
+                    heatmapMode =
+                        "gdp";
+
+                    applyGDPHeatmap();
+                }
+            }
+        );
+    }
+
+    if(densityButton)
+    {
+        densityButton.addEventListener(
+            "click",
+            () =>
+            {
+                if(
+                    heatmapMode ===
+                    "density"
+                )
+                {
+                    heatmapMode =
+                        "none";
+
+                    resetCountryColors();
+                }
+                else
+                {
+                    heatmapMode =
+                        "density";
+
+                    applyPopulationDensityHeatmap();
+                }
+            }
+        );
+    }
+}
+
+
+// const heatmapButton =
+//     document.getElementById(
+//         "toggleHeatmap"
+//     );
+
+// if(heatmapButton)
+// {
+//     heatmapButton.addEventListener(
+//         "click",
+//         () =>
+//         {
+//             heatmapEnabled =
+//                 !heatmapEnabled;
+
+//             if(
+//                 heatmapEnabled
+//             )
+//             {
+//                 applyGDPHeatmap();
+//             }
+//             else
+//             {
+//                 resetCountryColors();
+//             }
+//         }
+//     );
+// }
+
+// document
+// .getElementById(
+//     "toggleHeatmap"
+// )
+// .addEventListener(
+//     "click",
+//     () =>
+//     {
+//         if(
+//             heatmapMode ===
+//             "gdp"
+//         )
+//         {
+//             heatmapMode =
+//                 "none";
+
+//             resetCountryColors();
+
+//             return;
+//         }
+
+//         heatmapMode =
+//             "gdp";
+
+//         applyGDPHeatmap();
+//     }
+// );
