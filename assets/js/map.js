@@ -159,6 +159,33 @@ function getTouchDistance(
     );
 }
 
+function selectCountry(
+    node,
+    id
+)
+{
+    if(selectedCountry)
+    {
+        selectedCountry.classList.remove(
+            "selected"
+        );
+    }
+
+    node.classList.add(
+        "selected"
+    );
+
+    selectedCountry = node;
+
+    const country =
+        countriesData[id];
+
+    if(country)
+    {
+        showCountry(country);
+    }
+}
+
 /**
  * Vẽ quốc gia
  */
@@ -288,31 +315,25 @@ function drawFeature(feature)
                     node.addEventListener(
                         "click",
                         () =>
+                            selectCountry(
+                                node,
+                                id
+                            )
+                    );
+                    
+                    node.addEventListener(
+                        "touchend",
+                        (e) =>
                         {
-                            if(selectedCountry)
-                            {
-                                selectedCountry.classList.remove(
-                                    "selected"
-                                );
-                            }
+                            e.preventDefault();
 
-                            node.classList.add(
-                                "selected"
+                            selectCountry(
+                                node,
+                                id
                             );
-
-                            selectedCountry =
-                                node;
-
-                            const country =
-                                countriesData[id];
-
-                            if(country)
-                            {
-                                showCountry(country);
-                            }
                         }
                     );
-
+                    
                     if(!countryLayers[id])
                     {
                         countryLayers[id] = [];
