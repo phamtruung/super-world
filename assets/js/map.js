@@ -460,33 +460,73 @@ svg.addEventListener(
 
             updateTransform();
         }
-
-        if(
-            e.touches.length === 2
-        )
+        
+        if (e.touches.length === 2)
         {
             e.preventDefault();
 
+            const touch1 =
+                e.touches[0];
+
+            const touch2 =
+                e.touches[1];
+
             const currentDistance =
                 getTouchDistance(
-                    e.touches[0],
-                    e.touches[1]
+                    touch1,
+                    touch2
                 );
 
-            if(
-                initialPinchDistance
-            )
+            if (initialPinchDistance)
             {
-                const zoom =
+                const rect =
+                    svg.getBoundingClientRect();
+
+                const centerX =
+                    (
+                        touch1.clientX +
+                        touch2.clientX
+                    ) / 2 - rect.left;
+
+                const centerY =
+                    (
+                        touch1.clientY +
+                        touch2.clientY
+                    ) / 2 - rect.top;
+
+                const oldScale =
+                    scale;
+
+                const zoomFactor =
                     currentDistance /
                     initialPinchDistance;
 
-                scale *= zoom;
+                scale *= zoomFactor;
 
                 scale = Math.max(
                     0.3,
                     Math.min(scale,20)
                 );
+
+                const worldX =
+                    (
+                        centerX -
+                        translateX
+                    ) / oldScale;
+
+                const worldY =
+                    (
+                        centerY -
+                        translateY
+                    ) / oldScale;
+
+                translateX =
+                    centerX -
+                    worldX * scale;
+
+                translateY =
+                    centerY -
+                    worldY * scale;
 
                 updateTransform();
             }
