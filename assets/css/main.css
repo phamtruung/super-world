@@ -44,7 +44,7 @@
         rgba(255, 255, 255, 0.20);
 
     --color-country:
-        #756d66;
+        #60a5fa;
 
     --color-country-hover:
         #303030;
@@ -59,10 +59,10 @@
         rgba(0, 0, 0, 0.85);
 
     --color-button:
-        #756d66;
+        #303030;
 
     --color-button-hover:
-        #303030;
+        rgba(0, 0, 0, 0.85);
 
     --color-white:
         #ebebeb;
@@ -190,12 +190,11 @@ main {
     stroke-width: 0.5;
 
     cursor: pointer;
-
-    transition: .15s;
 }
 
-.country:hover {
-    fill: var(--color-country-hover);
+.country:hover,
+.country.selected {
+    filter: contrast(130%) saturate(10%) brightness(0.3);
 }
 
 /* ===================================
@@ -232,12 +231,12 @@ main {
 #resetMap {
     position: absolute;
 
-    top: 12px;
-    left: 12px;
-
+    top: 10px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
     z-index: 5000;
 
-    padding: 8px 14px;
 
     border: none;
 
@@ -259,8 +258,10 @@ main {
 #togglePanel{
     position:absolute;
 
-    top:50px;
-    left:12px;
+    top:60px;
+    left:10px;
+    width: 40px;
+    height: 40px;
 
     z-index:5000;
 
@@ -284,6 +285,66 @@ main {
         var(--color-button-hover);
 }
 
+#toggleHeatmap{
+    position:absolute;
+
+    top:110px;
+    left:10px;
+    width: 40px;
+    height: 40px;
+
+    z-index:5000;
+
+    padding:8px 12px;
+
+    border:none;
+
+    border-radius:
+        var(--radius-md);
+
+    background:
+        var(--color-button);
+
+    color:white;
+
+    cursor:pointer;
+}
+
+#toggleHeatmap:hover{
+    background:
+        var(--color-button-hover);
+}
+
+#toggleDensityHeatmap{
+    position:absolute;
+
+
+    top:160px;
+    left:10px;
+    width: 40px;
+    height: 40px;
+
+    z-index:5000;
+
+    padding:8px 12px;
+
+    border:none;
+
+    border-radius:
+        var(--radius-md);
+
+    background:
+        var(--color-button);
+
+    color:white;
+
+    cursor:pointer;
+}
+
+#toggleDensityHeatmap:hover{
+    background:
+        var(--color-button-hover);
+}
 /* ===================================
    SIDEBAR
 =================================== */
