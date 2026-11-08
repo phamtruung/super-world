@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'IconFont'; /* tên bạn đặt cho font */
+    src: url('Aristotelica-Icons-Regular-trial.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MainFont'; /* tên bạn đặt cho font */
+    src: url('JetBrainsMono-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    /* Color */
+    --color-background: rgb(233, 233, 233);
+    --color-foreground: rgb(37, 37, 37);
+    --color-background-second: rgb(255, 255, 255);
+    --color-foreground-second: rgb(175, 175, 175);
+    --color-alpha: rgba(126, 126, 126, 0.2);
+    --color-selected: rgb(70, 67, 66);
+
+    /* Color App */
+    --color-general: rgba(126, 126, 126, 0.2);
+    --color-political: rgba(192, 10, 0, 0.2);
+    --color-economic: rgba(142, 20, 167, 0.2);
+
+    /* Size */
+    --size-height-header: 2rem;
+    --size-height-main: calc(100dvh - var(--size-height-header));
+    --size-width-panel: min(20vw, 20rem);
+    --size-width-search: min(20vw, 20rem);
+    --size-radius: 0.2rem;
+    --size-gap: 0.1rem;
+    --size-padding: 2.5rem;
+    --size-button: 1.4rem;
+    --size-flag: min(9vw, 6rem);
+    --size-font-large: 1.2rem;
+    --size-font-medium: 1.1rem;
+    --size-font-small: 1rem;
+    --size-dialog-width-min: 300px;
+    --size-dialog-width-max: 800px;
+    --size-dialog-height-max: 80%;
+    --size-search-result-height-max: min(50vh, 100rem);
+    --size-top-icon: 0.4rem;
+    --size-stroke: 0.2;
+
+    /* Font */
+    --font-text:  'MainFont', Courier;
+    --font-icon: "IconFont";
+}

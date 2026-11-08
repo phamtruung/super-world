@@ -1,0 +1,270 @@
+/* ============================================ ForApp */
+.map {
+    width: 100%;
+    height: 100%;
+}
+.country {
+    fill: var(--color-foreground-second);
+    stroke: var(--color-background);
+    stroke-width: var(--size-stroke);
+    cursor: pointer;    
+}
+.country:hover {
+    filter: brightness(0.8);
+}
+.flag {
+    border-radius: var(--size-radius);
+    align-self: flex-start;
+    margin: var(--size-gap);
+}
+.general {
+    background-color: var(--color-general);
+    padding: var(--size-gap);
+    border-radius: var(--size-radius);
+}
+.political {
+    background-color: var(--color-political);
+    padding: var(--size-gap);
+    border-radius: var(--size-radius);
+}
+.economic {
+    background-color: var(--color-economic);
+    padding: var(--size-gap);
+    border-radius: var(--size-radius);
+}
+
+/* ============================== Zones */
+.africa,
+.americas,
+.europe,
+.asia,
+.oceania,
+.polar {
+    color: var(--color-background);
+    stroke: var(--color-background);
+    stroke-width: var(--size-stroke);
+    fill: var(--zone-color);
+    background-color: var(--zone-color);
+
+    padding: var(--size-gap);
+    border-radius: var(--size-radius);
+    cursor: pointer;
+}
+.africa {
+    --zone-color: rgb(138, 185, 99);
+}
+
+.americas {
+    --zone-color: rgb(127, 117, 173);
+}
+
+.europe {
+    --zone-color: rgb(172, 151, 61);
+}
+
+.asia {
+    --zone-color: rgb(172, 83, 83);
+}
+
+.oceania {
+    --zone-color: rgb(84, 123, 173);
+}
+
+.polar {
+    --zone-color: rgb(141, 140, 140);
+}
+
+/* ============================== Population */
+.population-0001,
+.population-0010,
+.population-0025,
+.population-0050,
+.population-0100,
+.population-0250,
+.population-0500,
+.population-1000,
+.population-max {
+    stroke: var(--color-background);
+    stroke-width: var(--size-stroke);
+
+    padding: var(--size-gap);
+    border-radius: var(--size-radius);
+    cursor: pointer;
+}
+.population-0001 {
+    fill: rgba(192, 10, 0, 0.1);
+    background-color: rgba(192, 10, 0, 0.1);
+}
+.population-0010 {
+    fill: rgba(192, 10, 0, 0.2);
+    background-color: rgba(192, 10, 0, 0.2);
+}
+.population-0025 {
+    fill: rgba(192, 10, 0, 0.3);
+    background-color: rgba(192, 10, 0, 0.3);
+}
+.population-0050 {
+    fill: rgba(192, 10, 0, 0.4);
+    background-color: rgba(192, 10, 0, 0.4);
+}
+.population-0100 {
+    fill: rgba(192, 10, 0, 0.5);
+    background-color: rgba(192, 10, 0, 0.5);
+}
+.population-0250 {
+    fill: rgba(192, 10, 0, 0.6);
+    background-color: rgba(192, 10, 0, 0.6);
+}
+.population-0500 {
+    fill: rgba(192, 10, 0, 0.7);
+    background-color: rgba(192, 10, 0, 0.7);
+}
+.population-1000 {
+    fill: rgba(192, 10, 0, 0.8);
+    background-color: rgba(192, 10, 0, 0.8);
+}
+.population-max {
+    fill: rgba(192, 10, 0, 1);
+    background-color: rgba(192, 10, 0, 1);
+}
+
+/* ============================== GDP */
+.gdp-001000,
+.gdp-002500,
+.gdp-005000,
+.gdp-007500,
+.gdp-010000,
+.gdp-025000,
+.gdp-050000,
+.gdp-075000,
+.gdp-100000,
+.gdp-max {
+    stroke: var(--color-background);
+    stroke-width: var(--size-stroke);
+    fill: var(--ppp-color);
+    background-color: var(--ppp-color);
+
+    padding: var(--size-gap);
+    border-radius: var(--size-radius);
+    cursor: pointer;
+}
+.gdp-001000 {
+    --ppp-color: rgba(142, 20, 167, 0.1);
+}
+.gdp-002500 {
+    --ppp-color: rgba(142, 20, 167, 0.2);
+}
+.gdp-005000 {
+    --ppp-color: rgba(142, 20, 167, 0.3);
+}
+.gdp-007500 {
+    --ppp-color: rgba(142, 20, 167, 0.4);
+}
+.gdp-010000 {
+    --ppp-color: rgba(142, 20, 167, 0.5);
+}
+.gdp-025000 {
+    --ppp-color: rgba(142, 20, 167, 0.6);
+}
+.gdp-050000 {
+    --ppp-color: rgba(142, 20, 167, 0.7);
+}
+.gdp-075000 {
+    --ppp-color: rgba(142, 20, 167, 0.8);
+}
+.gdp-100000 {
+    --ppp-color: rgba(142, 20, 167, 0.9);
+}
+.gdp-max {
+    --ppp-color: rgba(142, 20, 167, 1);
+}
+/* ============================== Forex */
+.AUD,
+.CAD,
+.CHF,
+.EUR,
+.GBP,
+.JPY,
+.NZD,
+.USD,
+.-others {
+    color: var(--color-background);
+    stroke: var(--color-background);
+    stroke-width: var(--size-stroke);
+    fill: var(--color-forex);
+    background-color: var(--color-forex);
+
+    padding: var(--size-gap);
+    border-radius: var(--size-radius);
+    cursor: pointer;
+}
+.AUD {
+    --color-forex: rgba(146, 57, 57, 0.9);
+}
+
+.CAD {
+    --color-forex: rgba(182, 108, 38, 0.9);
+}
+
+.CHF {
+    --color-forex: rgba(228, 188, 14, 0.5);
+}
+
+.EUR {
+    --color-forex: rgba(79, 170, 0, 0.5);
+}
+
+.GBP {
+    --color-forex: rgba(45, 180, 162, 0.5);
+}
+
+.NZD {
+    --color-forex: rgba(3, 40, 247, 0.5);
+}
+.JPY {
+    --color-forex: rgba(76, 0, 255, 0.5);
+}
+.USD {
+    --color-forex: rgba(196, 46, 189, 0.5);
+}
+.-others {
+    --color-forex: rgba(119, 119, 119, 0.5);
+}
+
+/* ============================== Thể Chế */
+.cộng-hòa-nghị-viện,
+.cộng-hòa-tổng-thống,
+.cộng-hòa-xã-hội-chủ-nghĩa,
+.lãnh-thổ-phụ-thuộc,
+.quân-chủ {
+    color: var(--color-background);
+    stroke: var(--color-background);
+    stroke-width: var(--size-stroke);
+    fill: var(--color-the-che);
+    background-color: var(--color-the-che);
+
+    padding: var(--size-gap);
+    border-radius: var(--size-radius);
+    cursor: pointer;
+}
+.cộng-hòa-nghị-viện {
+    --color-the-che: rgba(37, 90, 206, 0.5);
+}
+.cộng-hòa-tổng-thống {
+    --color-the-che: rgba(77, 189, 32, 0.5);
+}
+.cộng-hòa-xã-hội-chủ-nghĩa {
+    --color-the-che: rgba(194, 31, 31, 0.5);
+}
+.lãnh-thổ-phụ-thuộc {
+    --color-the-che: rgba(124, 124, 124, 0.5);
+}
+.quân-chủ {
+    --color-the-che: rgba(136, 36, 194, 0.5);
+}
+
+/* ============================== Seletected */
+.selected {
+    fill: var(--color-selected);
+    background-color: var(--color-selected);
+}

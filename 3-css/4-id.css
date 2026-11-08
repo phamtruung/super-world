@@ -1,0 +1,28 @@
+#select-filter {
+    min-width: var(--size-width-search);
+    max-width: var(--size-width-search);
+    background-color: var(--color-selected);
+    color: var(--color-background);
+    border: 1px solid var(--color-foreground);
+    border-radius: var(--size-radius);
+}
+
+#search-input {
+    min-width: var(--size-width-search);
+    max-width: var(--size-width-search);
+    background-color: var(--color-selected);
+    color: var(--color-background);
+    border: 1px solid var(--color-foreground);
+    border-radius: var(--size-radius);
+}
+#search-result {
+    position: fixed;
+    top: var(--size-padding);
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--color-foreground);
+    width: var(--size-width-search);
+    max-height: var(--size-search-result-height-max);
+    overflow-y: auto;
+    z-index: 1000;
+}

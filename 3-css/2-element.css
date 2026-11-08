@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    font-family: var(--font-text);
+    font-size: var(--size-font-small);
+    padding: 0;
+}
+
+html,
+body {
+    margin: auto;
+    background: var(--color-background);
+    color: var(--color-foreground);
+    padding: var(--size-gap);
+    height: 100%;
+    overflow: hidden;
+}
+
+h1 {
+    flex: 1;
+    font-size: var(--size-font-large);
+    text-align: left;
+    margin: var(--size-gap);
+}
+
+h2 {
+    font-size: var(--size-font-medium);
+    flex: 1;
+    text-align: center;
+    margin: var(--size-gap);
+}
+h3 {
+    flex: 1;
+    margin: var(--size-gap);
+}
+
+p {
+    margin: var(--size-gap);
+}
+article {
+    margin-top: var(--size-padding);
+}
+hr {
+    flex: 1;
+    border-top: 1px dashed var(--color-foreground);
+}
+span {
+    flex: 1;
+}
+dialog {
+    border-radius: var(--size-radius);
+    padding: var(--size-padding);
+    gap: var(--size-gap);
+    max-width: var(--size-dialog-width-max);
+    min-width: var(--size-dialog-width-min);
+    max-height: var(--size-dialog-height-max);
+}
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: var(--size-button);
+    height: var(--size-button);
+    border: none;
+    border-radius: var(--size-radius);
+    background-color: var(--color-alpha);
+    color: var(--color-foreground);
+    margin: var(--size-gap);
+    cursor: pointer;
+}
+
+button:hover {
+    color: var(--color-background-second);
+    background-color: var(--color-foreground);
+}
+input,
+select,
+textarea {
+    border: none;
+    background-color: transparent;
+    color: var(--color-foreground);
+    border-radius: var(--size-radius);
+    padding: var(--size-gap);
+    flex: 1;
+    min-width: 0;
+}
+
+input:hover,
+input:focus,
+textarea:focus,
+select:hover {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+}
+input[type="number"] {
+    text-align: right;
+}
+svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-background);
+    border-radius: var(--size-radius);
+}

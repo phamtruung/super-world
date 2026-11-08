@@ -1,0 +1,128 @@
+/* ============================================ Paragraph */
+.app-name {
+    min-width: var(--size-width-panel);
+}
+.header {
+    font-size: var(--size-font-large);
+    font-weight: bold;
+    background-color: var(--color-foreground);
+    border-radius: var(--size-radius);
+    color: var(--color-background-second);
+    padding: var(--size-gap);
+    max-height: var(--size-height-header);
+    min-height: var(--size-height-header);
+}
+.title {
+    border-radius: var(--size-radius);
+    font-size: var(--size-font-medium);
+    padding: var(--size-gap);
+    background-color: var(--color-foreground);
+    color: var(--color-background);
+}
+.divide {
+    border-radius: 0;
+    font-size: var(--size-font-medium);
+    padding: var(--size-gap);
+    border-bottom: 1px solid var(--color-foreground);
+}
+.label {
+    flex:1;
+    color: var(--color-foreground);
+}
+.text {
+    color: var(--color-foreground);
+}
+
+/* ============================================ Input */
+.input {
+    background-color: var(--color-foreground-second);
+}
+.search-item {
+    background-color: var(--color-alpha);
+    border-radius: var(--size-radius);
+}
+.search-item:hover {
+    background-color: var(--color-foreground-second);
+    cursor: pointer;
+}
+.option {
+    min-width: var(--size-width-panel);
+    background-color: var(--color-alpha);
+    color: var(--color-background-second);
+}
+.selected {
+    background-color: var(--color-selected);
+}
+
+/* ============================================ Div */
+.fix-panel {
+    width: var(--size-width-panel);
+    height: 100%;
+    padding: var(--size-gap);
+}
+.main {
+    display: flex;
+    flex: 1;
+    gap: var(--size-gap);
+    padding: var(--size-gap);
+    height: var(--size-height-main);
+}
+.flex-col {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: var(--size-gap);
+    padding: var(--size-gap);
+}
+.flex-row {
+    display: flex;
+    flex: 1;
+    gap: var(--size-gap);
+    padding: var(--size-gap);
+    align-items: center;
+}
+.scroll {
+    overflow-y: auto;
+    overflow-x: auto;
+    border-radius: var(--size-radius);
+    height: 100%;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.hidden {
+    display: none;
+}
+
+/* ============================================ Button */
+.navigation-button {
+    font-family: var(--font-icon);
+    padding-top: var(--size-top-icon);
+    background-color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.button-icon {
+    font-family: var(--font-icon);
+    padding-top: var(--size-top-icon);
+    cursor: pointer;
+    color: var(--color-background-second);
+    background-color: transparent;
+    justify-content: center;
+}
+.button-icon:hover {
+    background-color: var(--color-foreground-second);
+}
+.click {
+    color: var(--color-fg);
+    background-color: var(--color-alpha);
+    cursor: pointer;
+    border-radius: var(--size-radius);
+    padding: var(--size-gap);
+}
+.click:hover {
+    filter: brightness(0.3);
+}
+
+
+
