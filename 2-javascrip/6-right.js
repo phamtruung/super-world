@@ -81,14 +81,14 @@ class DivRight {
         this.elRowPopulation.appendChild(this.elPopulation);
 
         // Unit Population
-        this.elRowPopulation.appendChild(UI.Paragraph.Text("người"));
+        this.elRowPopulation.appendChild(UI.Paragraph.Text("triệu dân"));
 
         // Population Per Km2
         this.elRowPopulationPerPerson = UI.Div.Row(UI.ClassName.Wrap);
         this.elPolitical.appendChild(this.elRowPopulationPerPerson);
         this.elRowPopulationPerPerson.appendChild(UI.Paragraph.Label("Mật Độ: "))
-        this.elPopulationPerKm2 = UI.Paragraph.Text();
-        this.elRowPopulationPerPerson.appendChild(this.elPopulationPerKm2);
+        this.elPopulationDensity = UI.Paragraph.Text();
+        this.elRowPopulationPerPerson.appendChild(this.elPopulationDensity);
 
         // Unit Population Per Km2
         this.elRowPopulationPerPerson.appendChild(UI.Paragraph.Text("người/km2"));
@@ -116,14 +116,14 @@ class DivRight {
         this.elRowGDP.appendChild(this.elGDP);
 
         // Unit GDP
-        this.elRowGDP.appendChild(UI.Paragraph.Text("tỉ USD"));
+        this.elRowGDP.appendChild(UI.Paragraph.Text("triệu USD"));
 
         // GDPPerPerson
         this.elRowGDPPerPerson = UI.Div.Row(UI.ClassName.Wrap);
         this.elEconomic.appendChild(this.elRowGDPPerPerson);
         this.elRowGDPPerPerson.appendChild(UI.Paragraph.Label("GDP Người: "))
-        this.elGDPPerPerson = UI.Paragraph.Text();
-        this.elRowGDPPerPerson.appendChild(this.elGDPPerPerson);
+        this.elGDPPerson = UI.Paragraph.Text();
+        this.elRowGDPPerPerson.appendChild(this.elGDPPerson);
 
         // Unit GDP
         this.elRowGDPPerPerson.appendChild(UI.Paragraph.Text("USD/người"));
@@ -132,7 +132,7 @@ class DivRight {
     // #region showCountry
     showCountry(iso3) {
         this.elFlag.src = ``;
-        this.elName.innerHTML = `${iso3}`;
+        this.elName.innerHTML = `${iso3} <br> (chưa được công nhận)`;
         this.elMain.classList.remove(UI.ClassName.Hidden);
         this.elContent.classList.add(UI.ClassName.Hidden);
     }
@@ -154,19 +154,19 @@ class DivRight {
 
     showGeneral(superCountry) {
         this.elCapital.innerHTML = superCountry.capital;
-        this.elRegion.innerHTML = superCountry.region;
+        this.elRegion.innerHTML = superCountry.chau_luc;
         this.elArea.innerHTML = Helper.Number.formatNumber(superCountry.area);
     }
 
     showPolitical(superCountry) {
         this.elGoverment.innerHTML = superCountry.the_che;
-        this.elPopulation.innerHTML = Helper.Number.formatNumber(superCountry.population);
-        this.elPopulationPerKm2.innerHTML = Math.round(superCountry.populationPerKm2(),1);
+        this.elPopulation.innerHTML = Helper.Number.formatNumber(superCountry.populationMilion);
+        this.elPopulationDensity.innerHTML =  Helper.Number.formatNumber(superCountry.populationDensity);
     }
 
     showEconomic(superCountry) {
         this.elCurrency.innerHTML = superCountry.currency;
-        this.elGDP.innerHTML = Helper.Number.formatNumber(Math.round(superCountry.gdp/1000_000_000));
-        this.elGDPPerPerson.innerHTML = Helper.Number.formatNumber(superCountry.gdpPerPerson());
+        this.elGDP.innerHTML = Helper.Number.formatNumber(superCountry.gdpMilion);
+        this.elGDPPerson.innerHTML = Helper.Number.formatNumber(superCountry.gdpPerson);
     }
 }

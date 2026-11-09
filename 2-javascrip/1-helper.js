@@ -145,39 +145,58 @@ const Helper = {
                 .join(' ');
         },
         createStringFromCompare(prefixCSS, listOfValues, valueToCompare) {
-            const compareValue = parseFloat(valueToCompare);
 
             if (
                 valueToCompare === null ||
-                valueToCompare === undefined ||
-                isNaN(compareValue)
+                valueToCompare === undefined
             ) {
                 return null;
             }
 
-            const maxLength =
-                Math.max(...listOfValues)
+            const compareValue = parseFloat(valueToCompare);
+            const isNumeric =
+                !isNaN(compareValue) &&
+                isFinite(compareValue);
+                
+            // Trường hợp giá trị so sánh là số
+            if (isNumeric) {
+                const numericValues = listOfValues.filter(
+                    value => typeof value === "number"
+                );
+
+                if (!numericValues.length) {
+                    return `${prefixCSS}-max`;
+                }
+
+                const maxLength = Math.max(...numericValues)
                     .toString()
                     .length;
 
-            for (const value of listOfValues) {
-
-                if (compareValue <= value) {
-
-                    const valueString =
-                        value
+                for (const value of numericValues) {
+                    if (compareValue <= value) {
+                        const valueString = value
                             .toString()
-                            .padStart(
-                                maxLength,
-                                "0"
-                            );
+                            .padStart(maxLength, "0");
 
-                    return `${prefixCSS}-${valueString}`;
+                        return `${prefixCSS}-${valueString}`;
+                    }
+                }
+
+                return `${prefixCSS}-max`;
+            }
+
+            // Trường hợp giá trị so sánh là chuỗi
+            for (const value of listOfValues) {
+                if (
+                    typeof value === "string" &&
+                    valueToCompare === value
+                ) {
+                    return `${prefixCSS}-${value}`;
                 }
             }
 
-            return `${prefixCSS}-max`;
-        }
+            return `Others`;
+        },
     },
 
     // #region Number

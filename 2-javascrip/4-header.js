@@ -9,8 +9,8 @@ class DivHeader {
         const optionsDict = {
             0: "--Mặc định --",
             1: "Châu Lục",
-            2: "Dân Số",
-            3: "GDP",
+            2: "Mật Độ (người/km2)",
+            3: "GDP Người ($/người/năm)",
             4: "Forex",
             5: "Thể Chế"
         };

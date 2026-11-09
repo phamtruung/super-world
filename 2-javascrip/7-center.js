@@ -224,18 +224,34 @@ class DivCenter {
 
     // #region setSelectedByISO3
     selectCountry(iso3) {
-        if (this.selectedIso3) {
-            const polygons = this.polygonsData[this.selectedIso3];
+
+        // Nếu click lại đúng country đang chọn => bỏ chọn
+        if (this.selectedIso3 === iso3) {
+            const polygons = this.polygonsData[iso3];
             if (polygons) {
                 polygons.forEach(polygon => {
                     polygon.classList.remove(UI.ClassName.Selected);
                 });
             }
+            this.selectedIso3 = null;
+            return;
         }
+
+        // Bỏ chọn country cũ
+        if (this.selectedIso3) {
+            const oldPolygons = this.polygonsData[this.selectedIso3];
+            if (oldPolygons) {
+                oldPolygons.forEach(polygon => {
+                    polygon.classList.remove(UI.ClassName.Selected);
+                });
+            }
+        }
+
+        // Chọn country mới
         this.selectedIso3 = iso3;
-        const polygons = this.polygonsData[this.selectedIso3];
-        if (polygons) {
-            polygons.forEach(polygon => {
+        const newPolygons = this.polygonsData[iso3];
+        if (newPolygons) {
+            newPolygons.forEach(polygon => {
                 polygon.classList.add(UI.ClassName.Selected);
             });
         }

@@ -33,8 +33,7 @@ class App {
         await this.elCenter.drawGeoJson(this.fileGeoJson);
         this.elCenter.listen();
         this.appListen();
-        this.filterByDefault();
-
+        this.filterByKey(this.elHeader.elFilter.value);
     }
 
     // #region appListen
@@ -47,77 +46,55 @@ class App {
     // #region clickFilter
     clickFilter() {
         this.elHeader.elFilter.addEventListener("change", () => {
-            if (this.elHeader.elFilter.value == 0) {
-                this.filterByDefault();
-            } else if (this.elHeader.elFilter.value == 1) {
-                this.filterByRegion();
-            } else if (this.elHeader.elFilter.value == 2) {
-                this.filterByPopulation();
-            } else if (this.elHeader.elFilter.value == 3) {
-                this.filterByGDP();
-            } else if (this.elHeader.elFilter.value == 4) {
-                this.filterByForex();
-            } else if (this.elHeader.elFilter.value == 5) {
-                this.filterByGoverment();
-            }
+            this.filterByKey(this.elHeader.elFilter.value);
         });
     }
 
-    // #region filterByDefault
-    filterByDefault() {
-        this.renderMapByDefault();
-        const numberOfCountries = this.data.root.length;
+    // #region filterByKey
+    filterByKey(index) {
+        const collections = this.data.getDictByKey(index);
+        this.renderMapByKey(collections);
 
-        this.elLeft.elTitle.innerHTML = `Đất Nước: ${numberOfCountries}`;
         this.elLeft.elContent.innerHTML = "";
 
-        // List Of Countries
-        const elListOfCountries = this.elListOfCountriesByArea(this.data.root);
-        this.elLeft.elContent.appendChild(elListOfCountries);
-    }
-
-    renderMapByDefault() {
-        Object.values(this.elCenter.polygonsData).forEach((polygons) => {
-            UI.Color.SetColorByClassName(polygons, UI.ClassName.ForApp.Country);
-        });
-    }
-
-    // #region filterByRegion
-    filterByRegion() {
-        const collections = this.data.getRegionDict();
-
-        this.renderMapByRegion(collections);
-
-        this.elLeft.elTitle.innerHTML = "6 Châu Lục";
-        this.elLeft.elContent.innerHTML = "";
-
-        Object.entries(collections).forEach(([region, listOfCountries]) => {
+        Object.entries(collections).forEach(([keyValue, listOfCountries]) => {
             const numberOfCountries = listOfCountries.length;
 
-            // Region
-            const elRegion = UI.Div.Column(null, false);
-            elRegion.classList.add(region.toLowerCase());
-            this.elLeft.elContent.appendChild(elRegion);
+            // Key
+            const elKey = UI.Div.Column(null, false);
+            const className = Helper.String.stringToSlug(keyValue);
+            elKey.classList.add(className);
+            this.elLeft.elContent.appendChild(elKey);
 
             // Row Title
             const elRowTitle = UI.Div.Row();
-            elRegion.appendChild(elRowTitle);
+            elKey.appendChild(elRowTitle);
 
-            // Region Name
-            const textRegion = `${region} (${numberOfCountries})`;
+            // Key Name
+            let textValue;
+            if (keyValue.includes("-")) {
+                const suffix = keyValue.split('-')[1];
+                const suffixValue = parseInt(suffix);
+                if (suffixValue) {
+                    textValue = `< ${suffixValue}`;
+                } else {
+                    textValue = suffix;
+                }
+            } else {
+                textValue = keyValue;
+            }
+            const textRegion = `${textValue} (${numberOfCountries})`;
             elRowTitle.appendChild(UI.Paragraph.Label(textRegion));
 
-            // Numer of Area
-            let totalArea = 0;
-            listOfCountries.forEach(superCountry => {
-                totalArea += superCountry.area;
-            });
-            const textArea = `${Helper.Number.formatNumber(totalArea / 1000_000)} triệu km2`
-            elRowTitle.appendChild(UI.Paragraph.Text(textArea));
+            // Sum By Key
+            const dictKey = this.data.dataKey[index];
+            const sumValue = this.data.sumByKey(listOfCountries, dictKey.detail);
+            const sumText = `${Helper.Number.formatNumber(sumValue)} ${dictKey.unit}`
+            elRowTitle.appendChild(UI.Paragraph.Text(sumText))
 
             // List of countries
             const elContent = UI.Div.Column();
-            elRegion.appendChild(elContent);
+            elKey.appendChild(elContent);
 
             // Click Title
             let isOpen = false;
@@ -126,31 +103,35 @@ class App {
                 if (isOpen) {
                     isOpen = false;
                 } else {
-                    const elListOfCountries = this.elListOfCountriesByArea(listOfCountries);
+                    const elListOfCountries = this.elListOfCountriesByKey(listOfCountries, index);
                     elContent.appendChild(elListOfCountries);
                     isOpen = true;
                 }
             })
-
         });
     }
 
-    // #region renderMapByRegion
-    renderMapByRegion(collections) {
-        Object.entries(collections).forEach(([region, listOfCountries]) => {
+    // #region renderMapByKey
+    renderMapByKey(collections) {
+        Object.entries(collections).forEach(([key, listOfCountries]) => {
             listOfCountries.forEach(country => {
                 Object.entries(this.elCenter.polygonsData).forEach(([iso3, polygons]) => {
                     const superCountry = this.data.findCountriesByIso3(iso3);
                     if (superCountry === country) {
-                        UI.Color.SetColorByClassName(polygons, region.toLowerCase());
+                        const className = Helper.String.stringToSlug(key);
+                        UI.Color.SetColorByClassName(polygons, className);
                     }
                 });
             });
         });
     }
 
-    // #region elListOfCountriesByArea
-    elListOfCountriesByArea(listOfCountries) {
+    // #region elListOfCountriesByKey
+    elListOfCountriesByKey(listOfCountries, index) {
+        const keyDict = this.data.dataKey[index];
+        const detailOfKey = keyDict.detail;
+        const unitOfKey = keyDict.unit;
+
         const elListOfCountries = UI.Div.Column();
 
         listOfCountries.forEach(superCountry => {
@@ -165,8 +146,8 @@ class App {
             elCountry.appendChild(UI.Paragraph.Label(superCountry.name));
 
             // Area
-            const area = `${Helper.Number.formatNumber(superCountry.area)} km2`;
-            elCountry.appendChild(UI.Paragraph.Text(area));
+            const textDetail = `${Helper.Number.formatNumber(superCountry[detailOfKey])} ${unitOfKey}`;
+            elCountry.appendChild(UI.Paragraph.Text(textDetail));
 
             // Click
             elCountry.addEventListener("click", () => {
@@ -175,339 +156,6 @@ class App {
         });
 
         return elListOfCountries;
-    }
-
-    // #region filterByPopulation
-    filterByPopulation() {
-        this.elLeft.elTitle.innerHTML = "Người/Km2";
-        this.elLeft.elContent.innerHTML = "";
-
-        const collections = this.data.getPopulationDict();
-
-        this.renderMapByPopulation(collections);
-
-        Object.entries(collections).forEach(([population, listOfCountries]) => {
-            const numberOfCountries = "(" + listOfCountries.length + ")";
-
-            // Population
-            const elPopulation = UI.Div.Column(population, false);
-            this.elLeft.elContent.appendChild(elPopulation);
-
-            // Row Title
-            const elRowTitle = UI.Div.Row();
-            elPopulation.appendChild(elRowTitle);
-
-            // Region Name
-            let textPopulation;
-            const numberPopulation = parseInt(population.split('-')[1]) || "max";
-            if (numberPopulation == "max") {
-                textPopulation = "> 1000 người/km2";
-            } else {
-                textPopulation = `< ${numberPopulation} người/km2`;
-            }
-            elRowTitle.appendChild(UI.Paragraph.Label(textPopulation));
-
-            // Numer of countries
-            elRowTitle.appendChild(UI.Paragraph.Text(numberOfCountries));
-
-            // List of countries
-            const elContent = UI.Div.Column();
-            elPopulation.appendChild(elContent);
-
-            // Click Title
-            let isOpen = false;
-            elRowTitle.addEventListener("click", () => {
-                elContent.innerHTML = "";
-                if (isOpen) {
-                    isOpen = false;
-                } else {
-                    const elListOfCountries = this.elListOfCountriesByPopulation(listOfCountries);
-                    elContent.appendChild(elListOfCountries);
-                    isOpen = true;
-                }
-            })
-        });
-    }
-
-    // #region elListOfCountriesByPopulation
-    elListOfCountriesByPopulation(listOfCountries) {
-        const elListOfCountries = UI.Div.Column();
-
-        listOfCountries.forEach(superCountry => {
-
-            // Country
-            const elCountry = UI.Div.Row(UI.ClassName.Click, true);
-            elCountry.classList.add(UI.ClassName.Wrap);
-            elCountry.classList.add(UI.ClassName.Click);
-            elListOfCountries.appendChild(elCountry);
-
-            // Name
-            elCountry.appendChild(UI.Paragraph.Label(superCountry.name));
-
-            // Population
-            const population = `${Math.round(superCountry.populationPerKm2())} ng/km2`
-            elCountry.appendChild(UI.Paragraph.Text(population));
-
-            // Click
-            elCountry.addEventListener("click", () => {
-                this.showCountry(superCountry.iso3, true);
-            });
-        });
-
-        return elListOfCountries;
-    }
-
-    // #region renderMapByPopulation
-    renderMapByPopulation(collections) {
-        Object.entries(collections).forEach(([population, listOfCountries]) => {
-            listOfCountries.forEach(country => {
-                Object.entries(this.elCenter.polygonsData).forEach(([iso3, polygons]) => {
-                    const superCountry = this.data.findCountriesByIso3(iso3);
-                    if (superCountry === country) {
-                        UI.Color.SetColorByClassName(polygons, population);
-                    }
-                });
-            });
-        });
-    }
-
-    // #region filterByGDP
-    filterByGDP() {
-        this.elLeft.elTitle.innerHTML = "USD/Người/Năm";
-        this.elLeft.elContent.innerHTML = "";
-
-        const collections = this.data.getGDPPerPersonDict();
-
-        this.renderMapByPPP(collections);
-
-        Object.entries(collections).forEach(([gdp, listOfCountries]) => {
-            const numberOfCountries = "(" + listOfCountries.length + ")";
-
-            // GDP
-            const elGDP = UI.Div.Column(gdp, false);
-            this.elLeft.elContent.appendChild(elGDP);
-
-            // Row Title
-            const elRowTitle = UI.Div.Row();
-            elGDP.appendChild(elRowTitle);
-
-            // Region Name
-            let textGDP;
-            const numberGDP = parseInt(gdp.split('-')[1]) || "max";
-            if (numberGDP == "max") {
-                textGDP = "> 100.000 $/p";
-            } else {
-                textGDP = `< ${Helper.Number.formatNumber(numberGDP)} $/p`;
-            }
-            elRowTitle.appendChild(UI.Paragraph.Label(textGDP));
-
-            // Numer of countries
-            elRowTitle.appendChild(UI.Paragraph.Text(numberOfCountries));
-
-            // List of countries
-            const elContent = UI.Div.Column();
-            elGDP.appendChild(elContent);
-
-            // Click Title
-            let isOpen = false;
-            elRowTitle.addEventListener("click", () => {
-                elContent.innerHTML = "";
-                if (isOpen) {
-                    isOpen = false;
-                } else {
-                    const elListOfCountries = this.elListOfCountriesByGDP(listOfCountries);
-                    elContent.appendChild(elListOfCountries);
-                    isOpen = true;
-                }
-            })
-        });
-    }
-
-    // #region elListOfCountriesByGDP
-    elListOfCountriesByGDP(listOfCountries) {
-        const elListOfCountries = UI.Div.Column();
-
-        listOfCountries.forEach(superCountry => {
-
-            // Country
-            const elCountry = UI.Div.Row(UI.ClassName.Click, true);
-            elCountry.classList.add(UI.ClassName.Wrap);
-            elCountry.classList.add(UI.ClassName.Click);
-            elListOfCountries.appendChild(elCountry);
-
-            // Name
-            elCountry.appendChild(UI.Paragraph.Label(superCountry.name));
-
-            // GDPPerPerson
-            const gdpPerPerson = `${Helper.Number.formatNumber(superCountry.gdpPerPerson())} $/p`
-            elCountry.appendChild(UI.Paragraph.Text(gdpPerPerson));
-
-            // Click
-            elCountry.addEventListener("click", () => {
-                this.showCountry(superCountry.iso3, true);
-            });
-        });
-
-        return elListOfCountries;
-    }
-
-    // #region renderMapByPPP
-    renderMapByPPP(collections) {
-        Object.entries(collections).forEach(([gdp, listOfCountries]) => {
-            listOfCountries.forEach(country => {
-                Object.entries(this.elCenter.polygonsData).forEach(([iso3, polygons]) => {
-                    const superCountry = this.data.findCountriesByIso3(iso3);
-                    if (superCountry === country) {
-                        UI.Color.SetColorByClassName(polygons, gdp);
-                    }
-                });
-            });
-        });
-    }
-
-    // #region filterByForex
-    filterByForex() {
-        this.elLeft.elTitle.innerHTML = "Forex 8";
-        this.elLeft.elContent.innerHTML = "";
-
-        const collections = this.data.getForexDict();
-        console.log(collections);
-
-        this.renderMapByForex(collections);
-
-        Object.entries(collections).forEach(([currency, listOfCountries]) => {
-            const numberOfCountries = listOfCountries.length;
-
-            // Currency
-            const elCurrency = UI.Div.Column(currency, false);
-            this.elLeft.elContent.appendChild(elCurrency);
-
-            // Row Title
-            const elRowTitle = UI.Div.Row();
-            elCurrency.appendChild(elRowTitle);
-
-            // Currency Name
-            const textCurreny = currency;
-            elRowTitle.appendChild(UI.Paragraph.Label(textCurreny));
-
-            // Number of Countries
-            elRowTitle.appendChild(UI.Paragraph.Label(`(${numberOfCountries})`))
-
-            // Number Of GDP and Population
-            let totalGDP = 0;
-            let totalPopulation = 0;
-            listOfCountries.forEach(superCountry => {
-                totalGDP += superCountry.gdp;
-                totalPopulation += superCountry.population;
-            })
-            const ppp = totalGDP / totalPopulation;
-            const textTotaPPP = Helper.Number.formatNumber(ppp) + " $/p";
-            elRowTitle.appendChild(UI.Paragraph.Text(textTotaPPP));
-
-            // List of countries
-            const elContent = UI.Div.Column();
-            elCurrency.appendChild(elContent);
-
-            // Click Title
-            let isOpen = false;
-            elRowTitle.addEventListener("click", () => {
-                elContent.innerHTML = "";
-                if (isOpen) {
-                    isOpen = false;
-                } else {
-                    const elListOfCountries = this.elListOfCountriesByGDP(listOfCountries);
-                    elContent.appendChild(elListOfCountries);
-                    isOpen = true;
-                }
-            })
-        });
-    }
-
-    // #region renderMapByForex
-    renderMapByForex(collections) {
-        Object.entries(collections).forEach(([currency, listOfCountries]) => {
-            listOfCountries.forEach(country => {
-                Object.entries(this.elCenter.polygonsData).forEach(([iso3, polygons]) => {
-                    const superCountry = this.data.findCountriesByIso3(iso3);
-                    if (superCountry === country) {
-                        UI.Color.SetColorByClassName(polygons, currency);
-                    }
-                });
-            });
-        });
-    }
-
-    // #region filterByGoverment
-    filterByGoverment() {
-        const collections = this.data.getGovermentDict();
-        this.renderMapByTheChe(collections);
-
-        this.elLeft.elTitle.innerHTML = "Thể Chế: 5 Loại";
-        this.elLeft.elContent.innerHTML = "";
-
-        Object.entries(collections).forEach(([the_che, listOfCountries]) => {
-            const numberOfCountries = listOfCountries.length;
-
-            // Goverment
-            const elGoverment = UI.Div.Column(null, false);
-            const className = Helper.String.stringToSlug(the_che);
-            elGoverment.classList.add(className);
-            this.elLeft.elContent.appendChild(elGoverment);
-
-            // Row Title
-            const elRowTitle = UI.Div.Row();
-            elGoverment.appendChild(elRowTitle);
-
-            // Region Name
-            elRowTitle.appendChild(UI.Paragraph.Label(the_che));
-
-            // Number of Countries
-            elRowTitle.appendChild(UI.Paragraph.Label(`(${numberOfCountries})`))
-
-            // Number Of GDP and Population
-            let totalGDP = 0;
-            let totalPopulation = 0;
-            listOfCountries.forEach(superCountry => {
-                totalGDP += superCountry.gdp;
-                totalPopulation += superCountry.population;
-            })
-            const ppp = totalGDP / totalPopulation;
-            const textTotaPPP = Helper.Number.formatNumber(ppp) + " $/p";
-            elRowTitle.appendChild(UI.Paragraph.Text(textTotaPPP));
-
-            // List of countries
-            const elContent = UI.Div.Column();
-            elGoverment.appendChild(elContent);
-
-            // Click Title
-            let isOpen = false;
-            elRowTitle.addEventListener("click", () => {
-                elContent.innerHTML = "";
-                if (isOpen) {
-                    isOpen = false;
-                } else {
-                    const elListOfCountries = this.elListOfCountriesByGDP(listOfCountries);
-                    elContent.appendChild(elListOfCountries);
-                    isOpen = true;
-                }
-            })
-
-        });
-    }
-
-    // #region renderMapByTheChe
-    renderMapByTheChe(collections) {
-        Object.entries(collections).forEach(([the_che, listOfCountries]) => {
-            listOfCountries.forEach(country => {
-                Object.entries(this.elCenter.polygonsData).forEach(([iso3, polygons]) => {
-                    const superCountry = this.data.findCountriesByIso3(iso3);
-                    if (superCountry === country) {
-                        const classNameTheChe = Helper.String.stringToSlug(the_che);
-                        UI.Color.SetColorByClassName(polygons, classNameTheChe);
-                    }
-                });
-            });
-        });
     }
 
     // #region search
@@ -556,8 +204,7 @@ class App {
     }
 }
 
-
-
+// #region DOM
 document.addEventListener("DOMContentLoaded", () => {
     const app = new App();
     app.install();

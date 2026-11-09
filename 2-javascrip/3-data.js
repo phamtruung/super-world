@@ -7,6 +7,7 @@ class SuperCountry {
         capital,
         region,
         subregion,
+        chau_luc,
         area,
         currency,
         currencyName,
@@ -21,6 +22,7 @@ class SuperCountry {
         this.capital = capital;
         this.region = region;
         this.subregion = subregion;
+        this.chau_luc = chau_luc;
         this.area = parseFloat(area) || 0;
         this.currency = currency;
         this.currencyName = currencyName;
@@ -28,17 +30,28 @@ class SuperCountry {
         this.gdp = parseFloat(gdp) || 0;
         this.goverment = goverment;
         this.the_che = the_che;
+        this.populationDensity = this.calcPopulationDensity();
+        this.populationMilion = this.calcPopulationMilion();
+        this.gdpPerson = this.calcGDPPerson();
+        this.gdpMilion = this.calcGDPMilion();
+        this.gdpBiliion = this.calcGDPBilion();
     }
-    gdpRound() {
-        return Math.round(this.gdp / 1000_000_000 * 10) / 10;
+    calcPopulationMilion() {
+        return this.population / 1000_000;
     }
-    populationPerKm2() {
+    calcGDPMilion() {
+        return this.gdp / 1000_000;
+    }
+    calcGDPBilion() {
+        return this.gdp / 1000_000_000;
+    }
+    calcPopulationDensity() {
         if (!this.area) return 0;
         if (!this.population) return 0;
         return this.population / this.area;
     }
 
-    gdpPerPerson() {
+    calcGDPPerson() {
         if (!this.population) return 0;
         if (!this.gdp) return 0;
         return this.gdp / this.population;
@@ -56,6 +69,43 @@ class Data {
         this.version = Data.VERSION;
         this.root = [];
         this.importCSV(csvFile);
+
+        // #region dataKey
+        this.dataKey = [
+            {
+                name: "Đất Nước",
+                detail: "area",
+                unit: "km2"
+            },
+            {
+                key: "chau_luc", 
+                detail: "area",
+                unit: "km2"
+            },
+            {            
+                key: "populationDensity", 
+                values: [1, 10, 25, 50, 100, 250, 500, 1000],
+                detail: "populationDensity",
+                unit: "p/km2"
+            },
+            {
+                key: "gdpPerson",
+                values: [1000, 2500, 5000, 7500, 10000, 25000, 50000, 75000, 100000],
+                detail: "gdpPerson",
+                unit: "$/p"
+            },
+            {
+                key: "currency",
+                values: ["AUD", "CAD", "CHF", "EUR", "JPY", "NZD", "GBP", "USD"],
+                detail: "gdpMilion",
+                unit: "m$"
+            },
+            {
+                key: "the_che",
+                detail: "gdpMilion",
+                unit: "m$"
+            }
+        ]
     }
 
     // #region importCSV
@@ -84,6 +134,7 @@ class Data {
                     capital: obj.capital,
                     region: obj.region,
                     subregion: obj.subregion,
+                    chau_luc: obj.chau_luc,
                     area: obj.area_sq_km,
                     currency: obj.currency,
                     currencyName: obj.currency_name,
@@ -97,12 +148,11 @@ class Data {
 
     }
 
-    // #region findCountriesByIso3
+    // #region find
     findCountriesByIso3(iso3) {
         return this.root.find(superCountry => superCountry.iso3 === iso3)
     }
 
-    // #region findCountriesByName
     findCountriesByName(findName) {
         if (!findName) return [];
 
@@ -112,102 +162,48 @@ class Data {
         );
     }
 
-    // #region getRegionDict
-    getRegionDict() {
-        const output = {};
-
-        if (this.root) {
-            this.root.forEach(superCountry => {
-                const region = superCountry.region;
-                if (!region || region == 0) return;
-
-                if (!output[region]) output[region] = [];
-                output[region].push(superCountry);
-            });
-        }
-        return output;
+    // #region sumByKey
+    sumByKey(listOfCountries, key) {
+        let total = 0;
+        listOfCountries.forEach(superCountry => {
+            total += superCountry[key];
+        })
+        return total;
     }
 
-    // #region getPopulationDict
-    getPopulationDict() {
+    // #region getDictByKey
+    getDictByKey(index) {
         const output = {};
-        const prefixCSS = "population";
-        const listOfValues = [1, 10, 25, 50, 100, 250, 500, 1000];
+        const dictKey = this.dataKey[index];
+        const keyOfKey = dictKey.key;
+        const nameOfKey = dictKey.name;
+        const valuesOfKey = dictKey.values;
 
-        if (this.root) {
+        if (keyOfKey) {
             this.root.forEach(superCountry => {
-                const populationName = Helper.String.createStringFromCompare(
-                    prefixCSS, 
-                    listOfValues, 
-                    superCountry.populationPerKm2()
-                );
-                if (populationName) {
-                    if (!output[populationName]) {
-                        output[populationName] = [];
-                    }
-
-                    output[populationName].push(superCountry);
-                }
-            });
-        }
-
-        return Helper.Object.sortDictByKey(output);
-    }
-
-    // #region getGDPPerPersonDict
-    getGDPPerPersonDict() {
-        const output = {};
-        const prefixCSS = "gdp";
-        const listOfValues = [1000, 2500, 5000, 7500, 10000, 25000, 50000, 75000, 100000];
-
-        if (this.root) {
-            this.root.forEach(superCountry => {
-                const gdpPerPersonName = Helper.String.createStringFromCompare(
-                    prefixCSS, 
-                    listOfValues, 
-                    superCountry.gdpPerPerson()
-                );
-                if (gdpPerPersonName) {
-                    if (!output[gdpPerPersonName]) {
-                        output[gdpPerPersonName] = [];
-                    }
-                    output[gdpPerPersonName].push(superCountry);
+                let newKey = null;
+                if (valuesOfKey) {
+                    newKey = Helper.String.createStringFromCompare(
+                        keyOfKey,
+                        valuesOfKey,
+                        superCountry[keyOfKey]
+                    )
+                } else {
+                    newKey = superCountry[keyOfKey];
                 }
 
+                if (newKey) {
+                    if (!output[newKey]) {
+                        output[newKey] = [];
+                    }
+
+                    output[newKey].push(superCountry);
+                }
             });
+        } else {
+            output[nameOfKey] = this.root;
         }
-        return Helper.Object.sortDictByKey(output);
-    }
 
-    // #region getForexDict
-    getForexDict() {
-        const output = {};
-        const listOfForex = ["AUD", "CAD", "CHF", "EUR", "JPY", "NZD", "GBP", "USD"]
-        if (this.root) {
-            this.root.forEach(superCountry => {
-                let currency = superCountry.currency;
-                if (!listOfForex.includes(currency)) currency = UI.ClassName.ForApp.NoForex;
-
-                if (!output[currency]) output[currency] = [];
-                output[currency].push(superCountry);
-            });
-        }
-        return Helper.Object.sortDictByKey(output);
-    }
-
-    // #region getGovermentDict
-    getGovermentDict() {
-        const output = {};
-
-        if (this.root) {
-            this.root.forEach(superCountry => {
-                const the_che = superCountry.the_che;
-                if (!the_che || the_che == 0) return;
-
-                if (!output[the_che]) output[the_che] = [];
-                output[the_che].push(superCountry);
-            });
-        }
         return Helper.Object.sortDictByKey(output);
     }
 }
