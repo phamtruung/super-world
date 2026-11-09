@@ -3,14 +3,11 @@
     width: 100%;
     height: 100%;
 }
-.country {
+.đất-nước {
     fill: var(--color-foreground-second);
     stroke: var(--color-background);
     stroke-width: var(--size-stroke);
     cursor: pointer;    
-}
-.country:hover {
-    filter: brightness(0.8);
 }
 .flag {
     border-radius: var(--size-radius);
@@ -34,12 +31,12 @@
 }
 
 /* ============================== Zones */
-.africa,
-.americas,
-.europe,
-.asia,
-.oceania,
-.polar {
+.châu-phi,
+.châu-mỹ,
+.châu-âu,
+.châu-á,
+.châu-đại-dương,
+.châu-nam-cực {
     color: var(--color-background);
     stroke: var(--color-background);
     stroke-width: var(--size-stroke);
@@ -50,40 +47,40 @@
     border-radius: var(--size-radius);
     cursor: pointer;
 }
-.africa {
+.châu-phi {
     --zone-color: rgb(138, 185, 99);
 }
 
-.americas {
+.châu-mỹ {
     --zone-color: rgb(127, 117, 173);
 }
 
-.europe {
+.châu-âu {
     --zone-color: rgb(172, 151, 61);
 }
 
-.asia {
+.châu-á {
     --zone-color: rgb(172, 83, 83);
 }
 
-.oceania {
+.châu-đại-dương {
     --zone-color: rgb(84, 123, 173);
 }
 
-.polar {
+.châu-nam-cực {
     --zone-color: rgb(141, 140, 140);
 }
 
-/* ============================== Population */
-.population-0001,
-.population-0010,
-.population-0025,
-.population-0050,
-.population-0100,
-.population-0250,
-.population-0500,
-.population-1000,
-.population-max {
+/* ============================== populationdensity */
+.populationdensitydensity-0001,
+.populationdensity-0010,
+.populationdensity-0025,
+.populationdensity-0050,
+.populationdensity-0100,
+.populationdensity-0250,
+.populationdensity-0500,
+.populationdensity-1000,
+.populationdensity-max {
     stroke: var(--color-background);
     stroke-width: var(--size-stroke);
 
@@ -91,54 +88,54 @@
     border-radius: var(--size-radius);
     cursor: pointer;
 }
-.population-0001 {
+.populationdensity-0001 {
     fill: rgba(192, 10, 0, 0.1);
     background-color: rgba(192, 10, 0, 0.1);
 }
-.population-0010 {
+.populationdensity-0010 {
     fill: rgba(192, 10, 0, 0.2);
     background-color: rgba(192, 10, 0, 0.2);
 }
-.population-0025 {
+.populationdensity-0025 {
     fill: rgba(192, 10, 0, 0.3);
     background-color: rgba(192, 10, 0, 0.3);
 }
-.population-0050 {
+.populationdensity-0050 {
     fill: rgba(192, 10, 0, 0.4);
     background-color: rgba(192, 10, 0, 0.4);
 }
-.population-0100 {
+.populationdensity-0100 {
     fill: rgba(192, 10, 0, 0.5);
     background-color: rgba(192, 10, 0, 0.5);
 }
-.population-0250 {
+.populationdensity-0250 {
     fill: rgba(192, 10, 0, 0.6);
     background-color: rgba(192, 10, 0, 0.6);
 }
-.population-0500 {
+.populationdensity-0500 {
     fill: rgba(192, 10, 0, 0.7);
     background-color: rgba(192, 10, 0, 0.7);
 }
-.population-1000 {
+.populationdensity-1000 {
     fill: rgba(192, 10, 0, 0.8);
     background-color: rgba(192, 10, 0, 0.8);
 }
-.population-max {
+.populationdensity-max {
     fill: rgba(192, 10, 0, 1);
     background-color: rgba(192, 10, 0, 1);
 }
 
-/* ============================== GDP */
-.gdp-001000,
-.gdp-002500,
-.gdp-005000,
-.gdp-007500,
-.gdp-010000,
-.gdp-025000,
-.gdp-050000,
-.gdp-075000,
-.gdp-100000,
-.gdp-max {
+/* ============================== gdpperson */
+.gdpperson-001000,
+.gdpperson-002500,
+.gdpperson-005000,
+.gdpperson-007500,
+.gdpperson-010000,
+.gdpperson-025000,
+.gdpperson-050000,
+.gdpperson-075000,
+.gdpperson-100000,
+.gdpperson-max {
     stroke: var(--color-background);
     stroke-width: var(--size-stroke);
     fill: var(--ppp-color);
@@ -148,46 +145,46 @@
     border-radius: var(--size-radius);
     cursor: pointer;
 }
-.gdp-001000 {
+.gdpperson-001000 {
     --ppp-color: rgba(142, 20, 167, 0.1);
 }
-.gdp-002500 {
+.gdpperson-002500 {
     --ppp-color: rgba(142, 20, 167, 0.2);
 }
-.gdp-005000 {
+.gdpperson-005000 {
     --ppp-color: rgba(142, 20, 167, 0.3);
 }
-.gdp-007500 {
+.gdpperson-007500 {
     --ppp-color: rgba(142, 20, 167, 0.4);
 }
-.gdp-010000 {
+.gdpperson-010000 {
     --ppp-color: rgba(142, 20, 167, 0.5);
 }
-.gdp-025000 {
+.gdpperson-025000 {
     --ppp-color: rgba(142, 20, 167, 0.6);
 }
-.gdp-050000 {
+.gdpperson-050000 {
     --ppp-color: rgba(142, 20, 167, 0.7);
 }
-.gdp-075000 {
+.gdpperson-075000 {
     --ppp-color: rgba(142, 20, 167, 0.8);
 }
-.gdp-100000 {
+.gdpperson-100000 {
     --ppp-color: rgba(142, 20, 167, 0.9);
 }
-.gdp-max {
+.gdpperson-max {
     --ppp-color: rgba(142, 20, 167, 1);
 }
 /* ============================== Forex */
-.AUD,
-.CAD,
-.CHF,
-.EUR,
-.GBP,
-.JPY,
-.NZD,
-.USD,
-.-others {
+.currency-aud,
+.currency-cad,
+.currency-chf,
+.currency-eur,
+.currency-gbp,
+.currency-jpy,
+.currency-nzd,
+.currency-usd,
+.others {
     color: var(--color-background);
     stroke: var(--color-background);
     stroke-width: var(--size-stroke);
@@ -198,36 +195,36 @@
     border-radius: var(--size-radius);
     cursor: pointer;
 }
-.AUD {
+.currency-aud {
     --color-forex: rgba(146, 57, 57, 0.9);
 }
 
-.CAD {
+.currency-cad {
     --color-forex: rgba(182, 108, 38, 0.9);
 }
 
-.CHF {
+.currency-chf {
     --color-forex: rgba(228, 188, 14, 0.5);
 }
 
-.EUR {
+.currency-eur {
     --color-forex: rgba(79, 170, 0, 0.5);
 }
 
-.GBP {
+.currency-gbp {
     --color-forex: rgba(45, 180, 162, 0.5);
 }
 
-.NZD {
+.currency-nzd {
     --color-forex: rgba(3, 40, 247, 0.5);
 }
-.JPY {
+.currency-jpy {
     --color-forex: rgba(76, 0, 255, 0.5);
 }
-.USD {
+.currency-usd {
     --color-forex: rgba(196, 46, 189, 0.5);
 }
-.-others {
+.others {
     --color-forex: rgba(119, 119, 119, 0.5);
 }
 
