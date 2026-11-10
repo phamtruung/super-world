@@ -1,0 +1,31 @@
+/* ============================== Thể Chế */
+.cộng-hòa-nghị-viện,
+.cộng-hòa-tổng-thống,
+.cộng-hòa-xã-hội-chủ-nghĩa,
+.lãnh-thổ-phụ-thuộc,
+.quân-chủ {
+    color: var(--color-background);
+    stroke: var(--color-background);
+    stroke-width: var(--size-stroke);
+    fill: var(--color-the-che);
+    background-color: var(--color-the-che);
+
+    padding: var(--size-gap);
+    border-radius: var(--size-radius);
+    cursor: pointer;
+}
+.cộng-hòa-nghị-viện {
+    --color-the-che: rgba(37, 90, 206, 0.5);
+}
+.cộng-hòa-tổng-thống {
+    --color-the-che: rgba(77, 189, 32, 0.5);
+}
+.cộng-hòa-xã-hội-chủ-nghĩa {
+    --color-the-che: rgba(194, 31, 31, 0.5);
+}
+.lãnh-thổ-phụ-thuộc {
+    --color-the-che: rgba(124, 124, 124, 0.5);
+}
+.quân-chủ {
+    --color-the-che: rgba(136, 36, 194, 0.5);
+}

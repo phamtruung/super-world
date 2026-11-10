@@ -1,0 +1,133 @@
+/* ============================== Khu Vực */
+.bắc-âu,
+.bắc-mỹ,
+.bắc-phi,
+.ca-ri-bê,
+.châu-úc,
+.đông-á,
+.đông-âu,
+.đông-nam-á,
+.đông-phi,
+.mê-la-nê-đi,
+.nam-á,
+.nam-âu,
+.nam-cực,
+.nam-đảo,
+.nam-mỹ,
+.nam-phi,
+.tây-á,
+.tây-âu,
+.tây-phi,
+.tiểu-đảo,
+.trung-á,
+.trung-mỹ,
+.trung-phi {
+    color: var(--color-background);
+    stroke: var(--color-background);
+    stroke-width: var(--size-stroke);
+
+    fill: var(--subzone-color);
+    background-color: var(--subzone-color);
+
+    padding: var(--size-gap);
+    border-radius: var(--size-radius);
+    cursor: pointer;
+}
+
+/* Âu */
+.bắc-âu {
+    --subzone-color: rgba(0, 102, 255, 0.5);
+}
+
+.đông-âu {
+    --subzone-color: rgba(98, 0, 255, 0.5);
+}
+
+.tây-âu {
+    --subzone-color: rgba(0, 180, 255, 0.5);
+}
+
+.nam-âu {
+    --subzone-color: rgba(0, 168, 180, 0.5);
+}
+
+/* Mỹ */
+.bắc-mỹ {
+    --subzone-color: rgba(2, 0, 130, 0.5);
+}
+
+.trung-mỹ {
+    --subzone-color: rgba(80, 180, 50, 0.5);
+}
+
+.ca-ri-bê {
+    --subzone-color: rgba(177, 128, 36, 0.5);
+}
+
+.nam-mỹ {
+    --subzone-color: rgba(60, 196, 220, 0.5);
+}
+
+/* Phi */
+.bắc-phi {
+    --subzone-color: rgba(255, 123, 0, 0.5);
+}
+
+.tây-phi {
+    --subzone-color: rgba(111, 116, 45, 0.5);
+}
+
+.trung-phi {
+    --subzone-color: rgba(200, 80, 0, 0.5);
+}
+
+.đông-phi {
+    --subzone-color: rgba(255, 80, 80, 0.5);
+}
+
+.nam-phi {
+    --subzone-color: rgba(180, 0, 60, 0.5);
+}
+
+/* Á */
+.đông-á {
+    --subzone-color: rgba(255, 0, 0, 0.5);
+}
+
+.đông-nam-á {
+    --subzone-color: rgba(255, 60, 0, 0.5);
+}
+
+.nam-á {
+    --subzone-color: rgba(255, 196, 0, 0.5);
+}
+
+.trung-á {
+    --subzone-color: rgba(41, 182, 72, 0.5);
+}
+
+.tây-á {
+    --subzone-color: rgba(17, 0, 255, 0.5);
+}
+
+/* Châu Úc và Thái Bình Dương */
+.châu-úc {
+    --subzone-color: rgba(33, 55, 255, 0.5);
+}
+
+.mê-la-nê-đi {
+    --subzone-color: rgba(121, 161, 27, 0.5);
+}
+
+.nam-đảo {
+    --subzone-color: rgba(81, 121, 207, 0.5);
+}
+
+.tiểu-đảo {
+    --subzone-color: rgba(76, 84, 150, 0.5);
+}
+
+/* Nam Cực */
+.nam-cực {
+    --subzone-color: rgba(120, 120, 120, 0.5);
+}

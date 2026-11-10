@@ -1,0 +1,49 @@
+/* ============================== populationdensity */
+.populationdensity-0001,
+.populationdensity-0010,
+.populationdensity-0025,
+.populationdensity-0050,
+.populationdensity-0100,
+.populationdensity-0250,
+.populationdensity-0500,
+.populationdensity-1000,
+.populationdensity-max {
+    stroke: var(--color-background);
+    stroke-width: var(--size-stroke);
+    fill: var(--density-color);
+    background-color: var(--density-color);
+
+    padding: var(--size-gap);
+    border-radius: var(--size-radius);
+    cursor: pointer;
+}
+.populationdensity-0001 {
+    --density-color: rgba(192, 10, 0, 0.1);
+}
+.populationdensity-0010 {
+    --density-color: rgba(192, 10, 0, 0.2);
+}
+.populationdensity-0025 {
+    --density-color: rgba(192, 10, 0, 0.3);
+}
+.populationdensity-0050 {
+    --density-color: rgba(192, 10, 0, 0.4);
+}
+.populationdensity-0100 {
+    --density-color: rgba(192, 10, 0, 0.5);
+}
+.populationdensity-0250 {
+    --density-color: rgba(192, 10, 0, 0.6);
+}
+.populationdensity-050000 {
+    --density-color: rgba(192, 10, 0, 0.7);
+}
+.populationdensity-0500 {
+    --density-color: rgba(192, 10, 0, 0.8);
+}
+.populationdensity-1000 {
+    --density-color: rgba(192, 10, 0, 0.9);
+}
+.populationdensity-max {
+    --density-color: rgba(192, 10, 0, 1);
+}

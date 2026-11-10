@@ -1,0 +1,52 @@
+/* ============================== Forex */
+.currency-aud,
+.currency-cad,
+.currency-chf,
+.currency-eur,
+.currency-gbp,
+.currency-jpy,
+.currency-nzd,
+.currency-usd,
+.others {
+    color: var(--color-background);
+    stroke: var(--color-background);
+    stroke-width: var(--size-stroke);
+    fill: var(--color-forex);
+    background-color: var(--color-forex);
+
+    padding: var(--size-gap);
+    border-radius: var(--size-radius);
+    cursor: pointer;
+}
+.currency-aud {
+    --color-forex: rgba(146, 57, 57, 0.9);
+}
+
+.currency-cad {
+    --color-forex: rgba(182, 108, 38, 0.9);
+}
+
+.currency-chf {
+    --color-forex: rgba(228, 188, 14, 0.5);
+}
+
+.currency-eur {
+    --color-forex: rgba(79, 170, 0, 0.5);
+}
+
+.currency-gbp {
+    --color-forex: rgba(45, 180, 162, 0.5);
+}
+
+.currency-nzd {
+    --color-forex: rgba(3, 40, 247, 0.5);
+}
+.currency-jpy {
+    --color-forex: rgba(76, 0, 255, 0.5);
+}
+.currency-usd {
+    --color-forex: rgba(196, 46, 189, 0.5);
+}
+.others {
+    --color-forex: rgba(119, 119, 119, 0.5);
+}

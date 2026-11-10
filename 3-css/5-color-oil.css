@@ -1,0 +1,42 @@
+/* ============================== oil */
+.oil-0001,
+.oil-0050,
+.oil-0100,
+.oil-0500,
+.oil-1000,
+.oil-2500,
+.oil-5000,
+.oil-max {
+    stroke: var(--color-background);
+    stroke-width: var(--size-stroke);
+    fill: var(--oil-color);
+    background-color: var(--oil-color);
+
+    padding: var(--size-gap);
+    border-radius: var(--size-radius);
+    cursor: pointer;
+}
+.oil-0001 {
+    --oil-color: rgba(102, 65, 235, 0.1);
+}
+.oil-0050 {
+    --oil-color: rgba(102, 65, 235, 0.3);
+}
+.oil-0100 {
+    --oil-color: rgba(102, 65, 235, 0.4);
+}
+.oil-0500 {
+    --oil-color: rgba(102, 65, 235, 0.5);
+}
+.oil-1000 {
+    --oil-color: rgba(102, 65, 235, 0.6);
+}
+.oil-2500 {
+    --oil-color: rgba(102, 65, 235, 0.7);
+}
+.oil-5000 {
+    --oil-color: rgba(102, 65, 235, 0.9);
+}
+.oil-max {
+    --oil-color: rgba(102, 65, 235, 1);
+}

@@ -1,0 +1,40 @@
+/* ============================== Châu Lục */
+.châu-phi,
+.châu-mỹ,
+.châu-âu,
+.châu-á,
+.châu-đại-dương,
+.châu-nam-cực {
+    color: var(--color-background);
+    stroke: var(--color-background);
+    stroke-width: var(--size-stroke);
+    fill: var(--zone-color);
+    background-color: var(--zone-color);
+
+    padding: var(--size-gap);
+    border-radius: var(--size-radius);
+    cursor: pointer;
+}
+.châu-phi {
+    --zone-color: rgb(138, 185, 99);
+}
+
+.châu-mỹ {
+    --zone-color: rgb(127, 117, 173);
+}
+
+.châu-âu {
+    --zone-color: rgb(172, 151, 61);
+}
+
+.châu-á {
+    --zone-color: rgb(172, 83, 83);
+}
+
+.châu-đại-dương {
+    --zone-color: rgb(84, 123, 173);
+}
+
+.châu-nam-cực {
+    --zone-color: rgb(141, 140, 140);
+}

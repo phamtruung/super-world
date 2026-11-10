@@ -32,6 +32,16 @@
 .text {
     color: var(--color-foreground);
 }
+.value {
+    background-color: var(--color-alpha);
+    padding: var(--size-gap);
+    border-radius: var(--size-radius);
+    flex: 1;
+}
+.unit {
+    color: var(--color-foreground);
+    text-align: right;
+}
 
 /* ============================================ Input */
 .input {

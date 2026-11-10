@@ -1,0 +1,50 @@
+/* ============================== gdpperson */
+.gdpperson-001000,
+.gdpperson-002500,
+.gdpperson-005000,
+.gdpperson-007500,
+.gdpperson-010000,
+.gdpperson-025000,
+.gdpperson-050000,
+.gdpperson-075000,
+.gdpperson-100000,
+.gdpperson-max {
+    stroke: var(--color-background);
+    stroke-width: var(--size-stroke);
+    fill: var(--ppp-color);
+    background-color: var(--ppp-color);
+
+    padding: var(--size-gap);
+    border-radius: var(--size-radius);
+    cursor: pointer;
+}
+.gdpperson-001000 {
+    --ppp-color: rgba(142, 20, 167, 0.1);
+}
+.gdpperson-002500 {
+    --ppp-color: rgba(142, 20, 167, 0.2);
+}
+.gdpperson-005000 {
+    --ppp-color: rgba(142, 20, 167, 0.3);
+}
+.gdpperson-007500 {
+    --ppp-color: rgba(142, 20, 167, 0.4);
+}
+.gdpperson-010000 {
+    --ppp-color: rgba(142, 20, 167, 0.5);
+}
+.gdpperson-025000 {
+    --ppp-color: rgba(142, 20, 167, 0.6);
+}
+.gdpperson-050000 {
+    --ppp-color: rgba(142, 20, 167, 0.7);
+}
+.gdpperson-075000 {
+    --ppp-color: rgba(142, 20, 167, 0.8);
+}
+.gdpperson-100000 {
+    --ppp-color: rgba(142, 20, 167, 0.9);
+}
+.gdpperson-max {
+    --ppp-color: rgba(142, 20, 167, 1);
+}

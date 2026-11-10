@@ -1,0 +1,142 @@
+/* ============================== gold_geological */
+.gold_geological-0001,
+.gold_geological-0025,
+.gold_geological-0050,
+.gold_geological-0100,
+.gold_geological-0250,
+.gold_geological-0500,
+.gold_geological-1000,
+.gold_geological-2500,
+.gold_geological-5000,
+.gold_geological-max {
+    stroke: var(--color-background);
+    stroke-width: var(--size-stroke);
+    fill: var(--color-gold-geological);
+    background-color: var(--color-gold-geological);
+
+    padding: var(--size-gap);
+    border-radius: var(--size-radius);
+    cursor: pointer;
+}
+.gold_geological-0001 {
+    --color-gold-geological: rgba(250, 150, 0, 0.1);
+}
+.gold_geological-0025 {
+    --color-gold-geological: rgba(250, 150, 0, 0.2);
+}
+.gold_geological-0050 {
+    --color-gold-geological: rgba(250, 150, 0, 0.3);
+}
+.gold_geological-0100 {
+    --color-gold-geological: rgba(250, 150, 0, 0.4);
+}
+.gold_geological-0250 {
+    --color-gold-geological: rgba(250, 150, 0, 0.5);
+}
+.gold_geological-0500 {
+    --color-gold-geological: rgba(250, 150, 0, 0.6);
+}
+.gold_geological-1000 {
+    --color-gold-geological: rgba(250, 150, 0, 0.7);
+}
+.gold_geological-2500 {
+    --color-gold-geological: rgba(250, 150, 0, 0.8);
+}
+.gold_geological-5000 {
+    --color-gold-geological: rgba(250, 150, 0, 0.9);
+}
+.gold_geological-max {
+    --color-gold-geological: rgba(250, 150, 0, 1);
+}
+/* ============================== gold_bank */
+.gold_bank-0001,
+.gold_bank-0025,
+.gold_bank-0050,
+.gold_bank-0100,
+.gold_bank-0250,
+.gold_bank-0500,
+.gold_bank-1000,
+.gold_bank-max {
+    stroke: var(--color-background);
+    stroke-width: var(--size-stroke);
+    fill: var(--color-gold_bank);
+    background-color: var(--color-gold_bank);
+
+    padding: var(--size-gap);
+    border-radius: var(--size-radius);
+    cursor: pointer;
+}
+.gold_bank-0001 {
+    --color-gold_bank: rgba(253, 150, 0, 0.1);
+}
+.gold_bank-0025 {
+    --color-gold_bank: rgba(253, 150, 0, 0.2);
+}
+.gold_bank-0050 {
+    --color-gold_bank: rgba(253, 150, 0, 0.3);
+}
+.gold_bank-0100 {
+    --color-gold_bank: rgba(253, 150, 0, 0.4);
+}
+.gold_bank-0250 {
+    --color-gold_bank: rgba(253, 150, 0, 0.5);
+}
+.gold_bank-0500 {
+    --color-gold_bank: rgba(253, 150, 0, 0.6);
+}
+.gold_bank-1000 {
+    --color-gold_bank: rgba(253, 150, 0, 0.7);
+}
+.gold_bank-max {
+    --color-gold_bank: rgba(253, 150, 0, 1);
+}
+/* ============================== goldtotal */
+.goldtotal-0001,
+.goldtotal-0050,
+.goldtotal-0100,
+.goldtotal-0250,
+.goldtotal-0500,
+.goldtotal-1000,
+.goldtotal-2500,
+.goldtotal-5000,
+.goldtotal-7500,
+.goldtotal-max {
+    stroke: var(--color-background);
+    stroke-width: var(--size-stroke);
+    fill: var(--color-gold_total);
+    background-color: var(--color-gold_total);
+
+    padding: var(--size-gap);
+    border-radius: var(--size-radius);
+    cursor: pointer;
+}
+.goldtotal-0001 {
+    --color-gold_total: rgba(253, 80, 0, 0.1);
+}
+.goldtotal-0050 {
+    --color-gold_total: rgba(253, 80, 0, 0.2);
+}
+.goldtotal-0100 {
+    --color-gold_total: rgba(253, 80, 0, 0.3);
+}
+.goldtotal-0250 {
+    --color-gold_total: rgba(253, 80, 0, 0.4);
+}
+.goldtotal-0500 {
+    --color-gold_total: rgba(253, 80, 0, 0.5);
+}
+.goldtotal-1000 {
+    --color-gold_total: rgba(253, 80, 0, 0.6);
+}
+.goldtotal-2500 {
+    --color-gold_total: rgba(253, 80, 0, 0.7);
+}
+.goldtotal-5000 {
+    --color-gold_total: rgba(253, 80, 0, 0.8);
+}
+.goldtotal-7500 {
+    --color-gold_total: rgba(253, 80, 0, 0.9);
+}
+.goldtotal-max {
+    --color-gold_total: rgb(253, 80, 0);
+}
