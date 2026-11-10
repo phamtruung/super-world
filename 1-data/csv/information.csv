@@ -1,251 +1,251 @@
-﻿id,name,iso3,iso2,capital,currency,currency_name,population,gdp,region,subregion,chau_luc,area_sq_km,the_che,government_form
-1,Afghanistan,AFG,AF,Kabul,AFN,Afghan afghani,43844000,17778508880,Asia,Southern Asia,Châu Á,647500,Cộng hòa tổng thống,Presidential Republic
-2,Aland Islands,ALA,AX,Mariehamn,EUR,Euro,30654,1300000000,Europe,Northern Europe,Châu Âu,1580,Lãnh thổ phụ thuộc,Dependent
-3,Albania,ALB,AL,Tirana,ALL,Albanian lek,2363314,30540188271.3421,Europe,Southern Europe,Châu Âu,28748,Cộng hòa nghị viện,Parliamentary Republic
-4,Algeria,DZA,DZ,Algiers,DZD,Algerian dinar,47400000,287031225987.736,Africa,Northern Africa,Châu Phi,2381740,Cộng hòa tổng thống,Presidential Republic
-5,American Samoa,ASM,AS,Pago Pago,USD,United States dollar,49710,871000000,Oceania,Polynesia,Châu Đại Dương,199,Lãnh thổ phụ thuộc,Dependent
-6,Andorra,AND,AD,Andorra la Vella,EUR,Euro,88306,4500982731.80784,Europe,Southern Europe,Châu Âu,468,Quân chủ,Monarchy
-7,Angola,AGO,AO,Luanda,AOA,Angolan kwanza,36170961,122174889423.635,Africa,Middle Africa,Châu Phi,1246700,Cộng hòa tổng thống,Presidential Republic
-8,Anguilla,AIA,AI,The Valley,XCD,Eastern Caribbean dollar,16010,415735284,Americas,Caribbean,Châu Mỹ,102,Lãnh thổ phụ thuộc,Dependent
-9,Antarctica,ATA,AQ,,AAD,Antarctican dollar,2000,0,Polar,,Châu Nam Cực,14000000,Lãnh thổ phụ thuộc,Dependent
-10,Antigua and Barbuda,ATG,AG,St. John's,XCD,Eastern Caribbean dollar,103603,2338196296.2963,Americas,Caribbean,Châu Mỹ,443,Quân chủ,Monarchy
-11,Argentina,ARG,AR,Buenos Aires,ARS,Argentine peso,46735004,683097891618.597,Americas,South America,Châu Mỹ,2766890,Cộng hòa tổng thống,Presidential Republic
-12,Armenia,ARM,AM,Yerevan,AMD,Armenian dram,3081100,29243452882.3545,Asia,Western Asia,Châu Á,29800,Cộng hòa nghị viện,Parliamentary Republic
-13,Aruba,ABW,AW,Oranjestad,AWG,Aruban florin,107566,4167588070,Americas,Caribbean,Châu Mỹ,193,Lãnh thổ phụ thuộc,Dependent
-14,Australia,AUS,AU,Canberra,AUD,Australian dollar,27400013,1798518933689.21,Oceania,Australia and New Zealand,Châu Đại Dương,7686850,Quân chủ,Monarchy
-15,Austria,AUT,AT,Vienna,EUR,Euro,9200931,579470021095.418,Europe,Western Europe,Châu Âu,83858,Cộng hòa nghị viện,Parliamentary Republic
-16,Azerbaijan,AZE,AZ,Baku,AZN,Azerbaijani manat,10241722,75937647058.8235,Asia,Western Asia,Châu Á,86600,Cộng hòa tổng thống,Presidential Republic
-17,The Bahamas,BHS,BS,Nassau,BSD,Bahamian dollar,398165,14390000000,Americas,Caribbean,Châu Mỹ,13940,Quân chủ,Monarchy
-18,Bahrain,BHR,BH,Manama,BHD,Bahraini dinar,1594654,48965725531.9149,Asia,Western Asia,Châu Á,665,Quân chủ,Monarchy
-19,Bangladesh,BGD,BD,Dhaka,BDT,Bangladeshi taka,169828911,456319229255.578,Asia,Southern Asia,Châu Á,144000,Cộng hòa nghị viện,Parliamentary Republic
-20,Barbados,BRB,BB,Bridgetown,BBD,Barbadian dollar,267800,8016550000,Americas,Caribbean,Châu Mỹ,431,Cộng hòa nghị viện,Parliamentary Republic
-21,Belarus,BLR,BY,Minsk,BYN,Belarusian ruble,9109280,93397215864.198,Europe,Eastern Europe,Châu Âu,207600,Cộng hòa tổng thống,Presidential Republic
-22,Belgium,BEL,BE,Brussels,EUR,Euro,11825551,725466462859.646,Europe,Western Europe,Châu Âu,30510,Quân chủ,Monarchy
-23,Belize,BLZ,BZ,Belmopan,BZD,Belize dollar,417634,3326500000,Americas,Central America,Châu Mỹ,22966,Quân chủ,Monarchy
-24,Benin,BEN,BJ,Porto-Novo,XOF,West African CFA franc,13224860,24566420903.5337,Africa,Western Africa,Châu Phi,112620,Cộng hòa tổng thống,Presidential Republic
-25,Bermuda,BMU,BM,Hamilton,BMD,Bermudian dollar,64055,9194499000,Americas,Northern America,Châu Mỹ,53,Lãnh thổ phụ thuộc,Dependent
-26,Bhutan,BTN,BT,Thimphu,BTN,Bhutanese ngultrum,784043,3579320145.13077,Asia,Southern Asia,Châu Á,47000,Quân chủ,Monarchy
-27,Bolivia,BOL,BO,Sucre,BOB,Bolivian boliviano,11312620,64768947525.3256,Americas,South America,Châu Mỹ,1098580,Cộng hòa tổng thống,Presidential Republic
-28,Bosnia and Herzegovina,BIH,BA,Sarajevo,BAM,Bosnia and Herzegovina convertible mark,3422000,32599982936.3931,Europe,Southern Europe,Châu Âu,51129,Cộng hòa nghị viện,Parliamentary Republic
-29,Botswana,BWA,BW,Gaborone,BWP,Botswana pula,2359609,19928479839.4476,Africa,Southern Africa,Châu Phi,600370,Cộng hòa nghị viện,Parliamentary Republic
-30,Bouvet Island,BVT,BV,,NOK,Norwegian krone,0,0,Polar,,Châu Nam Cực,49,Lãnh thổ phụ thuộc,Dependent
-31,Brazil,BRA,BR,Brasilia,BRL,Brazilian real,213421037,2279920092492.13,Americas,South America,Châu Mỹ,8511965,Cộng hòa tổng thống,Presidential Republic
-32,British Indian Ocean Territory,IOT,IO,Diego Garcia,USD,United States dollar,3000,0,Africa,Eastern Africa,Châu Phi,60,Lãnh thổ phụ thuộc,Dependent
-33,Brunei,BRN,BN,Bandar Seri Begawan,BND,Brunei dollar,455500,15031980994.1121,Asia,South-Eastern Asia,Châu Á,5770,Quân chủ,Monarchy
-34,Bulgaria,BGR,BG,Sofia,EUR,Euro,6437360,130777235529.606,Europe,Eastern Europe,Châu Âu,110910,Cộng hòa nghị viện,Parliamentary Republic
-35,Burkina Faso,BFA,BF,Ouagadougou,XOF,West African CFA franc,24070553,27627297461.3181,Africa,Western Africa,Châu Phi,274200,Cộng hòa tổng thống,Presidential Republic
-36,Burundi,BDI,BI,Gitega,BIF,Burundian franc,12332788,3364713864.08488,Africa,Eastern Africa,Châu Phi,27830,Cộng hòa tổng thống,Presidential Republic
-37,Cambodia,KHM,KH,Phnom Penh,KHR,Cambodian riel,17577760,51267065842.9641,Asia,South-Eastern Asia,Châu Á,181040,Quân chủ,Monarchy
-38,Cameroon,CMR,CM,Yaounde,XAF,Central African CFA franc,29442327,58933453923.761,Africa,Middle Africa,Châu Phi,475440,Cộng hòa tổng thống,Presidential Republic
-39,Canada,CAN,CA,Ottawa,CAD,Canadian dollar,41548787,2319899772425.92,Americas,Northern America,Châu Mỹ,9984670,Quân chủ,Monarchy
-40,Cape Verde,CPV,CV,Praia,CVE,Cape Verdean escudo,491233,3056630435.32463,Africa,Western Africa,Châu Phi,4033,Cộng hòa tổng thống,Presidential Republic
-41,Cayman Islands,CYM,KY,George Town,KYD,Cayman Islands dollar,84738,7765336505,Americas,Caribbean,Châu Mỹ,262,Lãnh thổ phụ thuộc,Dependent
-42,Central African Republic,CAF,CF,Bangui,XAF,Central African CFA franc,6470307,3066109226.40165,Africa,Middle Africa,Châu Phi,622984,Cộng hòa tổng thống,Presidential Republic
-43,Chad,TCD,TD,N'Djamena,XAF,Central African CFA franc,19340757,21472835225.4338,Africa,Middle Africa,Châu Phi,1284000,Cộng hòa tổng thống,Presidential Republic
-44,Chile,CHL,CL,Santiago,CLP,Chilean peso,20206953,357371159574.862,Americas,South America,Châu Mỹ,756950,Cộng hòa tổng thống,Presidential Republic
-45,China,CHN,CN,Beijing,CNY,Chinese yuan,1408280000,19498039388042.6,Asia,Eastern Asia,Châu Á,9596960,Cộng hòa xã hội chủ nghĩa,Socialist Republic
-46,Christmas Island,CXR,CX,Flying Fish Cove,AUD,Australian dollar,1692,125500000,Oceania,Australia and New Zealand,Châu Đại Dương,135,Lãnh thổ phụ thuộc,Dependent
-47,Cocos (Keeling) Islands,CCK,CC,West Island,AUD,Australian dollar,593,59380000,Oceania,Australia and New Zealand,Châu Đại Dương,14,Lãnh thổ phụ thuộc,Dependent
-48,Colombia,COL,CO,Bogotá,COP,Colombian peso,53057212,457410034202.523,Americas,South America,Châu Mỹ,1138910,Cộng hòa tổng thống,Presidential Republic
-49,Comoros,COM,KM,Moroni,KMF,Comorian franc,870038,1814920856.27026,Africa,Eastern Africa,Châu Phi,2170,Cộng hòa tổng thống,Presidential Republic
-50,Congo,COG,CG,Brazzaville,XAF,Central African CFA franc,6142180,16306633778.765,Africa,Middle Africa,Châu Phi,342000,Cộng hòa tổng thống,Presidential Republic
-51,Democratic Republic of the Congo,COD,CD,Kinshasa,CDF,Congolese Franc,112832000,91030531316.9936,Africa,Middle Africa,Châu Phi,2345410,Cộng hòa tổng thống,Presidential Republic
-52,Cook Islands,COK,CK,Avarua,NZD,New Zealand dollar,15040,300000000,Oceania,Polynesia,Châu Đại Dương,240,Cộng hòa tổng thống,Presidential Republic
-53,Costa Rica,CRI,CR,San Jose,CRC,Costa Rican colón,5309625,102904921157.478,Americas,Central America,Châu Mỹ,51100,Cộng hòa tổng thống,Presidential Republic
-54,Ivory Coast,CIV,CI,Yamoussoukro,XOF,West African CFA franc,29389150,99773555666.1988,Africa,Western Africa,Châu Phi,322460,Cộng hòa tổng thống,Presidential Republic
-55,Croatia,HRV,HR,Zagreb,EUR,Euro,3866233,105060182186.274,Europe,Southern Europe,Châu Âu,56542,Cộng hòa nghị viện,Parliamentary Republic
-56,Cuba,CUB,CU,Havana,CUP,Cuban peso,9748007,1.07352E+11,Americas,Caribbean,Châu Mỹ,110860,Cộng hòa xã hội chủ nghĩa,Socialist Republic
-57,Cyprus,CYP,CY,Nicosia,EUR,Euro,966400,41225787247.3309,Europe,Southern Europe,Châu Âu,9250,Cộng hòa tổng thống,Presidential Republic
-58,Czech Republic,CZE,CZ,Prague,CZK,Czech koruna,10876875,391026962800.475,Europe,Eastern Europe,Châu Âu,78866,Cộng hòa nghị viện,Parliamentary Republic
-59,Denmark,DNK,DK,Copenhagen,DKK,Danish krone,6004342,462526660468.393,Europe,Northern Europe,Châu Âu,43094,Quân chủ,Monarchy
-60,Djibouti,DJI,DJ,Djibouti,DJF,Djiboutian franc,1066809,4624533092.31886,Africa,Eastern Africa,Châu Phi,23000,Cộng hòa tổng thống,Presidential Republic
-61,Dominica,DMA,DM,Roseau,XCD,Eastern Caribbean dollar,67408,723859259.259259,Americas,Caribbean,Châu Mỹ,754,Cộng hòa nghị viện,Parliamentary Republic
-62,Dominican Republic,DOM,DO,Santo Domingo,DOP,Dominican peso,10771504,127407463759.043,Americas,Caribbean,Châu Mỹ,48730,Cộng hòa tổng thống,Presidential Republic
-63,Timor-Leste,TLS,TL,Dili,USD,United States dollar,1391221,1902180257.82737,Asia,South-Eastern Asia,Châu Á,15007,Cộng hòa tổng thống,Presidential Republic
-64,Ecuador,ECU,EC,Quito,USD,United States dollar,18103660,1.30321E+11,Americas,South America,Châu Mỹ,283560,Cộng hòa tổng thống,Presidential Republic
-65,Egypt,EGY,EG,Cairo,EGP,Egyptian pound,107271260,365254630179.737,Africa,Northern Africa,Châu Phi,1001450,Cộng hòa tổng thống,Presidential Republic
-66,El Salvador,SLV,SV,San Salvador,USD,United States dollar,6029976,36708110000,Americas,Central America,Châu Mỹ,21040,Cộng hòa tổng thống,Presidential Republic
-67,Equatorial Guinea,GNQ,GQ,Malabo,XAF,Central African CFA franc,1668768,12823210425.9217,Africa,Middle Africa,Châu Phi,28051,Cộng hòa tổng thống,Presidential Republic
-68,Eritrea,ERI,ER,Asmara,ERN,Eritrean nakfa,3607000,2065001626,Africa,Eastern Africa,Châu Phi,121320,Cộng hòa tổng thống,Presidential Republic
-69,Estonia,EST,EE,Tallinn,EUR,Euro,1369995,47030833798.5866,Europe,Northern Europe,Châu Âu,45226,Cộng hòa nghị viện,Parliamentary Republic
-70,Ethiopia,ETH,ET,Addis Ababa,ETB,Ethiopian birr,111652998,126358758448.356,Africa,Eastern Africa,Châu Phi,1127127,Cộng hòa nghị viện,Parliamentary Republic
-71,Falkland Islands,FLK,FK,Stanley,FKP,Falkland Islands pound,3662,319800000,Americas,South America,Châu Mỹ,12173,Lãnh thổ phụ thuộc,Dependent
-72,Faroe Islands,FRO,FO,Torshavn,DKK,Danish krone,55146,4052940000,Europe,Northern Europe,Châu Âu,1399,Lãnh thổ phụ thuộc,Dependent
-73,Fiji Islands,FJI,FJ,Suva,FJD,Fijian dollar,900869,6198013062.06553,Oceania,Melanesia,Châu Đại Dương,18270,Cộng hòa tổng thống,Presidential Republic
-74,Finland,FIN,FI,Helsinki,EUR,Euro,5645651,317039368819.607,Europe,Northern Europe,Châu Âu,337030,Cộng hòa nghị viện,Parliamentary Republic
-75,France,FRA,FR,Paris,EUR,Euro,68688000,3366315927447.33,Europe,Western Europe,Châu Âu,547030,Cộng hòa tổng thống,Presidential Republic
-76,French Guiana,GUF,GF,Cayenne,EUR,Euro,292354,5500000000,Americas,South America,Châu Mỹ,91000,Lãnh thổ phụ thuộc,Dependent
-77,French Polynesia,PYF,PF,Papeete,XPF,CFP franc,279500,6323716355,Oceania,Polynesia,Châu Đại Dương,4167,Lãnh thổ phụ thuộc,Dependent
-78,French Southern Territories,ATF,TF,Port-aux-Francais,EUR,Euro,230,0,Africa,Southern Africa,Châu Phi,7829,Lãnh thổ phụ thuộc,Dependent
-79,Gabon,GAB,GA,Libreville,XAF,Central African CFA franc,2469296,21427119323.2764,Africa,Middle Africa,Châu Phi,267667,Cộng hòa tổng thống,Presidential Republic
-80,The Gambia,GMB,GM,Banjul,GMD,Gambian dalasi,2422712,2593673987.53306,Africa,Western Africa,Châu Phi,11300,Cộng hòa tổng thống,Presidential Republic
-81,Georgia,GEO,GE,Tbilisi,GEL,Georgian lari,3704500,38143612855.1367,Asia,Western Asia,Châu Á,69700,Cộng hòa nghị viện,Parliamentary Republic
-82,Germany,DEU,DE,Berlin,EUR,Euro,83517030,5050922925047.05,Europe,Western Europe,Châu Âu,357021,Cộng hòa nghị viện,Parliamentary Republic
-83,Ghana,GHA,GH,Accra,GHS,Ghanaian cedi,33742380,114209905278.717,Africa,Western Africa,Châu Phi,239460,Cộng hòa tổng thống,Presidential Republic
-84,Gibraltar,GIB,GI,Gibraltar,GIP,Gibraltar pound,38000,3253000000,Europe,Southern Europe,Châu Âu,6,Lãnh thổ phụ thuộc,Dependent
-85,Greece,GRC,GR,Athens,EUR,Euro,10400720,280635521324.441,Europe,Southern Europe,Châu Âu,131940,Cộng hòa nghị viện,Parliamentary Republic
-86,Greenland,GRL,GL,Nuuk,DKK,Danish krone,56542,3326543974,Americas,Northern America,Châu Mỹ,2166086,Lãnh thổ phụ thuộc,Dependent
-87,Grenada,GRD,GD,St. George's,XCD,Eastern Caribbean dollar,109021,1420173228.56948,Americas,Caribbean,Châu Mỹ,344,Quân chủ,Monarchy
-88,Guadeloupe,GLP,GP,Basse-Terre,EUR,Euro,373791,10670000000,Americas,Caribbean,Châu Mỹ,1780,Lãnh thổ phụ thuộc,Dependent
-89,Guam,GUM,GU,Hagatna,USD,United States dollar,153836,6910000000,Oceania,Micronesia,Châu Đại Dương,549,Lãnh thổ phụ thuộc,Dependent
-90,Guatemala,GTM,GT,Guatemala City,GTQ,Guatemalan quetzal,18079810,123306008821.471,Americas,Central America,Châu Mỹ,108890,Cộng hòa tổng thống,Presidential Republic
-91,Guernsey,GGY,GG,St Peter Port,GBP,British pound,64781,3488000000,Europe,Northern Europe,Châu Âu,78,Lãnh thổ phụ thuộc,Dependent
-92,Guinea,GIN,GN,Conakry,GNF,Guinean franc,14363931,28346024753.2924,Africa,Western Africa,Châu Phi,245857,Cộng hòa tổng thống,Presidential Republic
-93,Guinea-Bissau,GNB,GW,Bissau,XOF,West African CFA franc,1781308,2527930272.92988,Africa,Western Africa,Châu Phi,36120,Cộng hòa tổng thống,Presidential Republic
-94,Guyana,GUY,GY,Georgetown,GYD,Guyanese dollar,772975,27097477218.2254,Americas,South America,Châu Mỹ,214970,Cộng hòa tổng thống,Presidential Republic
-95,Haiti,HTI,HT,Port-au-Prince,HTG,Haitian gourde,11867032,32077278409.2339,Americas,Caribbean,Châu Mỹ,27750,Cộng hòa tổng thống,Presidential Republic
-96,Heard Island and McDonald Islands,HMD,HM,,AUD,Australian dollar,0,0,Polar,,Châu Nam Cực,412,Lãnh thổ phụ thuộc,Dependent
-97,Honduras,HND,HN,Tegucigalpa,HNL,Honduran lempira,9892632,39601409103.3005,Americas,Central America,Châu Mỹ,112090,Cộng hòa tổng thống,Presidential Republic
-98,Hong Kong S.A.R.,HKG,HK,Hong Kong,HKD,Hong Kong dollar,7527500,427310315921.993,Asia,Eastern Asia,Châu Á,1092,Cộng hòa tổng thống,Presidential Republic
-99,Hungary,HUN,HU,Budapest,HUF,Hungarian forint,9539502,246490213513.054,Europe,Eastern Europe,Châu Âu,93030,Cộng hòa nghị viện,Parliamentary Republic
-100,Iceland,ISL,IS,Reykjavik,ISK,Icelandic króna,391810,38582528789.0033,Europe,Northern Europe,Châu Âu,103000,Cộng hòa nghị viện,Parliamentary Republic
-101,India,IND,IN,New Delhi,INR,Indian rupee,1417492000,3956067115771.63,Asia,Southern Asia,Châu Á,3287590,Cộng hòa nghị viện,Parliamentary Republic
-102,Indonesia,IDN,ID,Jakarta,IDR,Indonesian rupiah,284438782,1445642584163.81,Asia,South-Eastern Asia,Châu Á,1919440,Cộng hòa tổng thống,Presidential Republic
-103,Iran,IRN,IR,Tehran,IRR,Iranian rial,85961000,362682115433.364,Asia,Southern Asia,Châu Á,1648000,Cộng hòa tổng thống,Presidential Republic
-104,Iraq,IRQ,IQ,Baghdad,IQD,Iraqi dinar,46118793,254367293538.462,Asia,Western Asia,Châu Á,437072,Cộng hòa nghị viện,Parliamentary Republic
-105,Ireland,IRL,IE,Dublin,EUR,Euro,5458600,721701359046.313,Europe,Northern Europe,Châu Âu,70280,Cộng hòa nghị viện,Parliamentary Republic
-106,Israel,ISR,IL,Jerusalem,ILS,Israeli new shekel,10119400,610777842873.595,Asia,Western Asia,Châu Á,20770,Cộng hòa nghị viện,Parliamentary Republic
-107,Italy,ITA,IT,Rome,EUR,Euro,58919230,2551556954100.35,Europe,Southern Europe,Châu Âu,301230,Cộng hòa nghị viện,Parliamentary Republic
-108,Jamaica,JAM,JM,Kingston,JMD,Jamaican dollar,2825544,22704903217.5631,Americas,Caribbean,Châu Mỹ,10991,Quân chủ,Monarchy
-109,Japan,JPN,JP,Tokyo,JPY,Japanese yen,123300000,4435162999976.94,Asia,Eastern Asia,Châu Á,377835,Quân chủ,Monarchy
-110,Jersey,JEY,JE,Saint Helier,GBP,British pound,103267,9320000000,Europe,Northern Europe,Châu Âu,116,Lãnh thổ phụ thuộc,Dependent
-111,Jordan,JOR,JO,Amman,JOD,Jordanian dinar,11734000,61610052535.2113,Asia,Western Asia,Châu Á,92300,Quân chủ,Monarchy
-112,Kazakhstan,KAZ,KZ,Astana,KZT,Kazakhstani tenge,20407844,306239209650.024,Asia,Central Asia,Châu Á,2717300,Cộng hòa tổng thống,Presidential Republic
-113,Kenya,KEN,KE,Nairobi,KES,Kenyan shilling,53330978,135941278878.815,Africa,Eastern Africa,Châu Phi,582650,Cộng hòa tổng thống,Presidential Republic
-114,Kiribati,KIR,KI,Tarawa,AUD,Australian dollar,120740,349227254.158833,Oceania,Micronesia,Châu Đại Dương,811,Cộng hòa tổng thống,Presidential Republic
-115,North Korea,PRK,KP,Pyongyang,KPW,North Korean Won,25950000,26600000000,Asia,Eastern Asia,Châu Á,120540,Cộng hòa xã hội chủ nghĩa,Socialist Republic
-116,South Korea,KOR,KR,Seoul,KRW,Won,51159889,1872374961553.15,Asia,Eastern Asia,Châu Á,98480,Cộng hòa tổng thống,Presidential Republic
-117,Kuwait,KWT,KW,Kuwait City,KWD,Kuwaiti dinar,4881254,157209026926.418,Asia,Western Asia,Châu Á,17820,Quân chủ,Monarchy
-118,Kyrgyzstan,KGZ,KG,Bishkek,KGS,Kyrgyzstani som,7281800,22623752095.4613,Asia,Central Asia,Châu Á,198500,Cộng hòa tổng thống,Presidential Republic
-119,Laos,LAO,LA,Vientiane,LAK,Lao kip,7647000,18302970218.5902,Asia,South-Eastern Asia,Châu Á,236800,Cộng hòa xã hội chủ nghĩa,Socialist Republic
-120,Latvia,LVA,LV,Riga,EUR,Euro,1830400,48618869160.3254,Europe,Northern Europe,Châu Âu,64589,Cộng hòa nghị viện,Parliamentary Republic
-121,Lebanon,LBN,LB,Beirut,LBP,Lebanese pound,5490000,30468000000,Asia,Western Asia,Châu Á,10400,Cộng hòa nghị viện,Parliamentary Republic
-122,Lesotho,LSO,LS,Maseru,LSL,Lesotho loti,2116427,2573572920.05159,Africa,Southern Africa,Châu Phi,30355,Quân chủ,Monarchy
-123,Liberia,LBR,LR,Monrovia,LRD,Liberian dollar,5248621,5245938900,Africa,Western Africa,Châu Phi,111370,Cộng hòa tổng thống,Presidential Republic
-124,Libya,LBY,LY,Tripolis,LYD,Libyan dinar,7459000,48098909613.6316,Africa,Northern Africa,Châu Phi,1759540,Cộng hòa tổng thống,Presidential Republic
-125,Liechtenstein,LIE,LI,Vaduz,CHF,Swiss franc,40900,8905764270,Europe,Western Europe,Châu Âu,160,Quân chủ,Monarchy
-126,Lithuania,LTU,LT,Vilnius,EUR,Euro,2894548,95210150818.3512,Europe,Northern Europe,Châu Âu,65200,Cộng hòa tổng thống,Presidential Republic
-127,Luxembourg,LUX,LU,Luxembourg,EUR,Euro,681973,101157829491.107,Europe,Western Europe,Châu Âu,2586,Quân chủ,Monarchy
-128,Macau S.A.R.,MAC,MO,Macao,MOP,Macanese pataca,685900,52061007670.169,Asia,Eastern Asia,Châu Á,254,Cộng hòa tổng thống,Presidential Republic
-129,North Macedonia,MKD,MK,Skopje,MKD,Denar,1826247,19101199817.0174,Europe,Southern Europe,Châu Âu,25333,Cộng hòa nghị viện,Parliamentary Republic
-130,Madagascar,MDG,MG,Antananarivo,MGA,Malagasy ariary,31727042,19620352035.7899,Africa,Eastern Africa,Châu Phi,587040,Cộng hòa tổng thống,Presidential Republic
-131,Malawi,MWI,MW,Lilongwe,MWK,Malawian kwacha,20734262,14918276698.303,Africa,Eastern Africa,Châu Phi,118480,Cộng hòa tổng thống,Presidential Republic
-132,Malaysia,MYS,MY,Kuala Lumpur,MYR,Malaysian ringgit,34231700,472193128644.597,Asia,South-Eastern Asia,Châu Á,329750,Quân chủ,Monarchy
-133,Maldives,MDV,MV,Male,MVR,Maldivian rufiyaa,515132,7741066860.6337,Asia,Southern Asia,Châu Á,300,Cộng hòa tổng thống,Presidential Republic
-134,Mali,MLI,ML,Bamako,XOF,West African CFA franc,22395489,30069148580.7688,Africa,Western Africa,Châu Phi,1240000,Cộng hòa tổng thống,Presidential Republic
-135,Malta,MLT,MT,Valletta,EUR,Euro,574250,27771821560.9411,Europe,Southern Europe,Châu Âu,316,Cộng hòa nghị viện,Parliamentary Republic
-136,Man (Isle of),IMN,IM,Douglas Isle of Man,GBP,British pound,84530,7576129933,Europe,Northern Europe,Châu Âu,572,Cộng hòa tổng thống,Presidential Republic
-137,Marshall Islands,MHL,MH,Majuro,USD,United States dollar,42418,308000000,Oceania,Micronesia,Châu Đại Dương,181,Cộng hòa tổng thống,Presidential Republic
-138,Martinique,MTQ,MQ,Fort-de-France,EUR,Euro,339897,10450000000,Americas,Caribbean,Châu Mỹ,1100,Lãnh thổ phụ thuộc,Dependent
-139,Mauritania,MRT,MR,Nouakchott,MRU,Mauritanian ouguiya,4927532,11679910946.4371,Africa,Western Africa,Châu Phi,1030700,Cộng hòa tổng thống,Presidential Republic
-140,Mauritius,MUS,MU,Port Louis,MUR,Mauritian rupee,1243741,16157804491.7614,Africa,Eastern Africa,Châu Phi,2040,Cộng hòa nghị viện,Parliamentary Republic
-141,Mayotte,MYT,YT,Mamoudzou,EUR,Euro,337011,324400000,Africa,Eastern Africa,Châu Phi,374,Lãnh thổ phụ thuộc,Dependent
-142,Mexico,MEX,MX,Ciudad de México,MXN,Mexican peso,130575786,1832641364775.52,Americas,Northern America,Châu Mỹ,1972550,Cộng hòa tổng thống,Presidential Republic
-143,Micronesia,FSM,FM,Palikir,USD,United States dollar,105564,501797600,Oceania,Micronesia,Châu Đại Dương,702,Cộng hòa tổng thống,Presidential Republic
-144,Moldova,MDA,MD,Chisinau,MDL,Moldovan leu,2381300,20351796275.2943,Europe,Eastern Europe,Châu Âu,33843,Cộng hòa nghị viện,Parliamentary Republic
-145,Monaco,MCO,MC,Monaco,EUR,Euro,38423,11125788838,Europe,Western Europe,Châu Âu,1,Quân chủ,Monarchy
-146,Mongolia,MNG,MN,Ulan Bator,MNT,Mongolian tögrög,3544835,25369107325.4549,Asia,Eastern Asia,Châu Á,1565000,Cộng hòa tổng thống,Presidential Republic
-147,Montenegro,MNE,ME,Podgorica,EUR,Euro,623327,9232801464.79257,Europe,Southern Europe,Châu Âu,14026,Cộng hòa nghị viện,Parliamentary Republic
-148,Montserrat,MSR,MS,Plymouth,XCD,Eastern Caribbean dollar,4386,63000000,Americas,Caribbean,Châu Mỹ,102,Lãnh thổ phụ thuộc,Dependent
-149,Morocco,MAR,MA,Rabat,MAD,Moroccan dirham,36828330,182374250612.28,Africa,Northern Africa,Châu Phi,446550,Quân chủ,Monarchy
-150,Mozambique,MOZ,MZ,Maputo,MZN,Mozambican metical,34090466,22337997046.1913,Africa,Eastern Africa,Châu Phi,801590,Cộng hòa tổng thống,Presidential Republic
-151,Myanmar,MMR,MM,Nay Pyi Taw,MMK,Burmese kyat,51316756,81665773809.5238,Asia,South-Eastern Asia,Châu Á,678500,Cộng hòa tổng thống,Presidential Republic
-152,Namibia,NAM,,Windhoek,NAD,Namibian dollar,3022401,15080340653.5276,Africa,Southern Africa,Châu Phi,825418,Cộng hòa tổng thống,Presidential Republic
-153,Nauru,NRU,NR,Yaren,AUD,Australian dollar,11680,176040043.932346,Oceania,Micronesia,Châu Đại Dương,21,Cộng hòa nghị viện,Parliamentary Republic
-154,Nepal,NPL,NP,Kathmandu,NPR,Nepalese rupee,29911840,45489810283.1132,Asia,Southern Asia,Châu Á,140800,Cộng hòa nghị viện,Parliamentary Republic
-155,Bonaire Sint Eustatius and Saba,BES,BQ,Kralendijk,USD,United States dollar,26552,941000000,Americas,Caribbean,Châu Mỹ,328,Cộng hòa tổng thống,Presidential Republic
-156,Netherlands,NLD,NL,Amsterdam,EUR,Euro,18080943,1332767651100.39,Europe,Western Europe,Châu Âu,41526,Quân chủ,Monarchy
-157,New Caledonia,NCL,NC,Noumea,XPF,CFP franc,264596,9623880628,Oceania,Melanesia,Châu Đại Dương,19060,Lãnh thổ phụ thuộc,Dependent
-158,New Zealand,NZL,NZ,Wellington,NZD,New Zealand dollar,5324700,264057413739.965,Oceania,Australia and New Zealand,Châu Đại Dương,268680,Quân chủ,Monarchy
-159,Nicaragua,NIC,NI,Managua,NIO,Nicaraguan córdoba,6803886,22237167113.0916,Americas,Central America,Châu Mỹ,129494,Cộng hòa tổng thống,Presidential Republic
-160,Niger,NER,NE,Niamey,XOF,West African CFA franc,26312034,21646191388.2507,Africa,Western Africa,Châu Phi,1267000,Cộng hòa tổng thống,Presidential Republic
-161,Nigeria,NGA,NG,Abuja,NGN,Nigerian naira,223800000,290794361542.112,Africa,Western Africa,Châu Phi,923768,Cộng hòa tổng thống,Presidential Republic
-162,Niue,NIU,NU,Alofi,NZD,New Zealand dollar,1681,24700000,Oceania,Polynesia,Châu Đại Dương,260,Cộng hòa tổng thống,Presidential Republic
-163,Norfolk Island,NFK,NF,Kingston,AUD,Australian dollar,2188,68000000,Oceania,Australia and New Zealand,Châu Đại Dương,34,Lãnh thổ phụ thuộc,Dependent
-164,Northern Mariana Islands,MNP,MP,Saipan,USD,United States dollar,47329,1591550000,Oceania,Micronesia,Châu Đại Dương,477,Lãnh thổ phụ thuộc,Dependent
-165,Norway,NOR,NO,Oslo,NOK,Norwegian krone,5606944,530755719438.879,Europe,Northern Europe,Châu Âu,324220,Quân chủ,Monarchy
-166,Oman,OMN,OM,Muscat,OMR,Omani rial,5306976,109604780696.23,Asia,Western Asia,Châu Á,212460,Quân chủ,Monarchy
-167,Pakistan,PAK,PK,Islamabad,PKR,Pakistani rupee,241499431,407307214476.222,Asia,Southern Asia,Châu Á,803940,Cộng hòa tổng thống,Presidential Republic
-168,Palau,PLW,PW,Melekeok,USD,United States dollar,16733,345000000,Oceania,Micronesia,Châu Đại Dương,458,Cộng hòa tổng thống,Presidential Republic
-169,Palestine,PSE,PS,East Jerusalem,ILS,Israeli new shekel,5483450,17167100000,Asia,Western Asia,Châu Á,5970,Cộng hòa tổng thống,Presidential Republic
-170,Panama,PAN,PA,Panama City,PAB,Panamanian balboa,4064780,90462600000,Americas,Central America,Châu Mỹ,78200,Cộng hòa tổng thống,Presidential Republic
-171,Papua New Guinea,PNG,PG,Port Moresby,PGK,Papua New Guinean kina,11781559,32498658653.8415,Oceania,Melanesia,Châu Đại Dương,462840,Quân chủ,Monarchy
-172,Paraguay,PRY,PY,Asunción,PYG,Paraguayan guarani,6109644,49278227554.3339,Americas,South America,Châu Mỹ,406750,Cộng hòa tổng thống,Presidential Republic
-173,Peru,PER,PE,Lima,PEN,Peruvian sol,34350244,334854659181.893,Americas,South America,Châu Mỹ,1285220,Cộng hòa tổng thống,Presidential Republic
-174,Philippines,PHL,PH,Manila,PHP,Philippine peso,114123600,487086123720.417,Asia,South-Eastern Asia,Châu Á,300000,Cộng hòa tổng thống,Presidential Republic
-175,Pitcairn Island,PCN,PN,Adamstown,NZD,New Zealand dollar,35,47,Oceania,Polynesia,Châu Đại Dương,47,Cộng hòa tổng thống,Presidential Republic
-176,Poland,POL,PL,Warsaw,PLN,Polish zloty,37401000,1035491784197.44,Europe,Eastern Europe,Châu Âu,312685,Cộng hòa tổng thống,Presidential Republic
-177,Portugal,PRT,PT,Lisbon,EUR,Euro,10749635,346639825141.821,Europe,Southern Europe,Châu Âu,92391,Cộng hòa tổng thống,Presidential Republic
-178,Puerto Rico,PRI,PR,San Juan,USD,United States dollar,3203295,1.29368E+11,Americas,Caribbean,Châu Mỹ,9104,Lãnh thổ phụ thuộc,Dependent
-179,Qatar,QAT,QA,Doha,QAR,Qatari riyal,3173024,215559615384.615,Asia,Western Asia,Châu Á,11437,Quân chủ,Monarchy
-180,Reunion,REU,RE,Saint-Denis,EUR,Euro,896175,981270100,Africa,Eastern Africa,Châu Phi,2517,Lãnh thổ phụ thuộc,Dependent
-181,Romania,ROU,RO,Bucharest,RON,Romanian leu,19036031,428677977854.826,Europe,Eastern Europe,Châu Âu,237500,Cộng hòa tổng thống,Presidential Republic
-182,Russia,RUS,RU,Moscow,RUB,Russian ruble,146028325,2561310169358.74,Europe,Eastern Europe,Châu Âu,17100000,Cộng hòa tổng thống,Presidential Republic
-183,Rwanda,RWA,RW,Kigali,RWF,Rwandan franc,14104969,16372132990.2271,Africa,Eastern Africa,Châu Phi,26338,Cộng hòa tổng thống,Presidential Republic
-184,Saint Helena,SHN,SH,Jamestown,SHP,Saint Helena pound,5651,39300000,Africa,Western Africa,Châu Phi,410,Cộng hòa tổng thống,Presidential Republic
-185,Saint Kitts and Nevis,KNA,KN,Basseterre,XCD,Eastern Caribbean dollar,51320,1183514814.81481,Americas,Caribbean,Châu Mỹ,261,Quân chủ,Monarchy
-186,Saint Lucia,LCA,LC,Castries,XCD,Eastern Caribbean dollar,184100,2656444444.44444,Americas,Caribbean,Châu Mỹ,616,Quân chủ,Monarchy
-187,Saint Pierre and Miquelon,SPM,PM,Saint-Pierre,EUR,Euro,5819,261300000,Americas,Northern America,Châu Mỹ,242,Lãnh thổ phụ thuộc,Dependent
-188,Saint Vincent and the Grenadines,VCT,VC,Kingstown,XCD,Eastern Caribbean dollar,110872,1255222222.22222,Americas,Caribbean,Châu Mỹ,389,Quân chủ,Monarchy
-189,Saint-Barthelemy,BLM,BL,Gustavia,EUR,Euro,10562,1040000000,Americas,Caribbean,Châu Mỹ,21,Cộng hòa tổng thống,Presidential Republic
-190,Saint-Martin (French part),MAF,MF,Marigot,EUR,Euro,31496,809565576,Americas,Caribbean,Châu Mỹ,53,Cộng hòa tổng thống,Presidential Republic
-191,Samoa,WSM,WS,Apia,WST,Samoan tala,205557,1287936621.64619,Oceania,Polynesia,Châu Đại Dương,2944,Cộng hòa nghị viện,Parliamentary Republic
-192,San Marino,SMR,SM,San Marino,EUR,Euro,34132,1855382875,Europe,Southern Europe,Châu Âu,61,Cộng hòa nghị viện,Parliamentary Republic
-193,Sao Tome and Principe,STP,ST,Sao Tome,STN,Dobra,209607,981293586.906408,Africa,Middle Africa,Châu Phi,1001,Cộng hòa tổng thống,Presidential Republic
-194,Saudi Arabia,SAU,SA,Riyadh,SAR,Saudi riyal,35300280,1276942933333.33,Asia,Western Asia,Châu Á,1960582,Quân chủ,Monarchy
-195,Senegal,SEN,SN,Dakar,XOF,West African CFA franc,18593258,37006536238.3731,Africa,Western Africa,Châu Phi,196190,Cộng hòa tổng thống,Presidential Republic
-196,Serbia,SRB,RS,Belgrade,RSD,Serbian dinar,6567783,99953324472.9042,Europe,Southern Europe,Châu Âu,88361,Cộng hòa nghị viện,Parliamentary Republic
-197,Seychelles,SYC,SC,Victoria,SCR,Seychellois rupee,122729,2387022853.48583,Africa,Eastern Africa,Châu Phi,455,Cộng hòa tổng thống,Presidential Republic
-198,Sierra Leone,SLE,SL,Freetown,SLE,Sierra Leonean leone,9077691,7464157904.43509,Africa,Western Africa,Châu Phi,71740,Cộng hòa tổng thống,Presidential Republic
-199,Singapore,SGP,SG,Singapur,SGD,Singapore dollar,6036900,603869516998.738,Asia,South-Eastern Asia,Châu Á,692,Cộng hòa nghị viện,Parliamentary Republic
-200,Slovakia,SVK,SK,Bratislava,EUR,Euro,5413813,154530066506.895,Europe,Eastern Europe,Châu Âu,48845,Cộng hòa nghị viện,Parliamentary Republic
-201,Slovenia,SVN,SI,Ljubljana,EUR,Euro,2130638,79648204979.3618,Europe,Southern Europe,Châu Âu,20273,Cộng hòa nghị viện,Parliamentary Republic
-202,Solomon Islands,SLB,SB,Honiara,SBD,Solomon Islands dollar,750325,1749572442.95016,Oceania,Melanesia,Châu Đại Dương,28450,Quân chủ,Monarchy
-203,Somalia,SOM,SO,Mogadishu,SOS,Somali shilling,19655000,12995200000.2658,Africa,Eastern Africa,Châu Phi,637657,Cộng hòa nghị viện,Parliamentary Republic
-204,South Africa,ZAF,ZA,Pretoria,ZAR,South African rand,63100945,427184325997.307,Africa,Southern Africa,Châu Phi,1219912,Cộng hòa nghị viện,Parliamentary Republic
-205,South Georgia,SGS,GS,Grytviken,GBP,British pound,20,0,Americas,South America,Châu Mỹ,3903,Cộng hòa tổng thống,Presidential Republic
-206,South Sudan,SSD,SS,Juba,SSP,South Sudanese pound,15786898,5539000000,Africa,Middle Africa,Châu Phi,644329,Cộng hòa tổng thống,Presidential Republic
-207,Spain,ESP,ES,Madrid,EUR,Euro,49315949,1906453309985.88,Europe,Southern Europe,Châu Âu,504782,Quân chủ,Monarchy
-208,Sri Lanka,LKA,LK,Colombo,LKR,Sri Lankan rupee,21763170,108825231671.196,Asia,Southern Asia,Châu Á,65610,Cộng hòa tổng thống,Presidential Republic
-209,Sudan,SDN,SD,Khartoum,SDG,Sudanese pound,51662000,60162634574.4689,Africa,Northern Africa,Châu Phi,1861484,Cộng hòa tổng thống,Presidential Republic
-210,Suriname,SUR,SR,Paramaribo,SRD,Surinamese dollar,616500,4523657796.86421,Americas,South America,Châu Mỹ,163270,Cộng hòa tổng thống,Presidential Republic
-211,Svalbard and Jan Mayen Islands,SJM,SJ,Longyearbyen,NOK,Norwegian krone,2774,240000000,Europe,Northern Europe,Châu Âu,62049,Cộng hòa tổng thống,Presidential Republic
-212,Eswatini,SWZ,SZ,Mbabane,SZL,Lilangeni,1235549,5160679612.81734,Africa,Southern Africa,Châu Phi,17363,Quân chủ,Monarchy
-213,Sweden,SWE,SE,Stockholm,SEK,Swedish krona,10596652,668998664082.081,Europe,Northern Europe,Châu Âu,449964,Quân chủ,Monarchy
-214,Switzerland,CHE,CH,Bern,CHF,Swiss franc,9082848,1043529899250.92,Europe,Western Europe,Châu Âu,41290,Cộng hòa nghị viện,Parliamentary Republic
-215,Syria,SYR,SY,Damascus,SYP,Syrian pound,25620000,17500000000,Asia,Western Asia,Châu Á,185180,Cộng hòa tổng thống,Presidential Republic
-216,Taiwan,TWN,TW,Taipei,TWD,New Taiwan dollar,23337936,8.01495E+11,Asia,Eastern Asia,Châu Á,35980,Cộng hòa tổng thống,Presidential Republic
-217,Tajikistan,TJK,TJ,Dushanbe,TJS,Tajikistani somoni,10499000,17660626562.4832,Asia,Central Asia,Châu Á,143100,Cộng hòa tổng thống,Presidential Republic
-218,Tanzania,TZA,TZ,Dodoma,TZS,Tanzanian shilling,68153004,90143496090.4411,Africa,Eastern Africa,Châu Phi,945087,Cộng hòa tổng thống,Presidential Republic
-219,Thailand,THA,TH,Bangkok,THB,Thai baht,65859640,577009981112.015,Asia,South-Eastern Asia,Châu Á,514000,Quân chủ,Monarchy
-220,Togo,TGO,TG,Lome,XOF,West African CFA franc,8095498,11889949067.4697,Africa,Western Africa,Châu Phi,56785,Cộng hòa tổng thống,Presidential Republic
-221,Tokelau,TKL,TK,,NZD,New Zealand dollar,1647,10000000,Oceania,Polynesia,Châu Đại Dương,10,Lãnh thổ phụ thuộc,Dependent
-222,Tonga,TON,TO,Nuku'alofa,TOP,Tongan pa?anga,100179,679218218.578017,Oceania,Polynesia,Châu Đại Dương,748,Quân chủ,Monarchy
-223,Trinidad and Tobago,TTO,TT,Port of Spain,TTD,Trinidad and Tobago dollar,1368333,25942749718.4685,Americas,Caribbean,Châu Mỹ,5128,Cộng hòa nghị viện,Parliamentary Republic
-224,Tunisia,TUN,TN,Tunis,TND,Tunisian dinar,11972169,57502836548.0878,Africa,Northern Africa,Châu Phi,163610,Cộng hòa tổng thống,Presidential Republic
-225,Turkey,TUR,TR,Ankara,TRY,Turkish lira,85664944,1597293229287.0,Asia,Western Asia,Châu Á,780580,Cộng hòa tổng thống,Presidential Republic
-226,Turkmenistan,TKM,TM,Ashgabat,TMT,Turkmenistan manat,7057841,49828621355.6516,Asia,Central Asia,Châu Á,488100,Cộng hòa tổng thống,Presidential Republic
-227,Turks and Caicos Islands,TCA,TC,Cockburn Town,USD,United States dollar,50894,1402000000,Americas,Caribbean,Châu Mỹ,430,Lãnh thổ phụ thuộc,Dependent
-228,Tuvalu,TUV,TV,Funafuti,AUD,Australian dollar,10643,57345434.7234984,Oceania,Polynesia,Châu Đại Dương,26,Quân chủ,Monarchy
-229,Uganda,UGA,UG,Kampala,UGX,Ugandan shilling,45905417,61985829288.1496,Africa,Eastern Africa,Châu Phi,236040,Cộng hòa tổng thống,Presidential Republic
-230,Ukraine,UKR,UA,Kyiv,UAH,Ukrainian hryvnia,32862000,214233312784.397,Europe,Eastern Europe,Châu Âu,603700,Cộng hòa tổng thống,Presidential Republic
-231,United Arab Emirates,ARE,AE,Abu Dhabi,AED,United Arab Emirates dirham,10678556,5.04173E+11,Asia,Western Asia,Châu Á,82880,Quân chủ,Monarchy
-232,United Kingdom,GBR,GB,London,GBP,British pound,68265209,4002587541846.01,Europe,Northern Europe,Châu Âu,244820,Quân chủ,Monarchy
-233,United States,USA,US,Washington,USD,United States dollar,340110988,30769700000000.0,Americas,Northern America,Châu Mỹ,9629091,Cộng hòa tổng thống,Presidential Republic
-234,United States Minor Outlying Islands,UMI,UM,,USD,United States dollar,300,0,Americas,Northern America,Châu Mỹ,6959,Lãnh thổ phụ thuộc,Dependent
-235,Uruguay,URY,UY,Montevideo,UYU,Uruguayan peso,3499451,85347696277.6859,Americas,South America,Châu Mỹ,176220,Cộng hòa tổng thống,Presidential Republic
-236,Uzbekistan,UZB,UZ,Tashkent,UZS,Uzbekistani so?m,37859698,147038081129.405,Asia,Central Asia,Châu Á,447400,Cộng hòa tổng thống,Presidential Republic
-237,Vanuatu,VUT,VU,Port Vila,VUV,Vanuatu vatu,321409,1353658840.63993,Oceania,Melanesia,Châu Đại Dương,12200,Cộng hòa nghị viện,Parliamentary Republic
-238,Vatican City State (Holy See),VAT,VA,Vatican City,EUR,Euro,882,21150000,Europe,Southern Europe,Châu Âu,0.49,Cộng hòa tổng thống,Presidential Republic
-239,Venezuela,VEN,VE,Caracas,VES,Bolívar,28517000,99661244155.6306,Americas,South America,Châu Mỹ,912050,Cộng hòa tổng thống,Presidential Republic
-240,Vietnam,VNM,VN,Hanoi,VND,Vietnamese d?ng,101343800,514697215165.065,Asia,South-Eastern Asia,Châu Á,329560,Cộng hòa xã hội chủ nghĩa,Socialist Republic
-241,Virgin Islands (British),VGB,VG,Road Town,USD,United States dollar,39471,1537083000,Americas,Caribbean,Châu Mỹ,153,Cộng hòa tổng thống,Presidential Republic
-242,Virgin Islands (US),VIR,VI,Charlotte Amalie,USD,United States dollar,87146,4488000000,Americas,Caribbean,Châu Mỹ,352,Cộng hòa tổng thống,Presidential Republic
-243,Wallis and Futuna Islands,WLF,WF,Mata Utu,XPF,CFP franc,11620,76400000,Oceania,Polynesia,Châu Đại Dương,274,Cộng hòa tổng thống,Presidential Republic
-244,Western Sahara,ESH,EH,El-Aaiun,MAD,Moroccan dirham,600904,906500000,Africa,Northern Africa,Châu Phi,266000,Lãnh thổ phụ thuộc,Dependent
-245,Yemen,YEM,YE,Sanaa,YER,Yemeni rial,32684503,21606000000,Asia,Western Asia,Châu Á,527970,Cộng hòa tổng thống,Presidential Republic
-246,Zambia,ZMB,ZM,Lusaka,ZMW,Zambian kwacha,19693423,28879806220.1264,Africa,Southern Africa,Châu Phi,752614,Cộng hòa tổng thống,Presidential Republic
-247,Zimbabwe,ZWE,ZW,Harare,ZWG,Zimbabwe Gold,17073087,51215643905.5886,Africa,Eastern Africa,Châu Phi,390580,Cộng hòa tổng thống,Presidential Republic
-248,Kosovo,XKX,XK,Pristina,EUR,Euro,1585566,12456403306.8191,Europe,Eastern Europe,Châu Âu,10908,Cộng hòa tổng thống,Presidential Republic
-249,Curaçao,CUW,CW,Willemstad,XCG,Caribbean guilder,156115,3561180000,Americas,Caribbean,Châu Mỹ,444,Cộng hòa tổng thống,Presidential Republic
-250,Sint Maarten (Dutch part),SXM,SX,Philipsburg,XCG,Caribbean guilder,41349,1887728480.44693,Americas,Caribbean,Châu Mỹ,21,Cộng hòa tổng thống,Presidential Republic
+﻿id,name,iso3,iso2,capital,currency,currency_name,population,gdp,region,subregion,khu_vuc,chau_luc,area_sq_km,the_che,government_form,oil,gold_geological,gold_bank,silver,copper,rare_earth,cereal,meat,seafood,agricultural
+1,Afghanistan,AFG,AF,Kabul,AFN,Afghan afghani,43844000,17778508880,Asia,Southern Asia,Nam Á,Châu Á,647500,Cộng hòa tổng thống,Presidential Republic,4.96,3,21.9,0,0,0,6215646,234091.62,13000,380820
+2,Aland Islands,ALA,AX,Mariehamn,EUR,Euro,30654,1300000000,Europe,Northern Europe,Bắc Âu,Châu Âu,1580,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,0,0,0,0
+3,Albania,ALB,AL,Tirana,ALL,Albanian lek,2363314,30540188271.3421,Europe,Southern Europe,Nam Âu,Châu Âu,28748,Cộng hòa nghị viện,Parliamentary Republic,7.51,0,3.4,0,0,0,649919.4,66669.3,15000,11264.5
+4,Algeria,DZA,DZ,Algiers,DZD,Algerian dinar,47400000,287031225987.736,Africa,Northern Africa,Bắc Phi,Châu Phi,2381740,Cộng hòa tổng thống,Presidential Republic,871.18,73,173.6,0,0,0,4118300.2,1046221.4,84000,413202
+5,American Samoa,ASM,AS,Pago Pago,USD,United States dollar,49710,871000000,Oceania,Polynesia,Nam Đảo,Châu Đại Dương,199,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,0,0,0,27
+6,Andorra,AND,AD,Andorra la Vella,EUR,Euro,88306,4500982731.80784,Europe,Southern Europe,Nam Âu,Châu Âu,468,Quân chủ,Monarchy,0,0,0,0,0,0,0,0,0,195.899
+7,Angola,AGO,AO,Luanda,AOA,Angolan kwanza,36170961,122174889423.635,Africa,Middle Africa,Trung Phi,Châu Phi,1246700,Cộng hòa tổng thống,Presidential Republic,657.11,0,0,0,0,0,3501375,360122.72,532000,452853.7
+8,Anguilla,AIA,AI,The Valley,XCD,Eastern Caribbean dollar,16010,415735284,Americas,Caribbean,Ca Ri Bê,Châu Mỹ,102,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,0,0,0,0
+9,Antarctica,ATA,AQ,,AAD,Antarctican dollar,2000,0,Polar,,Nam Cực,Châu Nam Cực,14000000,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,0,0,0,0
+10,Antigua and Barbuda,ATG,AG,St. John's,XCD,Eastern Caribbean dollar,103603,2338196296.2963,Americas,Caribbean,Ca Ri Bê,Châu Mỹ,443,Quân chủ,Monarchy,0,0,0,0,0,0,50.37,138.47,3000,93
+11,Argentina,ARG,AR,Buenos Aires,ARS,Argentine peso,46735004,683097891618.597,Americas,South America,Nam Mỹ,Châu Mỹ,2766890,Cộng hòa tổng thống,Presidential Republic,610.26,1400,61.7,6500,0,0,85727340,6427706,856000,807990.47
+12,Armenia,ARM,AM,Yerevan,AMD,Armenian dram,3081100,29243452882.3545,Asia,Western Asia,Tây Á,Châu Á,29800,Cộng hòa nghị viện,Parliamentary Republic,0,130,11.9,0,0,0,215133.3,105514.98,20000,16739
+13,Aruba,ABW,AW,Oranjestad,AWG,Aruban florin,107566,4167588070,Americas,Caribbean,Ca Ri Bê,Châu Mỹ,193,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,0,0,0,20
+14,Australia,AUS,AU,Canberra,AUD,Australian dollar,27400013,1798518933689.21,Oceania,Australia and New Zealand,Châu Úc,Châu Đại Dương,7686850,Quân chủ,Monarchy,225.43,12000,79.8,91000,100000,6300000,52350450,5577060.5,295000,3635190
+15,Austria,AUT,AT,Vienna,EUR,Euro,9200931,579470021095.418,Europe,Western Europe,Tây Âu,Châu Âu,83858,Cộng hòa nghị viện,Parliamentary Republic,14.09,0,279.9,0,0,0,4880410,814265.3,5000,25666.914
+16,Azerbaijan,AZE,AZ,Baku,AZN,Azerbaijani manat,10241722,75937647058.8235,Asia,Western Asia,Tây Á,Châu Á,86600,Cộng hòa tổng thống,Presidential Republic,351.58,30,30,0,0,0,3305280.8,367361.47,2000,47742
+17,The Bahamas,BHS,BS,Nassau,BSD,Bahamian dollar,398165,14390000000,Americas,Caribbean,Ca Ri Bê,Châu Mỹ,13940,Quân chủ,Monarchy,0,0,0,0,0,0,0,38363.56,15000,82.3
+18,Bahrain,BHR,BH,Manama,BHD,Bahraini dinar,1594654,48965725531.9149,Asia,Western Asia,Tây Á,Châu Á,665,Quân chủ,Monarchy,117.03,0,0,0,0,0,66347852,777844.2,4621000,93990
+19,Bangladesh,BGD,BD,Dhaka,BDT,Bangladeshi taka,169828911,456319229255.578,Asia,Southern Asia,Nam Á,Châu Á,144000,Cộng hòa nghị viện,Parliamentary Republic,1.86,0,14,0,0,0,1.1,16144.88,1000,100
+20,Barbados,BRB,BB,Bridgetown,BBD,Barbadian dollar,267800,8016550000,Americas,Caribbean,Ca Ri Bê,Châu Mỹ,431,Cộng hòa nghị viện,Parliamentary Republic,0.62,0,0,0,0,0,7731917.5,1326639.2,10000,79293
+21,Belarus,BLR,BY,Minsk,BYN,Belarusian ruble,9109280,93397215864.198,Europe,Eastern Europe,Đông Âu,Châu Âu,207600,Cộng hòa tổng thống,Presidential Republic,16.13,0,51.6,0,0,0,1932850,1735124,21000,13541.7
+22,Belgium,BEL,BE,Brussels,EUR,Euro,11825551,725466462859.646,Europe,Western Europe,Tây Âu,Châu Âu,30510,Quân chủ,Monarchy,15.26,0,227.4,0,0,0,145751,28601.79,214000,1860
+23,Belize,BLZ,BZ,Belmopan,BZD,Belize dollar,417634,3326500000,Americas,Central America,Trung Mỹ,Châu Mỹ,22966,Quân chủ,Monarchy,0.62,0,0,0,0,0,2905684.8,128504.11,0,48646
+24,Benin,BEN,BJ,Porto-Novo,XOF,West African CFA franc,13224860,24566420903.5337,Africa,Western Africa,Tây Phi,Châu Phi,112620,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,0,0,0,3
+25,Bermuda,BMU,BM,Hamilton,BMD,Bermudian dollar,64055,9194499000,Americas,Northern America,Bắc Mỹ,Châu Mỹ,53,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,73368.46,4553.39,0,5270
+26,Bhutan,BTN,BT,Thimphu,BTN,Bhutanese ngultrum,784043,3579320145.13077,Asia,Southern Asia,Nam Á,Châu Á,47000,Quân chủ,Monarchy,0,0,0,22000,0,0,3737131.8,1130531.6,11000,393094
+27,Bolivia,BOL,BO,Sucre,BOB,Bolivian boliviano,11312620,64768947525.3256,Americas,South America,Nam Mỹ,Châu Mỹ,1098580,Cộng hòa tổng thống,Presidential Republic,32.14,300,34.8,0,0,0,0,0,0,0
+28,Bosnia and Herzegovina,BIH,BA,Sarajevo,BAM,Bosnia and Herzegovina convertible mark,3422000,32599982936.3931,Europe,Southern Europe,Nam Âu,Châu Âu,51129,Cộng hòa nghị viện,Parliamentary Republic,0,0,0,0,0,0,1202745,92890,4000,11484.7
+29,Botswana,BWA,BW,Gaborone,BWP,Botswana pula,2359609,19928479839.4476,Africa,Southern Africa,Nam Phi,Châu Phi,600370,Cộng hòa nghị viện,Parliamentary Republic,0,25,0,0,0,0,54553.76,101746.55,0,258615
+30,Bouvet Island,BVT,BV,,NOK,Norwegian krone,0,0,Polar,,Nam Cực,Châu Nam Cực,49,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,0,0,0,0
+31,Brazil,BRA,BR,Brasilia,BRL,Brazilian real,213421037,2279920092492.13,Americas,South America,Nam Mỹ,Châu Mỹ,8511965,Cộng hòa tổng thống,Presidential Republic,2888.43,2400,129.7,0,0,11000000,138980900,29642574,1410000,2370907
+32,British Indian Ocean Territory,IOT,IO,Diego Garcia,USD,United States dollar,3000,0,Africa,Eastern Africa,Đông Phi,Châu Phi,60,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,0,0,0,0
+33,Brunei,BRN,BN,Bandar Seri Begawan,BND,Brunei dollar,455500,15031980994.1121,Asia,South-Eastern Asia,Đông Nam Á,Châu Á,5770,Quân chủ,Monarchy,68.07,0,0,0,0,0,3612.05,30581.12,0,153
+34,Bulgaria,BGR,BG,Sofia,EUR,Euro,6437360,130777235529.606,Europe,Eastern Europe,Đông Âu,Châu Âu,110910,Cộng hòa nghị viện,Parliamentary Republic,0.62,30,40.8,0,0,0,10044680,237062.92,24000,50140
+35,Burkina Faso,BFA,BF,Ouagadougou,XOF,West African CFA franc,24070553,27627297461.3181,Africa,Western Africa,Tây Phi,Châu Phi,274200,Cộng hòa tổng thống,Presidential Republic,0,650,0,0,0,0,5209425.5,552048.4,31000,171208
+36,Burundi,BDI,BI,Gitega,BIF,Burundian franc,12332788,3364713864.08488,Africa,Eastern Africa,Đông Phi,Châu Phi,27830,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,789542.25,47876.22,0,19056.6
+37,Cambodia,KHM,KH,Phnom Penh,KHR,Cambodian riel,17577760,51267065842.9641,Asia,South-Eastern Asia,Đông Nam Á,Châu Á,181040,Quân chủ,Monarchy,0,30,52.4,0,0,0,15580000,192857.7,855000,61204.4
+38,Cameroon,CMR,CM,Yaounde,XAF,Central African CFA franc,29442327,58933453923.761,Africa,Middle Africa,Trung Phi,Châu Phi,475440,Cộng hòa tổng thống,Presidential Republic,36.92,40,0,0,0,0,3846198.5,418230.8,300000,99670.2
+39,Canada,CAN,CA,Ottawa,CAD,Canadian dollar,41548787,2319899772425.92,Americas,Northern America,Bắc Mỹ,Châu Mỹ,9984670,Quân chủ,Monarchy,3882.22,2300,0,4900,7000,830000,63660404,5193179.5,933000,567960
+40,Cape Verde,CPV,CV,Praia,CVE,Cape Verdean escudo,491233,3056630435.32463,Africa,Western Africa,Tây Phi,Châu Phi,4033,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,5,4614.99,17000,999
+41,Cayman Islands,CYM,KY,George Town,KYD,Cayman Islands dollar,84738,7765336505,Americas,Caribbean,Ca Ri Bê,Châu Mỹ,262,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,0,0,0,27
+42,Central African Republic,CAF,CF,Bangui,XAF,Central African CFA franc,6470307,3066109226.40165,Africa,Middle Africa,Trung Phi,Châu Phi,622984,Cộng hòa tổng thống,Presidential Republic,0,30,0,0,0,0,282867.56,191151.14,0,58197.4
+43,Chad,TCD,TD,N'Djamena,XAF,Central African CFA franc,19340757,21472835225.4338,Africa,Middle Africa,Trung Phi,Châu Phi,1284000,Cộng hòa tổng thống,Presidential Republic,78.43,0,0,0,0,0,2709156,1026008.1,0,503374.8
+44,Chile,CHL,CL,Santiago,CLP,Chilean peso,20206953,357371159574.862,Americas,South America,Nam Mỹ,Châu Mỹ,756950,Cộng hòa tổng thống,Presidential Republic,13.09,1400,0,33000,180000,0,2555898.5,1564175.1,3356000,106925.4
+45,China,CHN,CN,Beijing,CNY,Chinese yuan,1408280000,19498039388042.6,Asia,Eastern Asia,Đông Á,Châu Á,9596960,Cộng hòa xã hội chủ nghĩa,Socialist Republic,3379.24,3100,2264.3,67000,41000,44000000,651355700,97859400,64159000,3918230
+46,Christmas Island,CXR,CX,Flying Fish Cove,AUD,Australian dollar,1692,125500000,Oceania,Australia and New Zealand,Châu Úc,Châu Đại Dương,135,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,0,0,0,0
+47,Cocos (Keeling) Islands,CCK,CC,West Island,AUD,Australian dollar,593,59380000,Oceania,Australia and New Zealand,Châu Úc,Châu Đại Dương,14,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,0,0,0,0
+48,Colombia,COL,CO,Bogotá,COP,Colombian peso,53057212,457410034202.523,Americas,South America,Nam Mỹ,Châu Mỹ,1138910,Cộng hòa tổng thống,Presidential Republic,482.07,500,4.7,0,0,0,4342473.5,3160733.5,321000,405460
+49,Comoros,COM,KM,Moroni,KMF,Comorian franc,870038,1814920856.27026,Africa,Eastern Africa,Đông Phi,Châu Phi,2170,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,20109.88,2293.29,19000,1475.4
+50,Congo,COG,CG,Brazzaville,XAF,Central African CFA franc,6142180,16306633778.765,Africa,Middle Africa,Trung Phi,Châu Phi,342000,Cộng hòa tổng thống,Presidential Republic,154.5,0,0,0,0,0,30221.17,62067.86,70000,106525.1
+51,Democratic Republic of the Congo,COD,CD,Kinshasa,CDF,Congolese Franc,112832000,91030531316.9936,Africa,Middle Africa,Trung Phi,Châu Phi,2345410,Cộng hòa tổng thống,Presidential Republic,9.93,400,0,0,0,0,0,375.31,0,0
+52,Cook Islands,COK,CK,Avarua,NZD,New Zealand dollar,15040,300000000,Oceania,Polynesia,Nam Đảo,Châu Đại Dương,240,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,72255.75,302664.8,37000,15892.572
+53,Costa Rica,CRI,CR,San Jose,CRC,Costa Rican colón,5309625,102904921157.478,Americas,Central America,Trung Mỹ,Châu Mỹ,51100,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,3285520,246846.66,89000,14670
+54,Ivory Coast,CIV,CI,Yamoussoukro,XOF,West African CFA franc,29389150,99773555666.1988,Africa,Western Africa,Tây Phi,Châu Phi,322460,Cộng hòa tổng thống,Presidential Republic,34.81,350,0,0,0,0,307959.3,101472.47,0,64010
+55,Croatia,HRV,HR,Zagreb,EUR,Euro,3866233,105060182186.274,Europe,Southern Europe,Nam Âu,Châu Âu,56542,Cộng hòa nghị viện,Parliamentary Republic,8,0,0,0,0,0,0,0,0,0
+56,Cuba,CUB,CU,Havana,CUP,Cuban peso,9748007,1.07352E+11,Americas,Caribbean,Ca Ri Bê,Châu Mỹ,110860,Cộng hòa xã hội chủ nghĩa,Socialist Republic,17.19,0,0,0,0,0,28890,73884.17,9000,1252.926
+57,Cyprus,CYP,CY,Nicosia,EUR,Euro,966400,41225787247.3309,Europe,Southern Europe,Nam Âu,Châu Âu,9250,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,7520790,475907.75,24000,35346.1
+58,Czech Republic,CZE,CZ,Prague,CZK,Czech koruna,10876875,391026962800.475,Europe,Eastern Europe,Đông Âu,Châu Âu,78866,Cộng hòa nghị viện,Parliamentary Republic,1.12,0,41.5,0,80000,0,4388403,256276.84,234000,367094.7
+59,Denmark,DNK,DK,Copenhagen,DKK,Danish krone,6004342,462526660468.393,Europe,Northern Europe,Bắc Âu,Châu Âu,43094,Quân chủ,Monarchy,49.14,0,0,0,0,0,7496360,1603763.4,669000,26050
+60,Djibouti,DJI,DJ,Djibouti,DJF,Djiboutian franc,1066809,4624533092.31886,Africa,Eastern Africa,Đông Phi,Châu Phi,23000,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,17.41,11738.52,3000,17044.9
+61,Dominica,DMA,DM,Roseau,XCD,Eastern Caribbean dollar,67408,723859259.259259,Americas,Caribbean,Ca Ri Bê,Châu Mỹ,754,Cộng hòa nghị viện,Parliamentary Republic,0,0,0,0,0,0,194.19,1405.45,0,245
+62,Dominican Republic,DOM,DO,Santo Domingo,DOP,Dominican peso,10771504,127407463759.043,Americas,Caribbean,Ca Ri Bê,Châu Mỹ,48730,Cộng hòa tổng thống,Presidential Republic,0,30,0,0,0,0,1049757,555538.1,20000,24810.9
+63,Timor-Leste,TLS,TL,Dili,USD,United States dollar,1391221,1902180257.82737,Asia,South-Eastern Asia,Đông Nam Á,Châu Á,15007,Cộng hòa tổng thống,Presidential Republic,6.2,0,0,0,0,0,2789553.5,1035577.44,1304000,50390.94
+64,Ecuador,ECU,EC,Quito,USD,United States dollar,18103660,1.30321E+11,Americas,South America,Nam Mỹ,Châu Mỹ,283560,Cộng hòa tổng thống,Presidential Republic,275.13,300,33.8,0,0,0,24001618,3382565,2002000,42290
+65,Egypt,EGY,EG,Cairo,EGP,Egyptian pound,107271260,365254630179.737,Africa,Northern Africa,Bắc Phi,Châu Phi,1001450,Cộng hòa tổng thống,Presidential Republic,380.12,67,126.5,0,0,0,895000,191382.84,58000,11863.6
+66,El Salvador,SLV,SV,San Salvador,USD,United States dollar,6029976,36708110000,Americas,Central America,Trung Mỹ,Châu Mỹ,21040,Cộng hòa tổng thống,Presidential Republic,0,0,1.4,0,0,0,0,655.58,0,965.9
+67,Equatorial Guinea,GNQ,GQ,Malabo,XAF,Central African CFA franc,1668768,12823210425.9217,Africa,Middle Africa,Trung Phi,Châu Phi,28051,Cộng hòa tổng thống,Presidential Republic,52.31,0,0,0,0,0,305209.72,43426.48,0,75913.6
+68,Eritrea,ERI,ER,Asmara,ERN,Eritrean nakfa,3607000,2065001626,Africa,Eastern Africa,Đông Phi,Châu Phi,121320,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,1303540,71781.5,88000,9820
+69,Estonia,EST,EE,Tallinn,EUR,Euro,1369995,47030833798.5866,Europe,Northern Europe,Bắc Âu,Châu Âu,45226,Cộng hòa nghị viện,Parliamentary Republic,13.65,0,0,0,0,0,77721.77,26282.82,0,11973.8
+70,Ethiopia,ETH,ET,Addis Ababa,ETB,Ethiopian birr,111652998,126358758448.356,Africa,Eastern Africa,Đông Phi,Châu Phi,1127127,Cộng hòa nghị viện,Parliamentary Republic,0,150,0,0,0,0,31763174,912483.94,61000,384569.3
+71,Falkland Islands,FLK,FK,Stanley,FKP,Falkland Islands pound,3662,319800000,Americas,South America,Nam Mỹ,Châu Mỹ,12173,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,0,0,0,0
+72,Faroe Islands,FRO,FO,Torshavn,DKK,Danish krone,55146,4052940000,Europe,Northern Europe,Bắc Âu,Châu Âu,1399,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,0,708.46,0,960.7
+73,Fiji Islands,FJI,FJ,Suva,FJD,Fijian dollar,900869,6198013062.06553,Oceania,Melanesia,Mê La Nê Đi,Châu Đại Dương,18270,Cộng hòa tổng thống,Presidential Republic,0,20,0,0,0,0,11042.1,54528.62,33000,3116
+74,Finland,FIN,FI,Helsinki,EUR,Euro,5645651,317039368819.607,Europe,Northern Europe,Bắc Âu,Châu Âu,337030,Cộng hòa nghị viện,Parliamentary Republic,10.36,190,0,0,0,0,3276940,397311,179000,22573
+75,France,FRA,FR,Paris,EUR,Euro,68688000,3366315927447.33,Europe,Western Europe,Tây Âu,Châu Âu,547030,Cộng hòa tổng thống,Presidential Republic,65.65,10,2436.9,0,0,0,53553470,5183265.5,677000,284425.45
+76,French Guiana,GUF,GF,Cayenne,EUR,Euro,292354,5500000000,Americas,South America,Nam Mỹ,Châu Mỹ,91000,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,0,0,0,0
+77,French Polynesia,PYF,PF,Papeete,XPF,CFP franc,279500,6323716355,Oceania,Polynesia,Nam Đảo,Châu Đại Dương,4167,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,0,1800.73,13000,286.5
+78,French Southern Territories,ATF,TF,Port-aux-Francais,EUR,Euro,230,0,Africa,Southern Africa,Nam Phi,Châu Phi,7829,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,0,0,0,0
+79,Gabon,GAB,GA,Libreville,XAF,Central African CFA franc,2469296,21427119323.2764,Africa,Middle Africa,Trung Phi,Châu Phi,267667,Cộng hòa tổng thống,Presidential Republic,148.3,25,0,0,0,0,47737.03,41672.85,30000,17726.4
+80,The Gambia,GMB,GM,Banjul,GMD,Gambian dalasi,2422712,2593673987.53306,Africa,Western Africa,Tây Phi,Châu Phi,11300,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,418576.97,88812.27,220000,23423.8
+81,Georgia,GEO,GE,Tbilisi,GEL,Georgian lari,3704500,38143612855.1367,Asia,Western Asia,Tây Á,Châu Á,69700,Cộng hòa nghị viện,Parliamentary Republic,0.37,35,0,0,0,0,38975500,6875680,265000,165690
+82,Germany,DEU,DE,Berlin,EUR,Euro,83517030,5050922925047.05,Europe,Western Europe,Tây Âu,Châu Âu,357021,Cộng hòa nghị viện,Parliamentary Republic,115.16,0,3351.5,0,0,0,6204238,323365.16,482000,126030
+83,Ghana,GHA,GH,Accra,GHS,Ghanaian cedi,33742380,114209905278.717,Africa,Western Africa,Tây Phi,Châu Phi,239460,Cộng hòa tổng thống,Presidential Republic,115.48,1000,30.5,0,0,0,0,0,0,0
+84,Gibraltar,GIB,GI,Gibraltar,GIP,Gibraltar pound,38000,3253000000,Europe,Southern Europe,Nam Âu,Châu Âu,6,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,2873990,429398.7,203000,50150.4
+85,Greece,GRC,GR,Athens,EUR,Euro,10400720,280635521324.441,Europe,Southern Europe,Nam Âu,Châu Âu,131940,Cộng hòa nghị viện,Parliamentary Republic,8.87,5,114.4,0,0,1500000,0,0,0,2431.1
+86,Greenland,GRL,GL,Nuuk,DKK,Danish krone,56542,3326543974,Americas,Northern America,Bắc Mỹ,Châu Mỹ,2166086,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,177.21,1781.2,1000,80
+87,Grenada,GRD,GD,St. George's,XCD,Eastern Caribbean dollar,109021,1420173228.56948,Americas,Caribbean,Ca Ri Bê,Châu Mỹ,344,Quân chủ,Monarchy,0,0,0,0,0,0,0,0,0,0
+88,Guadeloupe,GLP,GP,Basse-Terre,EUR,Euro,373791,10670000000,Americas,Caribbean,Ca Ri Bê,Châu Mỹ,1780,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,0,0,0,160
+89,Guam,GUM,GU,Hagatna,USD,United States dollar,153836,6910000000,Oceania,Micronesia,Tiểu Đảo,Châu Đại Dương,549,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,2331190.2,753191.5,44000,49339.3
+90,Guatemala,GTM,GT,Guatemala City,GTQ,Guatemalan quetzal,18079810,123306008821.471,Americas,Central America,Trung Mỹ,Châu Mỹ,108890,Cộng hòa tổng thống,Presidential Republic,4.34,0,6.9,0,0,0,0,0,0,0
+91,Guernsey,GGY,GG,St Peter Port,GBP,British pound,64781,3488000000,Europe,Northern Europe,Bắc Âu,Châu Âu,78,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,5385006,132562.48,326000,179926.2
+92,Guinea,GIN,GN,Conakry,GNF,Guinean franc,14363931,28346024753.2924,Africa,Western Africa,Tây Phi,Châu Phi,245857,Cộng hòa tổng thống,Presidential Republic,0,220,0,0,0,0,323557.34,26994.76,63000,8829.1
+93,Guinea-Bissau,GNB,GW,Bissau,XOF,West African CFA franc,1781308,2527930272.92988,Africa,Western Africa,Tây Phi,Châu Phi,36120,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,1119800,87418.03,39000,7200
+94,Guyana,GUY,GY,Georgetown,GYD,Guyanese dollar,772975,27097477218.2254,Americas,South America,Nam Mỹ,Châu Mỹ,214970,Cộng hòa tổng thống,Presidential Republic,463.76,200,0,0,0,0,323000,108359.69,18000,17952.3
+95,Haiti,HTI,HT,Port-au-Prince,HTG,Haitian gourde,11867032,32077278409.2339,Americas,Caribbean,Ca Ri Bê,Châu Mỹ,27750,Cộng hòa tổng thống,Presidential Republic,0,0,1.8,0,0,0,0,0,0,0
+96,Heard Island and McDonald Islands,HMD,HM,,AUD,Australian dollar,0,0,Polar,,Nam Cực,Châu Nam Cực,412,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,770043.5,302166.1,80000,31878.5
+97,Honduras,HND,HN,Tegucigalpa,HNL,Honduran lempira,9892632,39601409103.3005,Americas,Central America,Trung Mỹ,Châu Mỹ,112090,Cộng hòa tổng thống,Presidential Republic,0,0,0.7,0,0,0,0,140991.19,119000,40
+98,Hong Kong S.A.R.,HKG,HK,Hong Kong,HKD,Hong Kong dollar,7527500,427310315921.993,Asia,Eastern Asia,Đông Á,Châu Á,1092,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,12689330,1037031.25,22000,50665.89
+99,Hungary,HUN,HU,Budapest,HUF,Hungarian forint,9539502,246490213513.054,Europe,Eastern Europe,Đông Âu,Châu Âu,93030,Cộng hòa nghị viện,Parliamentary Republic,28.79,0,94.5,0,0,0,4986,34129.8,939000,16380
+100,Iceland,ISL,IS,Reykjavik,ISK,Icelandic króna,391810,38582528789.0033,Europe,Northern Europe,Bắc Âu,Châu Âu,103000,Cộng hòa nghị viện,Parliamentary Republic,0,0,2,8000,2200,0,391123870,13209091,14395000,1782200
+101,India,IND,IN,New Delhi,INR,Indian rupee,1417492000,3956067115771.63,Asia,Southern Asia,Nam Á,Châu Á,3287590,Cộng hòa nghị viện,Parliamentary Republic,614.29,150,840.7,0,21000,0,68281640,5113220,12665000,547538.1
+102,Indonesia,IDN,ID,Jakarta,IDR,Indonesian rupiah,284438782,1445642584163.81,Asia,South-Eastern Asia,Đông Nam Á,Châu Á,1919440,Cộng hòa tổng thống,Presidential Republic,529.04,2600,78.6,0,0,0,24511344,2801496.5,1258000,470670
+103,Iran,IRN,IR,Tehran,IRR,Iranian rial,85961000,362682115433.364,Asia,Southern Asia,Nam Á,Châu Á,1648000,Cộng hòa tổng thống,Presidential Republic,2958.54,250,0,0,0,0,6451522,286984.44,66000,93978.3
+104,Iraq,IRQ,IQ,Baghdad,IQD,Iraqi dinar,46118793,254367293538.462,Asia,Western Asia,Tây Á,Châu Á,437072,Cộng hòa nghị viện,Parliamentary Republic,2792.25,0,145.7,0,0,0,1896580,1160634,247000,44880
+105,Ireland,IRL,IE,Dublin,EUR,Euro,5458600,721701359046.313,Europe,Northern Europe,Bắc Âu,Châu Âu,70280,Cộng hòa nghị viện,Parliamentary Republic,0,0,0,0,0,0,175076.66,860050.9,17000,5149
+106,Israel,ISR,IL,Jerusalem,ILS,Israeli new shekel,10119400,610777842873.595,Asia,Western Asia,Tây Á,Châu Á,20770,Cộng hòa nghị viện,Parliamentary Republic,15.64,0,0,0,0,0,14135940,3376370.5,328000,129015.3
+107,Italy,ITA,IT,Rome,EUR,Euro,58919230,2551556954100.35,Europe,Southern Europe,Nam Âu,Châu Âu,301230,Cộng hòa nghị viện,Parliamentary Republic,85.07,5,2451.8,0,0,0,4168058,441063.7,111000,266684.1
+108,Jamaica,JAM,JM,Kingston,JMD,Jamaican dollar,2825544,22704903217.5631,Americas,Caribbean,Ca Ri Bê,Châu Mỹ,10991,Quân chủ,Monarchy,0,0,0,0,0,0,2381,159369.33,12000,4229
+109,Japan,JPN,JP,Tokyo,JPY,Japanese yen,123300000,4435162999976.94,Asia,Eastern Asia,Đông Á,Châu Á,377835,Quân chủ,Monarchy,63.85,80,846,0,0,0,11397732,4198551,0,45820
+110,Jersey,JEY,JE,Saint Helier,GBP,British pound,103267,9320000000,Europe,Northern Europe,Bắc Âu,Châu Âu,116,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,0,0,0,0
+111,Jordan,JOR,JO,Amman,JOD,Jordanian dinar,11734000,61610052535.2113,Asia,Western Asia,Tây Á,Châu Á,92300,Quân chủ,Monarchy,0.12,0,71.2,0,0,0,84011.52,382909.72,3000,10270
+112,Kazakhstan,KAZ,KZ,Astana,KZT,Kazakhstani tenge,20407844,306239209650.024,Asia,Central Asia,Trung Á,Châu Á,2717300,Cộng hòa tổng thống,Presidential Republic,1333.45,1200,298.8,0,20000,0,24565948,1169029.5,47000,2137842
+113,Kenya,KEN,KE,Nairobi,KES,Kenyan shilling,53330978,135941278878.815,Africa,Eastern Africa,Đông Phi,Châu Phi,582650,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,4978020,656460,152000,290663.4
+114,Kiribati,KIR,KI,Tarawa,AUD,Australian dollar,120740,349227254.158833,Oceania,Micronesia,Tiểu Đảo,Châu Đại Dương,811,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,0,2242.19,225000,340
+115,North Korea,PRK,KP,Pyongyang,KPW,North Korean Won,25950000,26600000000,Asia,Eastern Asia,Đông Á,Châu Á,120540,Cộng hòa xã hội chủ nghĩa,Socialist Republic,0,20,0,0,0,0,0,0,0,0
+116,South Korea,KOR,KR,Seoul,KRW,Won,51159889,1872374961553.15,Asia,Eastern Asia,Đông Á,Châu Á,98480,Cộng hòa tổng thống,Presidential Republic,68.63,0,104.4,0,0,0,35265.96,117907.95,3000,1500
+117,Kuwait,KWT,KW,Kuwait City,KWD,Kuwaiti dinar,4881254,157209026926.418,Asia,Western Asia,Tây Á,Châu Á,17820,Quân chủ,Monarchy,1740.5,0,79,0,0,0,2133604,258625.31,10000,103486.1
+118,Kyrgyzstan,KGZ,KG,Bishkek,KGS,Kyrgyzstani som,7281800,22623752095.4613,Asia,Central Asia,Trung Á,Châu Á,198500,Cộng hòa tổng thống,Presidential Republic,3.72,450,25.8,0,0,0,4266040,231256.4,206000,22011.7
+119,Laos,LAO,LA,Vientiane,LAK,Lao kip,7647000,18302970218.5902,Asia,South-Eastern Asia,Đông Nam Á,Châu Á,236800,Cộng hòa xã hội chủ nghĩa,Socialist Republic,0,80,0.9,0,0,0,3152400,90661.93,112000,19710
+120,Latvia,LVA,LV,Riga,EUR,Euro,1830400,48618869160.3254,Europe,Northern Europe,Bắc Âu,Châu Âu,64589,Cộng hòa nghị viện,Parliamentary Republic,0,0,0,0,0,0,119830.17,184744.05,3000,6513
+121,Lebanon,LBN,LB,Beirut,LBP,Lebanese pound,5490000,30468000000,Asia,Western Asia,Tây Á,Châu Á,10400,Cộng hòa nghị viện,Parliamentary Republic,0,0,286.8,0,0,0,67526.85,8836.89,2000,28200
+122,Lesotho,LSO,LS,Maseru,LSL,Lesotho loti,2116427,2573572920.05159,Africa,Southern Africa,Nam Phi,Châu Phi,30355,Quân chủ,Monarchy,0,0,0,0,0,0,322400,34691.77,25000,19358.9
+123,Liberia,LBR,LR,Monrovia,LRD,Liberian dollar,5248621,5245938900,Africa,Western Africa,Tây Phi,Châu Phi,111370,Cộng hòa tổng thống,Presidential Republic,0,50,0,0,0,0,164800.16,184575.81,32000,153500
+124,Libya,LBY,LY,Tripolis,LYD,Libyan dinar,7459000,48098909613.6316,Africa,Northern Africa,Bắc Phi,Châu Phi,1759540,Cộng hòa tổng thống,Presidential Republic,857.53,0,116.6,0,0,0,0,0,0,51.7
+125,Liechtenstein,LIE,LI,Vaduz,CHF,Swiss franc,40900,8905764270,Europe,Western Europe,Tây Âu,Châu Âu,160,Quân chủ,Monarchy,0,0,0,0,0,0,5707790,200637.9,106000,28570
+126,Lithuania,LTU,LT,Vilnius,EUR,Euro,2894548,95210150818.3512,Europe,Northern Europe,Bắc Âu,Châu Âu,65200,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,140770,19809.21,0,1330.302
+127,Luxembourg,LUX,LU,Luxembourg,EUR,Euro,681973,101157829491.107,Europe,Western Europe,Tây Âu,Châu Âu,2586,Quân chủ,Monarchy,0,0,0,0,0,0,0,8864.39,2000,0
+128,Macau S.A.R.,MAC,MO,Macao,MOP,Macanese pataca,685900,52061007670.169,Asia,Eastern Asia,Đông Á,Châu Á,254,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,5237387,161609.6,118000,409325.8
+129,North Macedonia,MKD,MK,Skopje,MKD,Denar,1826247,19101199817.0174,Europe,Southern Europe,Nam Âu,Châu Âu,25333,Cộng hòa nghị viện,Parliamentary Republic,0,0,6.9,0,0,0,3279465.2,703100.5,181000,61321.9
+130,Madagascar,MDG,MG,Antananarivo,MGA,Malagasy ariary,31727042,19620352035.7899,Africa,Eastern Africa,Đông Phi,Châu Phi,587040,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,710000,2104277.2,1853548.8,1571000,81457.2
+131,Malawi,MWI,MW,Lilongwe,MWK,Malawian kwacha,20734262,14918276698.303,Africa,Eastern Africa,Đông Phi,Châu Phi,118480,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,204.87,865.7,135000,59
+132,Malaysia,MYS,MY,Kuala Lumpur,MYR,Malaysian ringgit,34231700,472193128644.597,Asia,South-Eastern Asia,Đông Nam Á,Châu Á,329750,Quân chủ,Monarchy,374.84,45,38.9,0,0,0,10440301,177136.33,0,416751.4
+133,Maldives,MDV,MV,Male,MVR,Maldivian rufiyaa,515132,7741066860.6337,Asia,Southern Asia,Nam Á,Châu Á,300,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,0,10437.85,19000,80.2
+134,Mali,MLI,ML,Bamako,XOF,West African CFA franc,22395489,30069148580.7688,Africa,Western Africa,Tây Phi,Châu Phi,1240000,Cộng hòa tổng thống,Presidential Republic,0,800,0,0,0,0,0,0,0,390.756
+135,Malta,MLT,MT,Valletta,EUR,Euro,574250,27771821560.9411,Europe,Southern Europe,Nam Âu,Châu Âu,316,Cộng hòa nghị viện,Parliamentary Republic,0,0,0,0,0,0,0,0,96000,72.7
+136,Man (Isle of),IMN,IM,Douglas Isle of Man,GBP,British pound,84530,7576129933,Europe,Northern Europe,Bắc Âu,Châu Âu,572,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,0,0,0,0
+137,Marshall Islands,MHL,MH,Majuro,USD,United States dollar,42418,308000000,Oceania,Micronesia,Tiểu Đảo,Châu Đại Dương,181,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,570226.7,134115.58,721000,397100
+138,Martinique,MTQ,MQ,Fort-de-France,EUR,Euro,339897,10450000000,Americas,Caribbean,Ca Ri Bê,Châu Mỹ,1100,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,1288.9,54740.84,37000,817.2
+139,Mauritania,MRT,MR,Nouakchott,MRU,Mauritanian ouguiya,4927532,11679910946.4371,Africa,Western Africa,Tây Phi,Châu Phi,1030700,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,0,0,0,0
+140,Mauritius,MUS,MU,Port Louis,MUR,Mauritian rupee,1243741,16157804491.7614,Africa,Eastern Africa,Đông Phi,Châu Phi,2040,Cộng hòa nghị viện,Parliamentary Republic,0,0,12.4,37000,53000,0,32642052,8353546.5,1825000,984295.743
+141,Mayotte,MYT,YT,Mamoudzou,EUR,Euro,337011,324400000,Africa,Eastern Africa,Đông Phi,Châu Phi,374,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,289.81,1481.83,166000,54
+142,Mexico,MEX,MX,Ciudad de México,MXN,Mexican peso,130575786,1832641364775.52,Americas,Northern America,Bắc Mỹ,Châu Mỹ,1972550,Cộng hòa tổng thống,Presidential Republic,1159.71,1400,120.1,0,0,0,2129863.2,78232.38,13000,24113
+143,Micronesia,FSM,FM,Palikir,USD,United States dollar,105564,501797600,Oceania,Micronesia,Tiểu Đảo,Châu Đại Dương,702,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,0,0,0,0
+144,Moldova,MDA,MD,Chisinau,MDL,Moldovan leu,2381300,20351796275.2943,Europe,Eastern Europe,Đông Âu,Châu Âu,33843,Cộng hòa nghị viện,Parliamentary Republic,0,0,0,0,0,0,443153.28,378314.47,0,1072456.296
+145,Monaco,MCO,MC,Monaco,EUR,Euro,38423,11125788838,Europe,Western Europe,Tây Âu,Châu Âu,1,Quân chủ,Monarchy,0,0,0,0,0,0,6906.6,15218.09,2000,2482.79
+146,Mongolia,MNG,MN,Ulan Bator,MNT,Mongolian tögrög,3544835,25369107325.4549,Asia,Eastern Asia,Đông Á,Châu Á,1565000,Cộng hòa tổng thống,Presidential Republic,8.44,340,6,0,0,0,0,0,0,0
+147,Montenegro,MNE,ME,Podgorica,EUR,Euro,623327,9232801464.79257,Europe,Southern Europe,Nam Âu,Châu Âu,14026,Cộng hòa nghị viện,Parliamentary Republic,0,0,0,0,0,0,3205380.8,1222410.5,1414000,300000
+148,Montserrat,MSR,MS,Plymouth,XCD,Eastern Caribbean dollar,4386,63000000,Americas,Caribbean,Ca Ri Bê,Châu Mỹ,102,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,2656063,323757.3,377000,441252.5
+149,Morocco,MAR,MA,Rabat,MAD,Moroccan dirham,36828330,182374250612.28,Africa,Northern Africa,Bắc Phi,Châu Phi,446550,Quân chủ,Monarchy,0.1,90,22.1,0,0,0,30128822,1260214.4,3033000,130103.5
+150,Mozambique,MOZ,MZ,Maputo,MZN,Mozambican metical,34090466,22337997046.1913,Africa,Eastern Africa,Đông Phi,Châu Phi,801590,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,61229,78955.37,467000,388120
+151,Myanmar,MMR,MM,Nay Pyi Taw,MMK,Burmese kyat,51316756,81665773809.5238,Asia,South-Eastern Asia,Đông Nam Á,Châu Á,678500,Cộng hòa tổng thống,Presidential Republic,11.48,0,7.3,0,0,0,0,78.52,120000,3.4
+152,Namibia,NAM,,Windhoek,NAD,Namibian dollar,3022401,15080340653.5276,Africa,Southern Africa,Nam Phi,Châu Phi,825418,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,11525107,447767,122000,37441
+153,Nauru,NRU,NR,Yaren,AUD,Australian dollar,11680,176040043.932346,Oceania,Micronesia,Tiểu Đảo,Châu Đại Dương,21,Cộng hòa nghị viện,Parliamentary Republic,0,0,0,0,0,0,1044680,2687882.8,367000,17990
+154,Nepal,NPL,NP,Kathmandu,NPR,Nepalese rupee,29911840,45489810283.1132,Asia,Southern Asia,Nam Á,Châu Á,140800,Cộng hòa nghị viện,Parliamentary Republic,0,0,8,0,0,0,7355.27,6852.47,5000,1820.8
+155,Bonaire Sint Eustatius and Saba,BES,BQ,Kralendijk,USD,United States dollar,26552,941000000,Americas,Caribbean,Ca Ri Bê,Châu Mỹ,328,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,1102880.6,1488597.4,526000,96930
+156,Netherlands,NLD,NL,Amsterdam,EUR,Euro,18080943,1332767651100.39,Europe,Western Europe,Tây Âu,Châu Âu,41526,Quân chủ,Monarchy,49.14,0,612.5,0,0,0,0,0,86000,0
+157,New Caledonia,NCL,NC,Noumea,XPF,CFP franc,264596,9623880628,Oceania,Melanesia,Mê La Nê Đi,Châu Đại Dương,19060,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,5965898.5,193878.34,48000,466188.5
+158,New Zealand,NZL,NZ,Wellington,NZD,New Zealand dollar,5324700,264057413739.965,Oceania,Australia and New Zealand,Châu Úc,Châu Đại Dương,268680,Quân chủ,Monarchy,11.79,0,0,0,0,0,28473080,1679581.5,1081000,702083.9
+159,Nicaragua,NIC,NI,Managua,NIO,Nicaraguan córdoba,6803886,22237167113.0916,Americas,Central America,Trung Mỹ,Châu Mỹ,129494,Cộng hòa tổng thống,Presidential Republic,0,80,0,0,0,0,0,96.77,0,0
+160,Niger,NER,NE,Niamey,XOF,West African CFA franc,26312034,21646191388.2507,Africa,Western Africa,Tây Phi,Châu Phi,1267000,Cộng hòa tổng thống,Presidential Republic,63.1,0,0,0,0,0,0,0,0,0
+161,Nigeria,NGA,NG,Abuja,NGN,Nigerian naira,223800000,290794361542.112,Africa,Western Africa,Tây Phi,Châu Phi,923768,Cộng hòa tổng thống,Presidential Republic,1039.34,0,21.4,0,0,0,4885461.5,344588.53,0,25975.5
+162,Niue,NIU,NU,Alofi,NZD,New Zealand dollar,1681,24700000,Oceania,Polynesia,Nam Đảo,Châu Đại Dương,260,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,532133.6,21430,4000,12410
+163,Norfolk Island,NFK,NF,Kingston,AUD,Australian dollar,2188,68000000,Oceania,Australia and New Zealand,Châu Úc,Châu Đại Dương,34,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,0,0,0,10.4
+164,Northern Mariana Islands,MNP,MP,Saipan,USD,United States dollar,47329,1591550000,Oceania,Micronesia,Tiểu Đảo,Châu Đại Dương,477,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,1181400,364440,3762000,9840
+165,Norway,NOR,NO,Oslo,NOK,Norwegian krone,5606944,530755719438.879,Europe,Northern Europe,Bắc Âu,Châu Âu,324220,Quân chủ,Monarchy,1272.65,0,0,0,0,0,241658,92976.51,580000,14791.8
+166,Oman,OMN,OM,Muscat,OMR,Omani rial,5306976,109604780696.23,Asia,Western Asia,Tây Á,Châu Á,212460,Quân chủ,Monarchy,627.33,0,0,0,0,0,55933132,5850952.5,649000,363890
+167,Pakistan,PAK,PK,Islamabad,PKR,Pakistani rupee,241499431,407307214476.222,Asia,Southern Asia,Nam Á,Châu Á,803940,Cộng hòa tổng thống,Presidential Republic,49.27,40,64.7,0,0,0,0,0,0,43
+168,Palau,PLW,PW,Melekeok,USD,United States dollar,16733,345000000,Oceania,Micronesia,Tiểu Đảo,Châu Đại Dương,458,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,0,0,0,3912
+169,Palestine,PSE,PS,East Jerusalem,ILS,Israeli new shekel,5483450,17167100000,Asia,Western Asia,Tây Á,Châu Á,5970,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,461850,301414.94,239000,17119.641
+170,Panama,PAN,PA,Panama City,PAB,Panamanian balboa,4064780,90462600000,Americas,Central America,Trung Mỹ,Châu Mỹ,78200,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,18808.5,531162.2,190000,14050
+171,Papua New Guinea,PNG,PG,Port Moresby,PGK,Papua New Guinean kina,11781559,32498658653.8415,Oceania,Melanesia,Mê La Nê Đi,Châu Đại Dương,462840,Quân chủ,Monarchy,19.55,1100,1.1,0,0,0,5806160.5,580201.1,32000,214270
+172,Paraguay,PRY,PY,Asunción,PYG,Paraguayan guarani,6109644,49278227554.3339,Americas,South America,Nam Mỹ,Châu Mỹ,406750,Cộng hòa tổng thống,Presidential Republic,0,0,8.2,110000,85000,0,5923490.5,2389930.2,6678000,242985.6
+173,Peru,PER,PE,Lima,PEN,Peruvian sol,34350244,334854659181.893,Americas,South America,Nam Mỹ,Châu Mỹ,1285220,Cộng hòa tổng thống,Presidential Republic,76.51,1300,34.7,0,0,0,27225764,3267645.2,2768000,127455
+174,Philippines,PHL,PH,Manila,PHP,Philippine peso,114123600,487086123720.417,Asia,South-Eastern Asia,Đông Nam Á,Châu Á,300000,Cộng hòa tổng thống,Presidential Republic,8.87,280,160,0,0,0,0,0,0,0
+175,Pitcairn Island,PCN,PN,Adamstown,NZD,New Zealand dollar,35,47,Oceania,Polynesia,Nam Đảo,Châu Đại Dương,47,Cộng hòa tổng thống,Presidential Republic,0,0,0,59000,33000,0,34345780,5455245.5,256000,141420
+176,Poland,POL,PL,Warsaw,PLN,Polish zloty,37401000,1035491784197.44,Europe,Eastern Europe,Đông Âu,Châu Âu,312685,Cộng hòa tổng thống,Presidential Republic,27.61,20,377.4,0,0,0,1017320,889814,197000,37872.705
+177,Portugal,PRT,PT,Lisbon,EUR,Euro,10749635,346639825141.821,Europe,Southern Europe,Nam Âu,Châu Âu,92391,Cộng hòa tổng thống,Presidential Republic,7.63,0,382.6,0,0,0,3730.83,35720.83,0,1644.2
+178,Puerto Rico,PRI,PR,San Juan,USD,United States dollar,3203295,1.29368E+11,Americas,Caribbean,Ca Ri Bê,Châu Mỹ,9104,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,1769,33813.58,17000,740
+179,Qatar,QAT,QA,Doha,QAR,Qatari riyal,3173024,215559615384.615,Asia,Western Asia,Tây Á,Châu Á,11437,Quân chủ,Monarchy,1165.3,0,101,0,0,0,0,0,0,0
+180,Reunion,REU,RE,Saint-Denis,EUR,Euro,896175,981270100,Africa,Eastern Africa,Đông Phi,Châu Phi,2517,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,17864380,993030.4,18000,126894.6
+181,Romania,ROU,RO,Bucharest,RON,Romanian leu,19036031,428677977854.826,Europe,Eastern Europe,Đông Âu,Châu Âu,237500,Cộng hòa tổng thống,Presidential Republic,43.12,100,103.6,92000,80000,3800000,120400180,12865115,5456000,2157120
+182,Russia,RUS,RU,Moscow,RUB,Russian ruble,146028325,2561310169358.74,Europe,Eastern Europe,Đông Âu,Châu Âu,17100000,Cộng hòa tổng thống,Presidential Republic,6536.66,11100,2332.7,0,0,0,975198.8,99076.23,42000,17980.894
+183,Rwanda,RWA,RW,Kigali,RWF,Rwandan franc,14104969,16372132990.2271,Africa,Eastern Africa,Đông Phi,Châu Phi,26338,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,0,0,0,0
+184,Saint Helena,SHN,SH,Jamestown,SHP,Saint Helena pound,5651,39300000,Africa,Western Africa,Tây Phi,Châu Phi,410,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,0,136.51,1000,60
+185,Saint Kitts and Nevis,KNA,KN,Basseterre,XCD,Eastern Caribbean dollar,51320,1183514814.81481,Americas,Caribbean,Ca Ri Bê,Châu Mỹ,261,Quân chủ,Monarchy,0,0,0,0,0,0,0,3004.85,1000,99.3
+186,Saint Lucia,LCA,LC,Castries,XCD,Eastern Caribbean dollar,184100,2656444444.44444,Americas,Caribbean,Ca Ri Bê,Châu Mỹ,616,Quân chủ,Monarchy,0,0,0,0,0,0,0,0,0,0
+187,Saint Pierre and Miquelon,SPM,PM,Saint-Pierre,EUR,Euro,5819,261300000,Americas,Northern America,Bắc Mỹ,Châu Mỹ,242,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,427,499,2000,70
+188,Saint Vincent and the Grenadines,VCT,VC,Kingstown,XCD,Eastern Caribbean dollar,110872,1255222222.22222,Americas,Caribbean,Ca Ri Bê,Châu Mỹ,389,Quân chủ,Monarchy,0,0,0,0,0,0,0,0,0,0
+189,Saint-Barthelemy,BLM,BL,Gustavia,EUR,Euro,10562,1040000000,Americas,Caribbean,Ca Ri Bê,Châu Mỹ,21,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,0,0,0,0
+190,Saint-Martin (French part),MAF,MF,Marigot,EUR,Euro,31496,809565576,Americas,Caribbean,Ca Ri Bê,Châu Mỹ,53,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,0,3058.98,9000,494.1
+191,Samoa,WSM,WS,Apia,WST,Samoan tala,205557,1287936621.64619,Oceania,Polynesia,Nam Đảo,Châu Đại Dương,2944,Cộng hòa nghị viện,Parliamentary Republic,0,0,0,0,0,0,0,0,0,25.9
+192,San Marino,SMR,SM,San Marino,EUR,Euro,34132,1855382875,Europe,Southern Europe,Nam Âu,Châu Âu,61,Cộng hòa nghị viện,Parliamentary Republic,0,0,0,0,0,0,796.13,1724.66,6000,442.6
+193,Sao Tome and Principe,STP,ST,Sao Tome,STN,Dobra,209607,981293586.906408,Africa,Middle Africa,Trung Phi,Châu Phi,1001,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,1174874.5,1084904.2,182000,1755900
+194,Saudi Arabia,SAU,SA,Riyadh,SAR,Saudi riyal,35300280,1276942933333.33,Asia,Western Asia,Tây Á,Châu Á,1960582,Quân chủ,Monarchy,6958.29,270,323.1,0,0,0,3914480,341094,515000,95125.6
+195,Senegal,SEN,SN,Dakar,XOF,West African CFA franc,18593258,37006536238.3731,Africa,Western Africa,Tây Phi,Châu Phi,196190,Cộng hòa tổng thống,Presidential Republic,62.05,60,0,0,0,0,8724606,545828.75,10000,33367.851
+196,Serbia,SRB,RS,Belgrade,RSD,Serbian dinar,6567783,99953324472.9042,Europe,Southern Europe,Nam Âu,Châu Âu,88361,Cộng hòa nghị viện,Parliamentary Republic,8.19,140,46.5,0,0,0,0,1461.36,135000,15.4
+197,Seychelles,SYC,SC,Victoria,SCR,Seychellois rupee,122729,2387022853.48583,Africa,Eastern Africa,Đông Phi,Châu Phi,455,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,1501593.1,48715.95,205000,39874.7
+198,Sierra Leone,SLE,SL,Freetown,SLE,Sierra Leonean leone,9077691,7464157904.43509,Africa,Western Africa,Tây Phi,Châu Phi,71740,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,0,56511.03,0,6.6
+199,Singapore,SGP,SG,Singapur,SGD,Singapore dollar,6036900,603869516998.738,Asia,South-Eastern Asia,Đông Nam Á,Châu Á,692,Cộng hòa nghị viện,Parliamentary Republic,12.72,0,230.2,0,0,0,0,0,0,0
+200,Slovakia,SVK,SK,Bratislava,EUR,Euro,5413813,154530066506.895,Europe,Eastern Europe,Đông Âu,Châu Âu,48845,Cộng hòa nghị viện,Parliamentary Republic,0.12,0,31.7,0,0,0,3687160,0,4000,18190
+201,Slovenia,SVN,SI,Ljubljana,EUR,Euro,2130638,79648204979.3618,Europe,Southern Europe,Nam Âu,Châu Âu,20273,Cộng hòa nghị viện,Parliamentary Republic,0,0,0,0,0,0,672960,134637.98,2000,6113.6
+202,Solomon Islands,SLB,SB,Honiara,SBD,Solomon Islands dollar,750325,1749572442.95016,Oceania,Melanesia,Mê La Nê Đi,Châu Đại Dương,28450,Quân chủ,Monarchy,0,0,0,0,0,0,2756.01,3626.72,69000,1158.3
+203,Somalia,SOM,SO,Mogadishu,SOS,Somali shilling,19655000,12995200000.2658,Africa,Eastern Africa,Đông Phi,Châu Phi,637657,Cộng hòa nghị viện,Parliamentary Republic,0,0,0,0,0,0,128063.3,180333.6,0,441301.5
+204,South Africa,ZAF,ZA,Pretoria,ZAR,South African rand,63100945,427184325997.307,Africa,Southern Africa,Nam Phi,Châu Phi,1219912,Cộng hòa nghị viện,Parliamentary Republic,59.07,5000,125.4,0,0,860000,15313961,3625721.2,493000,963410
+205,South Georgia,SGS,GS,Grytviken,GBP,British pound,20,0,Americas,South America,Nam Mỹ,Châu Mỹ,3903,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,0,0,0,0
+206,South Sudan,SSD,SS,Juba,SSP,South Sudanese pound,15786898,5539000000,Africa,Middle Africa,Trung Phi,Châu Phi,644329,Cộng hòa tổng thống,Presidential Republic,69.87,0,0,0,0,0,4984351,2840561.2,1889000,15610
+207,Spain,ESP,ES,Madrid,EUR,Euro,49315949,1906453309985.88,Europe,Southern Europe,Nam Âu,Châu Âu,504782,Quân chủ,Monarchy,47.9,40,281.6,0,0,0,1200000,230429.7,0,282508.9
+208,Sri Lanka,LKA,LK,Colombo,LKR,Sri Lankan rupee,21763170,108825231671.196,Asia,Southern Asia,Nam Á,Châu Á,65610,Cộng hòa tổng thống,Presidential Republic,0,0,0.5,0,0,0,20862990,7564708,1086000,246334.646
+209,Sudan,SDN,SD,Khartoum,SDG,Sudanese pound,51662000,60162634574.4689,Africa,Northern Africa,Bắc Phi,Châu Phi,1861484,Cộng hòa tổng thống,Presidential Republic,19.73,840,0,0,0,0,4930803,291946,431000,30170.4
+210,Suriname,SUR,SR,Paramaribo,SRD,Surinamese dollar,616500,4523657796.86421,Americas,South America,Nam Mỹ,Châu Mỹ,163270,Cộng hòa tổng thống,Presidential Republic,9.56,200,1.5,0,0,0,6726871.5,973481.8,0,1126650
+211,Svalbard and Jan Mayen Islands,SJM,SJ,Longyearbyen,NOK,Norwegian krone,2774,240000000,Europe,Northern Europe,Bắc Âu,Châu Âu,62049,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,226034.31,12564.97,38000,760
+212,Eswatini,SWZ,SZ,Mbabane,SZL,Lilangeni,1235549,5160679612.81734,Africa,Southern Africa,Nam Phi,Châu Phi,17363,Quân chủ,Monarchy,0,0,0,0,0,0,0,0,0,0
+213,Sweden,SWE,SE,Stockholm,SEK,Swedish krona,10596652,668998664082.081,Europe,Northern Europe,Bắc Âu,Châu Âu,449964,Quân chủ,Monarchy,8.62,150,125.7,0,0,0,5149700,570910,196000,29750
+214,Switzerland,CHE,CH,Bern,CHF,Swiss franc,9082848,1043529899250.92,Europe,Western Europe,Tây Âu,Châu Âu,41290,Cộng hòa nghị viện,Parliamentary Republic,0,0,1040,0,0,0,628069.5,480606.9,4000,14901.622
+215,Syria,SYR,SY,Damascus,SYP,Syrian pound,25620000,17500000000,Asia,Western Asia,Tây Á,Châu Á,185180,Cộng hòa tổng thống,Presidential Republic,50.38,0,25.8,0,0,0,4330802,418049.75,7000,136129.3
+216,Taiwan,TWN,TW,Taipei,TWD,New Taiwan dollar,23337936,8.01495E+11,Asia,Eastern Asia,Đông Á,Châu Á,35980,Cộng hòa tổng thống,Presidential Republic,15.88,0,0,0,0,0,1870980.9,1571993.8,1041000,0
+217,Tajikistan,TJK,TJ,Dushanbe,TJS,Tajikistani somoni,10499000,17660626562.4832,Asia,Central Asia,Trung Á,Châu Á,143100,Cộng hòa tổng thống,Presidential Republic,0.19,0,22.5,0,0,0,1552464,452314.84,4000,38875
+218,Tanzania,TZA,TZ,Dodoma,TZS,Tanzanian shilling,68153004,90143496090.4411,Africa,Eastern Africa,Đông Phi,Châu Phi,945087,Cộng hòa tổng thống,Presidential Republic,0,500,0,0,0,890000,15468111,1079368,522000,398770
+219,Thailand,THA,TH,Bangkok,THB,Thai baht,65859640,577009981112.015,Asia,South-Eastern Asia,Đông Nam Á,Châu Á,514000,Quân chủ,Monarchy,245.59,15,244.2,0,0,0,38639724,3066007.2,2507000,221045.2
+220,Togo,TGO,TG,Lome,XOF,West African CFA franc,8095498,11889949067.4697,Africa,Western Africa,Tây Phi,Châu Phi,56785,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,604.91,6480.07,10000,130
+221,Tokelau,TKL,TK,,NZD,New Zealand dollar,1647,10000000,Oceania,Polynesia,Nam Đảo,Châu Đại Dương,10,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,124840.88,8278.5,53000,7703
+222,Tonga,TON,TO,Nuku'alofa,TOP,Tongan pa?anga,100179,679218218.578017,Oceania,Polynesia,Nam Đảo,Châu Đại Dương,748,Quân chủ,Monarchy,0,0,0,0,0,0,132000,30784.63,5000,3414
+223,Trinidad and Tobago,TTO,TT,Port of Spain,TTD,Trinidad and Tobago dollar,1368333,25942749718.4685,Americas,Caribbean,Ca Ri Bê,Châu Mỹ,5128,Cộng hòa nghị viện,Parliamentary Republic,44.37,0,1.9,0,0,0,1533073.2,81198.88,0,37570.6
+224,Tunisia,TUN,TN,Tunis,TND,Tunisian dinar,11972169,57502836548.0878,Africa,Northern Africa,Bắc Phi,Châu Phi,163610,Cộng hòa tổng thống,Presidential Republic,17.44,0,6.8,0,0,0,0,0,0,0
+225,Turkey,TUR,TR,Ankara,TRY,Turkish lira,85664944,1597293229287.0,Asia,Western Asia,Tây Á,Châu Á,780580,Cộng hòa tổng thống,Presidential Republic,88.42,480,584.9,0,0,0,0,2466.62,1000,349
+226,Turkmenistan,TKM,TM,Ashgabat,TMT,Turkmenistan manat,7057841,49828621355.6516,Asia,Central Asia,Trung Á,Châu Á,488100,Cộng hòa tổng thống,Presidential Republic,170.39,0,0,0,0,0,784.4,49512,13000,595.2
+227,Turks and Caicos Islands,TCA,TC,Cockburn Town,USD,United States dollar,50894,1402000000,Americas,Caribbean,Ca Ri Bê,Châu Mỹ,430,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,1504225.8,376757.72,150000,96469
+228,Tuvalu,TUV,TV,Funafuti,AUD,Australian dollar,10643,57345434.7234984,Oceania,Polynesia,Nam Đảo,Châu Đại Dương,26,Quân chủ,Monarchy,0,0,0,0,0,0,39017292,4676491.5,800000,386400
+229,Uganda,UGA,UG,Kampala,UGX,Ugandan shilling,45905417,61985829288.1496,Africa,Eastern Africa,Đông Phi,Châu Phi,236040,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,1486834.2,393734.03,15000,396267.1
+230,Ukraine,UKR,UA,Kyiv,UAH,Ukrainian hryvnia,32862000,214233312784.397,Europe,Eastern Europe,Đông Âu,Châu Âu,603700,Cộng hòa tổng thống,Presidential Republic,19.86,0,27.1,0,0,0,0,0,0,10
+231,United Arab Emirates,ARE,AE,Abu Dhabi,AED,United Arab Emirates dirham,10678556,5.04173E+11,Asia,Western Asia,Tây Á,Châu Á,82880,Quân chủ,Monarchy,2692.35,0,74.9,0,0,0,0,191.62,31000,26
+232,United Kingdom,GBR,GB,London,GBP,British pound,68265209,4002587541846.01,Europe,Northern Europe,Bắc Âu,Châu Âu,244820,Quân chủ,Monarchy,476.85,10,310.3,0,0,0,5670000,642364.6,761000,160970
+233,United States,USA,US,Washington,USD,United States dollar,340110988,30769700000000.0,Americas,Northern America,Bắc Mỹ,Châu Mỹ,9629091,Cộng hòa tổng thống,Presidential Republic,8477.27,3000,8133.4,0,0,0,55651880,2105950,79000,413110
+234,United States Minor Outlying Islands,UMI,UM,,USD,United States dollar,300,0,Americas,Northern America,Bắc Mỹ,Châu Mỹ,6959,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,20216.3,191558.31,76000,3976.5
+235,Uruguay,URY,UY,Montevideo,UYU,Uruguayan peso,3499451,85347696277.6859,Americas,South America,Nam Mỹ,Châu Mỹ,176220,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,19441252,4171521.5,847000,167444.385
+236,Uzbekistan,UZB,UZ,Tashkent,UZS,Uzbekistani so?m,37859698,147038081129.405,Asia,Central Asia,Trung Á,Châu Á,447400,Cộng hòa tổng thống,Presidential Republic,30.78,1800,363.3,23000,47000,1900000,454987900,47793756,5291000,4215403.7
+237,Vanuatu,VUT,VU,Port Vila,VUV,Vanuatu vatu,321409,1353658840.63993,Oceania,Melanesia,Mê La Nê Đi,Châu Đại Dương,12200,Cộng hòa nghị viện,Parliamentary Republic,0,0,0,0,0,0,0,0,0,0
+238,Vatican City State (Holy See),VAT,VA,Vatican City,EUR,Euro,882,21150000,Europe,Southern Europe,Nam Âu,Châu Âu,0.49,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,4116826,695238.4,66000,152888.5
+239,Venezuela,VEN,VE,Caracas,VES,Bolívar,28517000,99661244155.6306,Americas,South America,Nam Mỹ,Châu Mỹ,912050,Cộng hòa tổng thống,Presidential Republic,627.33,0,161.2,0,0,0,8295464.5,1614338.6,172000,258496
+240,Vietnam,VNM,VN,Hanoi,VND,Vietnamese d?ng,101343800,514697215165.065,Asia,South-Eastern Asia,Đông Nam Á,Châu Á,329560,Cộng hòa xã hội chủ nghĩa,Socialist Republic,123.48,25,33,0,0,0,985.44,5406.48,45000,1616.8
+241,Virgin Islands (British),VGB,VG,Road Town,USD,United States dollar,39471,1537083000,Americas,Caribbean,Ca Ri Bê,Châu Mỹ,153,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,0,0,0,0
+242,Virgin Islands (US),VIR,VI,Charlotte Amalie,USD,United States dollar,87146,4488000000,Americas,Caribbean,Ca Ri Bê,Châu Mỹ,352,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,3486591,1098888.9,272000,215410
+243,Wallis and Futuna Islands,WLF,WF,Mata Utu,XPF,CFP franc,11620,76400000,Oceania,Polynesia,Nam Đảo,Châu Đại Dương,274,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,3500000,47853480,5598991,8276000,122910.4
+244,Western Sahara,ESH,EH,El-Aaiun,MAD,Moroccan dirham,600904,906500000,Africa,Northern Africa,Bắc Phi,Châu Phi,266000,Lãnh thổ phụ thuộc,Dependent,0,0,0,0,0,0,0,0,0,57
+245,Yemen,YEM,YE,Sanaa,YER,Yemeni rial,32684503,21606000000,Asia,Western Asia,Tây Á,Châu Á,527970,Cộng hòa tổng thống,Presidential Republic,9.43,0,1.6,0,0,0,0,0,0,28.8
+246,Zambia,ZMB,ZM,Lusaka,ZMW,Zambian kwacha,19693423,28879806220.1264,Africa,Southern Africa,Nam Phi,Châu Phi,752614,Cộng hòa tổng thống,Presidential Republic,0,70,0.1,0,0,0,0,0,0,0
+247,Zimbabwe,ZWE,ZW,Harare,ZWG,Zimbabwe Gold,17073087,51215643905.5886,Africa,Eastern Africa,Đông Phi,Châu Phi,390580,Cộng hòa tổng thống,Presidential Republic,0,500,2.5,0,0,0,0,0,0,0
+248,Kosovo,XKX,XK,Pristina,EUR,Euro,1585566,12456403306.8191,Europe,Eastern Europe,Đông Âu,Châu Âu,10908,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,421000,453606.8,131000,234520
+249,Curaçao,CUW,CW,Willemstad,XCG,Caribbean guilder,156115,3561180000,Americas,Caribbean,Ca Ri Bê,Châu Mỹ,444,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,21000,0,1761003.5,369605.34,168000,238404.9
+250,Sint Maarten (Dutch part),SXM,SX,Philipsburg,XCG,Caribbean guilder,41349,1887728480.44693,Americas,Caribbean,Ca Ri Bê,Châu Mỹ,21,Cộng hòa tổng thống,Presidential Republic,0,0,0,0,0,0,1342958.8,948763.9,28000,185909.2
