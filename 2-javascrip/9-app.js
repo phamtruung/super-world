@@ -89,6 +89,8 @@ class App {
             // Sum By Key
             const dictKey = this.data.dataKey[index];
             const sumValue = this.data.sumByKey(listOfCountries, dictKey.detail);
+            console.log(sumValue);
+
             const sumText = `${Helper.Number.formatNumber(sumValue)} ${dictKey.unit}`
             elRowTitle.appendChild(UI.Paragraph.Text(sumText))
 

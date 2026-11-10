@@ -51,6 +51,8 @@ const UI = {
         Divide: "divide",
         Label: "label",
         Text: "text",
+        Value: "value",
+        Unit: "unit",
 
         // Input
         Input: "input",
@@ -220,6 +222,18 @@ const UI = {
             el.textContent = text;
             return el;        
         },
+        Value(value) {
+            const el = document.createElement('p');
+            el.className = UI.ClassName.Value;
+            el.textContent = value;
+            return el;
+        },
+        Unit(unit) {
+            const el = document.createElement('p');
+            el.className = UI.ClassName.Unit;
+            el.textContent = "(" + unit + ")";
+            return el;
+        }
     },
 
     //#region Div
@@ -289,5 +303,32 @@ const UI = {
                 polygon.setAttribute("class", className)
             });
         }
+    }
+}
+
+// #region ContentLine
+class ContentLine {
+    constructor(elFather, label, value, unit) {
+        // Row
+        this.elContent = UI.Div.Row(UI.ClassName.Wrap);
+        this.elContent.classList.add(UI.ClassName.Value);
+        elFather.appendChild(this.elContent);
+
+        // Label
+        this.elContent.appendChild(UI.Paragraph.Label(label))
+
+        // ValueColumn
+        this.elValueCol = UI.Div.Column();
+        this.elContent.appendChild(this.elValueCol);
+
+        // Value
+        this.elValue = UI.Paragraph.Value(value);
+        this.elValueCol.appendChild(this.elValue);
+
+        // Unit
+        if (unit) this.elValueCol.appendChild(UI.Paragraph.Unit(unit));
+    }
+    changeValue(value) {
+        this.elValue.innerHTML = value;
     }
 }

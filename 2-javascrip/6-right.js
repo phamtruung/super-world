@@ -1,3 +1,4 @@
+// #region DivRight
 class DivRight {
     constructor(elFather, folderFlag) {
         
@@ -33,31 +34,17 @@ class DivRight {
         // General
         this.elGeneral = UI.Div.Column(UI.ClassName.ForApp.General);
         this.elContent.appendChild(this.elGeneral);
+
+        // Title
         this.elGeneral.appendChild(UI.Paragraph.Divide("Tổng Quan"))
-
         // Capital
-        this.elRowCapital = UI.Div.Row(UI.ClassName.Wrap);
-        this.elGeneral.appendChild(this.elRowCapital);
-        this.elRowCapital.appendChild(UI.Paragraph.Label("Thủ Đô: "))
-        this.elCapital = UI.Paragraph.Text();
-        this.elRowCapital.appendChild(this.elCapital);
-
+        this.elCapital = new ContentLine(this.elGeneral, "Thủ Đô", "", null);
         // Region
-        this.elRowRegion = UI.Div.Row(UI.ClassName.Wrap);
-        this.elGeneral.appendChild(this.elRowRegion);
-        this.elRowRegion.appendChild(UI.Paragraph.Label("Châu Lục: "))
-        this.elRegion = UI.Paragraph.Text();
-        this.elRowRegion.appendChild(this.elRegion)
-
+        this.elRegion = new ContentLine(this.elGeneral, "Châu Lục", "", null);
+        // SubRegion
+        this.elSubRegion = new ContentLine(this.elGeneral, "Khu Vực", "", null);
         // Area
-        this.elRowArea = UI.Div.Row(UI.ClassName.Wrap);
-        this.elGeneral.appendChild(this.elRowArea);
-        this.elRowArea.appendChild(UI.Paragraph.Label("Diện Tích: "))
-        this.elArea = UI.Paragraph.Text();
-        this.elRowArea.appendChild(this.elArea)
-
-        // Unit
-        this.elRowArea.appendChild(UI.Paragraph.Text("km2"));    
+        this.elArea = new ContentLine(this.elGeneral, "Diện Tích", "", "km2");
     }
 
     // #region createElPolitical
@@ -65,33 +52,15 @@ class DivRight {
         // Political
         this.elPolitical = UI.Div.Column(UI.ClassName.ForApp.Political);
         this.elContent.appendChild(this.elPolitical);
+
+        // Title
         this.elPolitical.appendChild(UI.Paragraph.Divide("Chính Trị"))
-
         // Goverment
-        this.elRowGovement = UI.Div.Row(UI.ClassName.Wrap);
-        this.elPolitical.appendChild(this.elRowGovement);
-        this.elGoverment = UI.Paragraph.Text();
-        this.elRowGovement.appendChild(this.elGoverment);
-
+        this.elGoverment = new ContentLine(this.elPolitical, "Thể Chế", "", null);
         // Population
-        this.elRowPopulation = UI.Div.Row(UI.ClassName.Wrap);
-        this.elPolitical.appendChild(this.elRowPopulation);
-        this.elRowPopulation.appendChild(UI.Paragraph.Label("Dân Số: "))
-        this.elPopulation = UI.Paragraph.Text();
-        this.elRowPopulation.appendChild(this.elPopulation);
-
-        // Unit Population
-        this.elRowPopulation.appendChild(UI.Paragraph.Text("triệu dân"));
-
+        this.elPopulation = new ContentLine(this.elPolitical, "Dân Số", "", "người");
         // Population Per Km2
-        this.elRowPopulationPerPerson = UI.Div.Row(UI.ClassName.Wrap);
-        this.elPolitical.appendChild(this.elRowPopulationPerPerson);
-        this.elRowPopulationPerPerson.appendChild(UI.Paragraph.Label("Mật Độ: "))
-        this.elPopulationDensity = UI.Paragraph.Text();
-        this.elRowPopulationPerPerson.appendChild(this.elPopulationDensity);
-
-        // Unit Population Per Km2
-        this.elRowPopulationPerPerson.appendChild(UI.Paragraph.Text("người/km2"));
+        this.elPopulationDensity = new ContentLine(this.elPolitical, "Mật Độ", "", "người/km2");
     }
 
     // #region createElEconomic
@@ -99,34 +68,22 @@ class DivRight {
         // Economic
         this.elEconomic = UI.Div.Column(UI.ClassName.ForApp.Economic);
         this.elContent.appendChild(this.elEconomic);
+
+        // Title
         this.elEconomic.appendChild(UI.Paragraph.Divide("Kinh Tế"))
 
         // Currency
-        this.elRowCurrency = UI.Div.Row(UI.ClassName.Wrap);
-        this.elEconomic.appendChild(this.elRowCurrency);
-        this.elRowCurrency.appendChild(UI.Paragraph.Label("Tiền Tệ: "))
-        this.elCurrency = UI.Paragraph.Text();
-        this.elRowCurrency.appendChild(this.elCurrency)
-
+        this.elCurrency = new ContentLine(this.elEconomic, "Tiền Tệ", "", null);
         // GDP
-        this.elRowGDP = UI.Div.Row(UI.ClassName.Wrap);
-        this.elEconomic.appendChild(this.elRowGDP);
-        this.elRowGDP.appendChild(UI.Paragraph.Label("GDP: "))
-        this.elGDP = UI.Paragraph.Text();
-        this.elRowGDP.appendChild(this.elGDP);
-
-        // Unit GDP
-        this.elRowGDP.appendChild(UI.Paragraph.Text("triệu USD"));
-
+        this.elGDP = new ContentLine(this.elEconomic, "GDP", "", "triệu USD");
         // GDPPerPerson
-        this.elRowGDPPerPerson = UI.Div.Row(UI.ClassName.Wrap);
-        this.elEconomic.appendChild(this.elRowGDPPerPerson);
-        this.elRowGDPPerPerson.appendChild(UI.Paragraph.Label("GDP Người: "))
-        this.elGDPPerson = UI.Paragraph.Text();
-        this.elRowGDPPerPerson.appendChild(this.elGDPPerson);
-
-        // Unit GDP
-        this.elRowGDPPerPerson.appendChild(UI.Paragraph.Text("USD/người"));
+        this.elGDPPerson = new ContentLine(this.elEconomic, "GDP Người", "", "USD/người/năm");
+        // Oil
+        this.elOil = new ContentLine(this.elEconomic, "Dầu Mỏ", "", "TWh");
+        // Gold
+        this.elGoldGeological = new ContentLine(this.elEconomic, "Vàng Tài Nguyên", "", "Tấn");
+        this.elGoldBank = new ContentLine(this.elEconomic, "Vàng Dự Trữ", "", "Tấn");
+        this.elGoldTotal = new ContentLine(this.elEconomic, "Vàng Tổng", "", "Tấn");
     }
 
     // #region showCountry
@@ -153,20 +110,25 @@ class DivRight {
     }
 
     showGeneral(superCountry) {
-        this.elCapital.innerHTML = superCountry.capital;
-        this.elRegion.innerHTML = superCountry.chau_luc;
-        this.elArea.innerHTML = Helper.Number.formatNumber(superCountry.area);
+        this.elCapital.changeValue(superCountry.capital);
+        this.elRegion.changeValue(superCountry.chau_luc);
+        this.elSubRegion.changeValue(superCountry.khu_vuc);
+        this.elArea.changeValue(Helper.Number.formatNumber(superCountry.area));
     }
 
     showPolitical(superCountry) {
-        this.elGoverment.innerHTML = superCountry.the_che;
-        this.elPopulation.innerHTML = Helper.Number.formatNumber(superCountry.populationMilion);
-        this.elPopulationDensity.innerHTML =  Helper.Number.formatNumber(superCountry.populationDensity);
+        this.elGoverment.changeValue(superCountry.the_che);
+        this.elPopulation.changeValue(Helper.Number.formatNumber(superCountry.population));
+        this.elPopulationDensity.changeValue(Helper.Number.formatNumber(superCountry.populationDensity));
     }
 
     showEconomic(superCountry) {
-        this.elCurrency.innerHTML = superCountry.currency;
-        this.elGDP.innerHTML = Helper.Number.formatNumber(superCountry.gdpMilion);
-        this.elGDPPerson.innerHTML = Helper.Number.formatNumber(superCountry.gdpPerson);
+        this.elCurrency.changeValue(superCountry.currency);
+        this.elGDP.changeValue(Helper.Number.formatNumber(superCountry.gdpMilion));
+        this.elGDPPerson.changeValue(Helper.Number.formatNumber(superCountry.gdpPerson));
+        this.elOil.changeValue(Helper.Number.formatNumber(superCountry.oil));
+        this.elGoldGeological.changeValue(Helper.Number.formatNumber(superCountry.gold_geological));
+        this.elGoldBank.changeValue(Helper.Number.formatNumber(superCountry.gold_bank));
+        this.elGoldTotal.changeValue(Helper.Number.formatNumber(superCountry.goldTotal));
     }
 }

@@ -8,11 +8,16 @@ class DivHeader {
         // Filter Option
         const optionsDict = {
             0: "--Mặc định --",
-            1: "Châu Lục",
-            2: "Mật Độ (người/km2)",
-            3: "GDP Người ($/người/năm)",
-            4: "Forex",
-            5: "Thể Chế"
+            1: "Châu Lục: 6 Châu",
+            2: "Khu Vực: 23 Khu",
+            3: "Mật Độ (người/km2)",
+            4: "GDP Người ($/người/năm)",
+            5: "Forex",
+            6: "Thể Chế",
+            7: "Dầu Mỏ (TWh)",
+            8: "Vàng Tài Nguyên (tấn)",
+            9: "Vàng Dự Trữ (tấn)",
+            10: "Vàng Tổng Hợp (tấn)",
         };
         this.elFilter = UI.Input.Select(optionsDict);
         this.elFilter.id = UI.IDName.SelectFilter;

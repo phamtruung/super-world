@@ -8,13 +8,24 @@ class SuperCountry {
         region,
         subregion,
         chau_luc,
+        khu_vuc,
         area,
         currency,
         currencyName,
         population,
         gdp,
         goverment,
-        the_che
+        the_che,
+        oil,
+        gold_geological,
+        gold_bank,
+        silver,
+        copper,
+        rare_earth,
+        cereal,
+        meat,
+        seafood,
+        agricultural
     }) {
         this.iso2 = iso2;
         this.iso3 = iso3;
@@ -23,6 +34,7 @@ class SuperCountry {
         this.region = region;
         this.subregion = subregion;
         this.chau_luc = chau_luc;
+        this.khu_vuc = khu_vuc;
         this.area = parseFloat(area) || 0;
         this.currency = currency;
         this.currencyName = currencyName;
@@ -30,11 +42,22 @@ class SuperCountry {
         this.gdp = parseFloat(gdp) || 0;
         this.goverment = goverment;
         this.the_che = the_che;
+        this.oil = parseFloat(oil);
+        this.gold_geological = parseFloat(gold_geological);
+        this.gold_bank = parseFloat(gold_bank);
+        this.silver = silver;
+        this.copper = copper;
+        this.rare_earth = rare_earth;
+        this.cereal = cereal;
+        this.meat = meat;
+        this.seafood = seafood;
+        this.agricultural = agricultural;
         this.populationDensity = this.calcPopulationDensity();
         this.populationMilion = this.calcPopulationMilion();
         this.gdpPerson = this.calcGDPPerson();
         this.gdpMilion = this.calcGDPMilion();
         this.gdpBiliion = this.calcGDPBilion();
+        this.goldTotal = this.gold_geological + this.gold_bank;
     }
     calcPopulationMilion() {
         return this.population / 1000_000;
@@ -82,6 +105,11 @@ class Data {
                 detail: "area",
                 unit: "km2"
             },
+            {
+                key: "khu_vuc", 
+                detail: "area",
+                unit: "km2"
+            },
             {            
                 key: "populationDensity", 
                 values: [1, 10, 25, 50, 100, 250, 500, 1000],
@@ -104,7 +132,31 @@ class Data {
                 key: "the_che",
                 detail: "gdpMilion",
                 unit: "m$"
-            }
+            },
+            {
+                key: "oil",
+                values: [1, 50, 100, 500, 1000, 2500, 5000],
+                detail: "oil",
+                unit: "TWh"
+            },
+            {
+                key: "gold_geological",
+                values: [1, 25, 50, 100, 250, 500, 1000, 2500, 5000],
+                detail: "gold_geological",
+                unit: "tấn"
+            },
+            {
+                key: "gold_bank",
+                values: [1, 25, 50, 100, 250, 500, 1000],
+                detail: "gold_bank",
+                unit: "tấn"
+            },
+            {
+                key: "goldTotal",
+                values: [1, 50, 100, 250, 500, 1000, 2500, 5000, 7500],
+                detail: "goldTotal",
+                unit: "tấn"
+            },
         ]
     }
 
@@ -135,13 +187,24 @@ class Data {
                     region: obj.region,
                     subregion: obj.subregion,
                     chau_luc: obj.chau_luc,
+                    khu_vuc: obj.khu_vuc,
                     area: obj.area_sq_km,
                     currency: obj.currency,
                     currencyName: obj.currency_name,
                     population: obj.population,
                     gdp: obj.gdp,
                     goverment: obj.government_form,
-                    the_che: obj.the_che
+                    the_che: obj.the_che,
+                    oil: obj.oil,
+                    gold_geological: obj.gold_geological,
+                    gold_bank: obj.gold_bank,
+                    silver: obj.silver,
+                    copper: obj.copper,
+                    rare_earth: obj.rare_earth,
+                    cereal: obj.cereal,
+                    meat: obj.meat,
+                    seafood: obj.seafood,
+                    agricultural: obj.agricultural,
                 })
             );
         }
